@@ -4,7 +4,7 @@ Task 2 A Regularised DenseNet
 
 Created on Sun Dec 12 21:20:16 2021
 
-@author: 21049846
+@author: Yuheng
 """
 
 import tensorflow as tf
