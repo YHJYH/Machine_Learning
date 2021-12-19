@@ -4,7 +4,7 @@ Task 2 A Regularised DenseNet
 
 Created on Sun Dec 12 21:20:16 2021
 
-@author: Yuheng
+@author: 21049846
 """
 
 import tensorflow as tf
@@ -16,62 +16,88 @@ import numpy as np
 
 input_img = Input(shape=(32,32,3))
 
-def bottleneck_layer(last_input):
-    
-    bn = layers.BatchNormalization()(last_input)
-    relu = layers.ReLU()(bn)
-    conv = layers.Conv2D(64, (1,1))(relu)
-    
-    return conv
-
-# Contain a member function dense_block, implementing a specific form of DenseNet
-# architecture, each contains 4 convolutional layers. [3]
-def dense_block(last_output):
-    
-    concatenation = [last_output]
-    for i in range(4):
-        input_unit = layers.concatenate(concatenation)
-        bottle_neck = bottleneck_layer(input_unit)
-        bn = layers.BatchNormalization()(bottle_neck)
-        relu = layers.ReLU()(bn)
-        conv = layers.Conv2D(64, (3,3), padding='same')(relu)
-        concatenation.append(conv)
-        
-    return conv
-
-def transition_layer(last_output):
-    
-    bn = layers.BatchNormalization()(last_output)
-    relu = layers.ReLU()(bn)
-    conv = layers.Conv2D(64, (1,1), padding='same')(relu)
-    maxpool = layers.MaxPooling2D((2,2))(conv)
-    
-    return maxpool
-
 # Design and implement the new network architecture to use 3 of these dense blocks. [4]
-def DenseNet(input_img):
+class DenseNet3:
+    """
+     a DenseNet3 object is a convolutional neural network architecture that is described in the DenseNet paper.
+    """
     
-    conv = layers.Conv2D(32, (3,3), padding='same')(input_img)
-    maxpool = layers.MaxPooling2D((2,2))(conv)
-    denselayer1 = dense_block(maxpool)
-    translayer1 = transition_layer(denselayer1)
-    denselayer2 = dense_block(translayer1)
-    translayer2 = transition_layer(denselayer2)
-    denselayer3 = dense_block(translayer2)
-    # flat = layers.Flatten()(denselayer3)
-    globalavgpool = layers.GlobalAveragePooling2D()(denselayer3)
-    # softmax = layers.Softmax()(globalavgpool)
-    dense1 = layers.Dense(64, activation='relu')(globalavgpool)
-    dense2 = layers.Dense(10)(dense1)
-    
-    return dense2
+    def __init__(self, input_img):
+        
+        self.input_img = input_img
+        #self.last_output = last_output
+        
+    def bottleneck_layer(self, last_output):
+        
+        bn = layers.BatchNormalization()(last_output)
+        relu = layers.ReLU()(bn)
+        conv = layers.Conv2D(64, (1,1))(relu)
+        
+        return conv
+
+    # Contain a member function dense_block, implementing a specific form of DenseNet
+    # architecture, each contains 4 convolutional layers. [3]
+    def dense_block(self, last_output):
+        
+        concatenation = [last_output]
+        for i in range(4):
+            input_unit = layers.concatenate(concatenation)
+            bottle_neck = self.bottleneck_layer(input_unit)
+            bn = layers.BatchNormalization()(bottle_neck)
+            relu = layers.ReLU()(bn)
+            conv = layers.Conv2D(64, (3,3), padding='same')(relu)
+            concatenation.append(conv)
+            
+        return conv
+
+    def transition_layer(self, last_output):
+        
+        bn = layers.BatchNormalization()(last_output)
+        relu = layers.ReLU()(bn)
+        conv = layers.Conv2D(64, (1,1), padding='same')(relu)
+        maxpool = layers.MaxPooling2D((2,2))(conv)
+        
+        return maxpool
+        
+    def DenseNet(self):
+        
+        conv = layers.Conv2D(32, (3,3), padding='same')(self.input_img)
+        maxpool = layers.MaxPooling2D((2,2))(conv)
+        denselayer1 = self.dense_block(maxpool)
+        translayer1 = self.transition_layer(denselayer1)
+        denselayer2 = self.dense_block(translayer1)
+        translayer2 = self.transition_layer(denselayer2)
+        denselayer3 = self.dense_block(translayer2)
+        # flat = layers.Flatten()(denselayer3)
+        globalavgpool = layers.GlobalAveragePooling2D()(denselayer3)
+        # softmax = layers.Softmax()(globalavgpool)
+        dense1 = layers.Dense(64, activation='relu')(globalavgpool)
+        dense2 = layers.Dense(10)(dense1)
+        
+        return dense2
 
 # Summarise and print your network architecture, e.g. using built-in summary function. [1]
-dense_model = Model(input_img, DenseNet(input_img))
+densenet = DenseNet3(input_img)
+dense_model = Model(input_img, densenet.DenseNet())
 dense_model.summary()
 
 # Use square masks with variable size and location. [2]
 def square_mask(input_img, length, row_loc, col_loc):
+    """
+    Parameters
+    ----------
+    input_img : tensor input of size (32,32,3).
+    length : integer
+        the length of the square masked region.
+    row_loc : integer
+        a pixel value indicates the x-value of the centre of square masked region.
+    col_loc : integer
+        a pixel value indicates the y-value of the centre of square masked region.
+
+    Returns
+    -------
+    input_img : tensor input of size (32,32,3).
+    """
     
     mask = np.ones((32,32), np.float32)
     y1 = np.clip(col_loc - length // 2, 0, 32)
@@ -89,6 +115,21 @@ def square_mask(input_img, length, row_loc, col_loc):
 
 # Add an additional parameter s, such that the mask size can be uniformly sampled from [0, s]. [3]
 def uniform_size_square_mask(s, input_img, row_loc, col_loc):
+    """
+    Parameters
+    ----------
+    s : integer
+        the maximal length of mask-out region.
+    input_img : tensor input of size (32,32,3).
+    row_loc : integer
+        a pixel value indicates the x-value of the centre of square masked region.
+    col_loc : integer
+        a pixel value indicates the y-value of the centre of square masked region.
+
+    Returns
+    -------
+    input_img : tensor input of size (32,32,3).
+    """
     
     length = tf.random.uniform(shape=[], minval=0, maxval=s, dtype=tf.int32)
     input_img = square_mask(input_img, length, row_loc, col_loc)
@@ -98,6 +139,17 @@ def uniform_size_square_mask(s, input_img, row_loc, col_loc):
 # Location should be sampled uniformly in the image space. N.B. care needs to be taken around
 # the boundaries, so the sampled mask maintains its size. [3]
 def uniform_loc_square_mask(s, input_img):
+    """
+    Parameters
+    ----------
+    s : integer
+        the maximal length of mask-out region.
+    input_img : tensor input of size (32,32,3).
+
+    Returns
+    -------
+    input_img : tensor input of size (32,32,3).
+    """
     
     row_loc = tf.random.uniform(shape=[], minval=0, maxval=32, dtype=tf.int32)
     col_loc = tf.random.uniform(shape=[], minval=0, maxval=32, dtype=tf.int32)
@@ -127,9 +179,21 @@ im.save("cutout.png")
 
 # Add Cutout into the network training. [3]
 def Cutout_DenseNet(s, input_img):
+    """
+    Parameters
+    ----------
+    s : integer
+        the maximal length of mask-out region.
+    input_img : tensor input of size (32,32,3).
+
+    Returns
+    -------
+    dense_cutout : the output of the last layer.
+    """
     
-    cutout_img = uniform_loc_square_mask(s, input_img)    
-    dense_cutout = DenseNet(cutout_img)
+    cutout_img = uniform_loc_square_mask(s, input_img)  
+    densenet = DenseNet3(cutout_img)
+    dense_cutout = densenet.DenseNet()
     
     return dense_cutout
 
@@ -157,6 +221,10 @@ for j in range(len(epoch)):
 
 test_performance = Image.open("test_perform.png")
 test_performance.show()
+print("number of epochs: {}".format(epoch))
+test_accuracy = [0.7683, 0.7934, 0.8218, 0.8245, 0.8133]    
+print("test performance(accuracy): {}".format(test_accuracy))
+print("When number of epochs increases, the test accuracy increases generally. However when number of epochs is too large, the model shows overfitting pattern.")
 # test_accuracy = [0.7683, 0.7934, 0.8218, 0.8245, 0.8133]    
 """
 Note: matplotlib cannot be used in the task scripts.
@@ -170,7 +238,6 @@ plt.show()
 
 # Visualise your results, by saving to a PNG file “result.png”, a montage of 36 test images with
 # captions indicating the ground-truth and the predicted classes for each. [3]
-
 # make prediction
 num_example = 36
 prediction = tf.math.argmax(model.predict(x_test[:num_example,...]), 1).numpy()
@@ -181,3 +248,4 @@ for i in range(len(prediction)):
     ImageDraw.Draw(im).text((96*i, 0), "pred:{}, true:{}".format(prediction[i], int(y_test[i])), (0,0,0))
 im.show()
 im.save("result.png")
+
