@@ -1,6 +1,9 @@
 <h2>Project derscription</h2>
+
 ![q1](https://github.com/YHJYH/Machine_Learning/blob/main/projects/DenseNet%20%2B%20Cutout/Capture.PNG)<br>
+
 ![q2](https://github.com/YHJYH/Machine_Learning/blob/main/projects/DenseNet%20%2B%20Cutout/123.PNG)<br>
+
 ![q3](https://github.com/YHJYH/Machine_Learning/blob/main/projects/DenseNet%20%2B%20Cutout/234.PNG)<br>
 
 Sample pictures with Cutout:<br>
