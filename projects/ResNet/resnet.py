@@ -96,7 +96,7 @@ class Bottleneck(nn.Module):
         
 class ResNet(nn.Module):
         
-    def __init__(self, block, layers, num_classes=4): # change num_classes from 2 to 4 for four coords
+    def __init__(self, block, layers, num_classes=4): # change num_classes from 2 to 4 for four coords in object detection bbox case
         super(ResNet, self).__init__()
         self.inplanes = 64
         
@@ -179,7 +179,7 @@ def resnet101(pretrained=False):
     return _resnet(block=Bottleneck, layers=[3, 4, 23, 3], num_classes=1, pretrained=pretrained)
 
 def resnet34(pretrained=False):
-    return _resnet(block=BasicBlock, layers=[3, 4, 6, 3], num_classes=4, pretrained=pretrained)
+    return _resnet(block=BasicBlock, layers=[3, 4, 6, 3], num_classes=4, pretrained=pretrained) # change corresponding num_classes
 
 def resnet50(pretrained=False):
     return _resnet(block=Bottleneck, layers=[3, 4, 6, 3], num_classes=1, pretrained=pretrained)
