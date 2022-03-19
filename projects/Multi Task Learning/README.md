@@ -7,22 +7,22 @@ After zip file dataset-oxpet is downloaded, unzip it and place it in "cw2" file 
 After unzipping the .zip file and downloading dataset-oxpet, the structure of folder 'cw2' should be shown as below:<br>
 -------------------------------------------<br>
 cw2<br>
- |--- instructions.txt<br>
- |--- requirements.txt<br>
- |--- dataset-oxpet<br>
- |--- single<br>
- |      |--- bounding_box.py<br>
- |      |--- classification.py<br>
- |      |--- segmentation.py<br>
- |      |--- data_loader.py<br>
- |--- mmoe<br>
- |     |--- mmoe.py<br>
- |     |--- mmoe_oeq.py<br>
- |     |--- data_loader.py	<br>
- |--- ablation<br>
- |       |--- no_cls.py<br>
- |       |--- no_bbox.py<br>
- |       |--- data_loader.py<br>
+ 1. instructions.txt (this README.md)<br>
+ 2. requirements.txt<br>
+ 3. dataset-oxpet<br>
+ 4. single<br>
+ - bounding_box.py<br>
+ - classification.py<br>
+ - segmentation.py<br>
+ - data_loader.py<br>
+ 5. mmoe<br>
+ - mmoe.py<br>
+ - mmoe_oeq.py<br>
+ - data_loader.py	<br>
+ 6. ablation<br>
+ - no_cls.py<br>
+ - no_bbox.py<br>
+ - data_loader.py<br>
 --------------------------------------------<br>
 
 The first step is to run requirements file to properly install all packages used in tasks.<br>
