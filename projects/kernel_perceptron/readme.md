@@ -5,6 +5,7 @@ In this project, we train a classifier to recognize hand written digits, using t
 The kernel we used is the polynomial kernel $K_{d}(\bold{p}.\bold{q}) = (\bold{p}\times\bold{q})^{d}$ which is parameterized by a positive integer $d$ controlling the dimension of the polynomial.
 
 The algorithm is *online* that is the algorithms operate on a single example $(\bold{x}_{t},y_{t})$ at a time.
+![img2](./456.PNG)
 
 Data are from [here]( http://www0.cs.ucl.ac.uk/staff/M.Herbster/SL/misc/). Relevant datasets are 
 ![img1](./123.PNG)
