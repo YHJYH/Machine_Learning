@@ -9,3 +9,9 @@ The algorithm is *online* that is the algorithms operate on a single example $(\
 
 Data are from [here]( http://www0.cs.ucl.ac.uk/staff/M.Herbster/SL/misc/). Relevant datasets are 
 ![img1](./123.PNG)
+
+Then we generalize to *k* classes.
+
+We report the following results:
+![re1](./r1.PNG)
+![re2](./r2.PNG)
