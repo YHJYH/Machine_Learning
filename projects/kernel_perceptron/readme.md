@@ -7,3 +7,4 @@ The kernel we used is the polynomial kernel $K_{d}(\bold{p}.\bold{q}) = (\bold{p
 The algorithm is *online* that is the algorithms operate on a single example $(\bold{x}_{t},y_{t})$ at a time.
 
 Data are from [here]( http://www0.cs.ucl.ac.uk/staff/M.Herbster/SL/misc/). Relevant datasets are 
+![img1](./123.PNG)
