@@ -1,4 +1,10 @@
-## 2-stage LCN-HCN
+## content
+shortcut learning
+- [2-stage LCN-HCN]()
+
+
+
+### 2-stage LCN-HCN
 title: A Too-Good-to-be-True Prior to Reduce Shortcut Reliance
 
 author: Nikolay Dagaev, Bradley C. Love
