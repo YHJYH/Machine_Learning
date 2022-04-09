@@ -1,6 +1,6 @@
 ## content
 shortcut learning
-- [2-stage LCN-HCN]()
+- [2-stage LCN-HCN](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers.md#2-stage-lcn-hcn)
 
 
 
