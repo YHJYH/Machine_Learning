@@ -37,7 +37,8 @@ summary: 这篇文章借用了一种“feature 反纠缠”的方法，这种方
 网络结构如下所示：
 ![fdnet](./pics/fdnet.PNG)<br>
 
-question: 按照0028里学的，如果要彻底disentangle，那\phi_{d}不应该直接等于0吗，表示feature z'和domain label y^{d}没有correlation。
+question: 按照0028里学的，如果要彻底disentangle，那\phi_{d}不应该直接等于0吗，表示feature z'和domain label y^{d}没有correlation。<br>
+参数更新文章里写的不是很清楚，但是可以大概看出来应该是fix一个，更新另一个这种iterative的模式。
 
 
 ## PlanSum
