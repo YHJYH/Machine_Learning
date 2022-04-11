@@ -30,7 +30,7 @@ year: 2021
 
 summary: 这篇文章借用了一种“feature 纠缠”的方法，这种方法的特色是，我们提前知道shortcut feature是哪个了，我们通过最大化shortcut feature的loss来使其不被我们的networks care。<br>
 同时feature entanglement也是建立在transfer learning的基础上，即一部分参数是训练好然后fronzen的。<br>
-具体来说主要分为两个parts, 第一：我们通过feature extractor g(x, $\theta$)
+具体来说主要分为两个parts, 第一：我们通过feature extractor g(x, $$\theta$$)
 
 question:
 
