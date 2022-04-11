@@ -33,6 +33,7 @@ summary: 这篇文章借用了一种“feature 反纠缠”的方法，这种方
 同时feature entanglement也是建立在transfer learning的基础上，即一部分参数是训练好然后fronzen的。<br>
 具体来说主要分为两个parts, 第一：我们通过feature extractor g(x, \theta)=z (这一步类似于kernel)得到提取的feature z，但是这个z不直接参与estimator f(z, \phi)，而是再经过一个feature extractor f_e(z, \phi_{e})得到z'。再将这个z'喂给两个classifiers，一个classifier是用来classifyshortcut feature的（recall上面提过，sc我们已经提前知道是哪个了），另一个则是其他features。第二就是使用的loss function了，是一个min-max的过程（和GAN有点像？），如下所示。
 ![fdeq2](./pics/fdeq2.PNG)<br>
+![fdeq34](./pics/fdeq34.PNG)<br>
 网络结构如下所示：
 ![fdnet](./pics/fdnet.PNG)<br>
 
