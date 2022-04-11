@@ -1,4 +1,4 @@
-## content
+# content
 shortcut learning
 - [2-stage LCN-HCN](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers.md#2-stage-lcn-hcn)
 - [feature disentanglement](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers.md#feature-disentanglement-in-covid-19-cxr-image-classification)
@@ -7,7 +7,7 @@ text summarization
 - [PlanSum](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers.md#plansum)
 
 
-### 2-stage LCN-HCN
+## 2-stage LCN-HCN
 title: A Too-Good-to-be-True Prior to Reduce Shortcut Reliance
 
 author: Nikolay Dagaev, Bradley C. Love
@@ -22,7 +22,7 @@ local的又分为congruent和incongruent两种shortcuts，前者是training set�
 
 question: how to downweights?
 
-### feature disentanglement in COVID-19 CXR image classification
+## feature disentanglement in COVID-19 CXR image classification
 title: Deep learning models for COVID-19 chest x-ray classification: Preventing shortcut learning using feature disentanglement
 
 author: Caleb Robinson, Juan M. Lavista Ferres
@@ -40,7 +40,7 @@ summary: 这篇文章借用了一种“feature 反纠缠”的方法，这种方
 question:
 
 
-### PlanSum
+## PlanSum
 title: Unsupervised Opinion Summarization with Content Planning
 
 author: Reinald Kim Amplayo, Stefanos Angelidis, Mirella Lapata
