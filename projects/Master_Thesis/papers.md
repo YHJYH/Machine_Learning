@@ -2,7 +2,7 @@
 shortcut learning
 - [2-stage LCN-HCN](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers.md#2-stage-lcn-hcn)
 - [feature disentanglement](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers.md#feature-disentanglement-in-covid-19-cxr-image-classification)
-- [data imbalance]()
+- [data imbalance](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers.md#data-imbalance)
 
 text summarization
 - [PlanSum](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers.md#plansum)
