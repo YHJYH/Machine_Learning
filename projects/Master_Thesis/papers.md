@@ -2,6 +2,7 @@
 shortcut learning
 - [2-stage LCN-HCN](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers.md#2-stage-lcn-hcn)
 - [feature disentanglement](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers.md#feature-disentanglement-in-covid-19-cxr-image-classification)
+- [data imbalance]()
 
 text summarization
 - [PlanSum](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers.md#plansum)
@@ -40,6 +41,16 @@ summary: 这篇文章借用了一种“feature 反纠缠”的方法，这种方
 question: 按照0028里学的，如果要彻底disentangle，那\phi_{d}不应该直接等于0吗，表示feature z'和domain label y^{d}没有correlation。<br>
 参数更新文章里写的不是很清楚，但是可以大概看出来应该是fix一个，更新另一个这种iterative的模式。
 
+## data imbalance
+title: Simple data balancing achieves competitive worst-group-accuracy
+
+author: Badr Youbi Idrissi, David Lopez-Paz
+ 
+year: 2022
+
+summary: 
+
+question: 
 
 ## PlanSum
 title: Unsupervised Opinion Summarization with Content Planning
