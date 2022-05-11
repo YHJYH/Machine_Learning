@@ -74,12 +74,23 @@ year: 2020
 dataset:
 
 summary: worst group指的是训练过程中表现training accuracy最低的那一些数据集合成的group，这个group的acc低的原因是因为NN学习到了一些错误的相关性（correlation），比如在识别任务中过分关注于背景而非物体本身。<br>
-在训练中出现的现象如下：
+一般group DRO和ERM方法在训练中出现的现象如下：
 - test group的average acc很
 - worst group的training acc很高
 - worst group的test acc很低
+
 这说明worst-group的generalization gap很大（第三条）,尽管on average generalization gap不大（第一条）。<br>
 在本文中generalization gep的定义是expected error - empirical error (在同一dateset上，一般是test set)。<br>
 
+本文使用的method是strongly-regularized group DRO, 包括三个部分的变化：
+1. L2 penalty
+2. early stopping
+3. *gropu adjustment*: 这一点证明了regularization对于整体的avg performance不一定有帮助，但是对worst-group performance还是很有帮助的。
+
+本文使用的方法本质上还是**DRO** (distributionally robust optimization): 找到参数可以minimize empirical worst-group risk， worst-group risk通过将数据分类成不同的groups s.t. maximize expected loss of each group来obtain。具体两个公式如下所示。<br>
+worst-case risk (maximum over the expected loss of each group):
+![wgr1](wgr1.PNG)<br>
+group DRO model (minimize the empirical worst-case risk):
+![wgr2](wgr2.PNG)<br>
 
 
