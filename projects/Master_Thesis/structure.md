@@ -1,0 +1,4 @@
+- introduction
+- literature review
+    - shortcuts in computer vision
+    - shortcuts in NLP
