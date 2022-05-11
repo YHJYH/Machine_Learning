@@ -3,6 +3,7 @@ shortcut learning
 - [2-stage LCN-HCN](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers.md#2-stage-lcn-hcn)
 - [feature disentanglement](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers.md#feature-disentanglement-in-covid-19-cxr-image-classification)
 - [data imbalance](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers.md#data-imbalance)
+- [group worst-case loss](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers.md#group-worst-case-loss)
 
 text summarization
 - [PlanSum](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers.md#plansum)
@@ -64,11 +65,11 @@ dataset: Rotten Tomatoes, Yelp, Amazon
 summary:
 
 ## group worst-case loss
-title:
+title: distributionally robust neural networks for group shifts: on the importance of regularization for worst-case generalization
 
-author:
+author: Shiori Sagawa, Pang Wei Koh, Tatsunori B. Hashimoto, Percy Liang
 
-year:
+year: 2020
 
 dataset:
 
