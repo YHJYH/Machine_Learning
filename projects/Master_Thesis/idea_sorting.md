@@ -1,4 +1,3 @@
-
 source: [two-stage LCN-HCN approach](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers.md#2-stage-lcn-hcn)<br>
 key words: shortcuts detection<br>
 extension: <br>
