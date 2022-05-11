@@ -89,8 +89,8 @@ summary: worst group指的是训练过程中表现training accuracy最低的那�
 
 本文使用的方法本质上还是**DRO** (distributionally robust optimization): 找到参数可以minimize empirical worst-group risk， worst-group risk通过将数据分类成不同的groups s.t. maximize expected loss of each group来obtain。具体两个公式如下所示。<br>
 worst-case risk (maximum over the expected loss of each group):
-![wgr1](wgr1.PNG)<br>
+![wgr1](./pics/wgr1.PNG)<br>
 group DRO model (minimize the empirical worst-case risk):
-![wgr2](wgr2.PNG)<br>
+![wgr2](./pics/wgr2.PNG)<br>
 
 
