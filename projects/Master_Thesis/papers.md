@@ -97,3 +97,15 @@ Y(labels) = {Y1, Y2}, A(shortcut features) = {A1, A2}, # groups m = |Y|\*|A| = 4
 如果一组数据，label都是Y1，都有A1 feature，且training loss很低（表示学到了A1 和 Y1的correlation），那么model在{Y1, A2}上的表现就应该很差。这种{Y1, A2}, {Y2, A1}就是worst-group。
 
 结果： 在maintain high avg acc的同时，本文通过上述方法很大程度提升了worst-group的acc。本文是建立在overparameterized NN上（即有很多参数，使training acc很高的同时也保证了generalize well on avg, but not on the worst-group）。
+
+## just train twice
+title: 
+
+author: 
+
+year: 
+
+dataaset: 
+
+summary: 
+
