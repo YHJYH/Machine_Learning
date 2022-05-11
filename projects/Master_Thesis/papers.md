@@ -71,7 +71,7 @@ author: Shiori Sagawa, Pang Wei Koh, Tatsunori B. Hashimoto, Percy Liang
 
 year: 2020
 
-dataset:
+dataset: WaterBirds, CelebA, MultiNLI
 
 summary: worst group指的是训练过程中表现training accuracy最低的那一些数据集合成的group，这个group的acc低的原因是因为NN学习到了一些错误的相关性（correlation），比如在识别任务中过分关注于背景而非物体本身。<br>
 一般group DRO和ERM方法在训练中出现的现象如下：
@@ -93,4 +93,5 @@ worst-case risk (maximum over the expected loss of each group):
 group DRO model (minimize the empirical worst-case risk):
 ![wgr2](./pics/wgr2.PNG)<br>
 
+Y(labels) = {Y1, Y2}, A(shortcut features) = {A1, A2}, # groups m = |Y|\*|A| = 4<br>
 
