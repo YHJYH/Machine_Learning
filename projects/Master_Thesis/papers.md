@@ -62,3 +62,16 @@ year: 2021
 dataset: Rotten Tomatoes, Yelp, Amazon
 
 summary:
+
+## group worst-case loss
+title:
+
+author:
+
+year:
+
+dataset:
+
+summary:
+
+
