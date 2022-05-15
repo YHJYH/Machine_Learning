@@ -106,7 +106,31 @@ author: Evan Zheran Liu, Behzad Haghgoo, Annie S. Chen, Aditi Raghunathan, Pang 
 
 year: 2021
 
-dataaset: 
+dataaset: Waterbirds, CelebA, MultiNLI, CivilComments-WILDS
 
-summary: 
+summary: JTT, two-stage approach.
+- stage 1: upweight misclassified training examples (*worst-group*) at the end of a few steps of standard training;
+- stage 2: minimize the loss over the reweighted dataset.
+
+ERM的问题：整体的avg training loss降底但是certain group还是有high error；造成这种情况的原因：spurious correlation（shortcuts）。
+
+previous的解决方法：training group annotations [Sagawa et al., 2020a](), 缺点：expensive。
+
+JTT:  only requiring group annotations on a much smaller validation set to tune hyperparameters. 将misclassified examples直接当作worst-group examples。<br>
+和JTT思想相似的一个方法是(DRO) that minimizes the conditional value at risk (CVaR)： *CVaR DRO*。但是JTT比CVaR DRO表现要好。两者的区别是JTT upweight的examples是固定的（static），CVaR DRO是动态upweight minibatch里的examples。
+
+Q：
+- misclassified examples确实是属于worst-group的examples但是不代表这些examples属于同一个group i.e. 有相同的shortcuts。
+- static为什么就比dynamic要好呢？
+
+## training group annotations
+title:
+
+author:
+
+year: 2020
+
+dataset:
+
+summary:
 
