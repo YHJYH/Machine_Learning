@@ -114,10 +114,10 @@ summary: JTT, two-stage approach.
 
 ERM的问题：整体的avg training loss降底但是certain group还是有high error；造成这种情况的原因：spurious correlation（shortcuts）。
 
-previous的解决方法：training group annotations [Sagawa et al., 2020a](), 缺点：expensive。
+previous的解决方法：training group annotations [Sagawa et al., 2020a](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers.md#training-group-annotations), 缺点：expensive。
 
 JTT:  only requiring group annotations on a much smaller validation set to tune hyperparameters. 将misclassified examples直接当作worst-group examples。<br>
-和JTT思想相似的一个方法是(DRO) that minimizes the conditional value at risk (CVaR)： *CVaR DRO*。但是JTT比CVaR DRO表现要好。两者的区别是JTT upweight的examples是固定的（static），CVaR DRO是动态upweight minibatch里的examples。
+和JTT思想相似的一个方法是(DRO) that minimizes the conditional value at risk (CVaR)： [CVaR DRO]()。但是JTT比CVaR DRO表现要好。两者的区别是JTT upweight的examples是固定的（static），CVaR DRO是动态upweight minibatch里的examples。
 
 Q：
 - misclassified examples确实是属于worst-group的examples但是不代表这些examples属于同一个group i.e. 有相同的shortcuts。
@@ -134,3 +134,13 @@ dataset:
 
 summary:
 
+## CVaR DRO
+title: Large-Scale Methods for Distributionally Robust Optimization
+
+author: Daniel Levy, Yair Carmon, John C. Duchi, Aaron Sidford
+
+year: 2020
+
+dataset:
+
+summary: 
