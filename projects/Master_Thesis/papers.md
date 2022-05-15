@@ -130,7 +130,7 @@ interesting related work mentioned (all require group annotations):
 does not require group annotations:
 - automatically identify groups based on clustering and improve robustness via approaches that use this learnt group information []()
 - directly learn to reweight the training examples either using small amount of metadata []()
-- Learning from Failure (LfF): simultaneously learns a pair of models []()
+- Learning from Failure (LfF): simultaneously learns a pair of models [LfF](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers.md#learning-from-failure-lff)
 
 
 Q：
