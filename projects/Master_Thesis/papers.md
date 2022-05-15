@@ -4,7 +4,10 @@ shortcut learning
 - [feature disentanglement](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers.md#feature-disentanglement-in-covid-19-cxr-image-classification)
 - [data imbalance](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers.md#data-imbalance)
 - [group worst-case loss](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers.md#group-worst-case-loss)
-- [just train twice](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers.md#just-train-twice)
+- [2-stage just train twice](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers.md#just-train-twice)
+- [training group annotations]()
+- [CVaR DRO](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers.md#cvar-dro)
+- [2-stage LfF](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers.md#learning-from-failure-lff)
 
 text summarization
 - [PlanSum](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers.md#plansum)
@@ -99,7 +102,7 @@ Y(labels) = {Y1, Y2}, A(shortcut features) = {A1, A2}, # groups m = |Y|\*|A| = 4
 
 结果： 在maintain high avg acc的同时，本文通过上述方法很大程度提升了worst-group的acc。本文是建立在overparameterized NN上（即有很多参数，使training acc很高的同时也保证了generalize well on avg, but not on the worst-group）。
 
-## just train twice
+## 2-stage just train twice
 title: Just Train Twice: Improving Group Robustness without Training Group Information
 
 author: Evan Zheran Liu, Behzad Haghgoo, Annie S. Chen, Aditi Raghunathan, Pang Wei Koh, Shiori Sagawa, Percy Liang, Chelsea Finn
@@ -159,7 +162,7 @@ dataset:
 
 summary: 
 
-## Learning from Failure (LfF)
+## 2-stage Learning from Failure (LfF)
 title: Learning from Failure: Training Debiased Classifier from Biased Classifier
 
 author: Junhyun Nam, Hyuntak Cha, Sungsoo Ahn, Jaeho Lee, Jinwoo Shin
