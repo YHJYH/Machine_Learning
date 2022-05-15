@@ -112,12 +112,26 @@ summary: JTT, two-stage approach.
 - stage 1: upweight misclassified training examples (*worst-group*) at the end of a few steps of standard training;
 - stage 2: minimize the loss over the reweighted dataset.
 
+group robustness: i.e., training models that obtain good performance on each of a set of predefined groups in the dataset
+
 ERM的问题：整体的avg training loss降底但是certain group还是有high error；造成这种情况的原因：spurious correlation（shortcuts）。
 
 previous的解决方法：training group annotations [Sagawa et al., 2020a](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers.md#training-group-annotations), 缺点：expensive。
 
 JTT:  only requiring group annotations on a much smaller validation set to tune hyperparameters. 将misclassified examples直接当作worst-group examples。<br>
-和JTT思想相似的一个方法是(DRO) that minimizes the conditional value at risk (CVaR)： [CVaR DRO]()。但是JTT比CVaR DRO表现要好。两者的区别是JTT upweight的examples是固定的（static），CVaR DRO是动态upweight minibatch里的examples。
+和JTT思想相似的一个方法是(DRO) that minimizes the conditional value at risk (CVaR)： [CVaR DRO](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers.md#cvar-dro)。但是JTT比CVaR DRO表现要好。两者的区别是JTT upweight的examples是固定的（static），CVaR DRO是动态upweight minibatch里的examples。
+
+interesting related work mentioned (all require group annotations):
+- synthetically expand the minority groups via generative modeling []()
+- reweight or subsample the majority and minority groups []()
+- impose heavy Lipschitz regularization around minority points []()
+- equalize loss across groups []()
+
+does not require group annotations:
+- automatically identify groups based on clustering and improve robustness via approaches that use this learnt group information []()
+- directly learn to reweight the training examples either using small amount of metadata []()
+- Learning from Failure (LfF): simultaneously learns a pair of models []()
+
 
 Q：
 - misclassified examples确实是属于worst-group的examples但是不代表这些examples属于同一个group i.e. 有相同的shortcuts。
@@ -144,3 +158,15 @@ year: 2020
 dataset:
 
 summary: 
+
+## Learning from Failure (LfF)
+title: Learning from Failure: Training Debiased Classifier from Biased Classifier
+
+author: Junhyun Nam, Hyuntak Cha, Sungsoo Ahn, Jaeho Lee, Jinwoo Shin
+
+year: 2020
+
+dataset:
+
+summary:
+
