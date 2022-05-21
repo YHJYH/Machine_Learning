@@ -5,6 +5,7 @@
     - solutions
         - two-stage methods
 - methods
+    - unsupervised opinion sumarization: identify the presence of shortcuts (where to introduce this this field?)
 - experiments setup
 - results and discussion
 - summary and conclusion
