@@ -1,6 +1,7 @@
 - introduction
 - literature review
     - shortcuts in computer vision
+        - two-stage methods
     - shortcuts in NLP
 - methods
 - experiments setup
