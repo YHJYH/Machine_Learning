@@ -129,6 +129,8 @@ JTT:  only requiring group annotations on a much smaller validation set to tune 
 
 group robustness: i.e., training models that obtain good performance on each of a set of predefined groups in the dataset
 
+capacity control: early stopping, strong L2 regularization.
+
 baselines:
 - do not use training group annotation
     - ERM的问题：整体的avg training loss降底但是certain group还是有high error；造成这种情况的原因：spurious correlation（shortcuts）。
@@ -143,6 +145,7 @@ baselines:
 - JTT recovers a significant portion of the gap in worst-group accuracy between ERM and group DRO.
 - note that simple label balancing also achieves comparably worst-group accuracy to group DRO on CivilComments.
 - 有 modest drop in average accuracy。符合“ a tradeoff between average and worst-group accuracies.”的预期。[Sagawa et al., 2020a](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers.md#training-group-annotations)
+- Dynamically computing the error set in JTT lowers accuracy. (so better than CVaR DRO)
 
 interesting related work mentioned (all require group annotations):
 - synthetically expand the minority groups via generative modeling []()
@@ -156,8 +159,8 @@ does not require group annotations:
 - Learning from Failure (LfF): simultaneously learns a pair of models [LfF](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers.md#learning-from-failure-lff)
 
 Q：
-- misclassified examples确实是属于worst-group的examples但是不代表这些examples属于同一个group i.e. 有相同的shortcuts。
-- static为什么就比dynamic要好呢？
+- misclassified examples确实是属于worst-group的examples但是不代表这些examples属于同一个group i.e. 有相同的shortcuts。(JTT不care具体的shortcuts，都在uncertainty set E里面)
+- static为什么就比dynamic要好呢？(future work 1)
 
 ## training group annotations
 title:
