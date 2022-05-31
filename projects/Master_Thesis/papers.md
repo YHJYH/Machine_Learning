@@ -116,16 +116,23 @@ summary:
 previous的解决方法：training group annotations [Sagawa et al., 2020a](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers.md#training-group-annotations), 缺点：expensive。
 
 JTT, two-stage approach.
-- stage 1: upweight misclassified training examples (*worst-group*) at the end of a few steps of standard training;
-- stage 2: minimize the loss over the reweighted dataset.
+- stage 1: train initial model and identify examples with high training loss (*worst-group*);
+- stage 2: train again with upweighted worst-group examples.
+
+stage 1 (identification): 通过ERM训练一个identification model $\^f_{id}$, 确定一个将$\^f_{id}$misclassifies的examples放进error set E。<br>
+stage 2 (upweighting): train a final model $\^f_{final}$ by upweighting points in E.<br>
+Both stages using ERM objective function.
 
 JTT:  only requiring group annotations on a much smaller validation set to tune hyperparameters. 将misclassified examples直接当作worst-group examples。
 
 group robustness: i.e., training models that obtain good performance on each of a set of predefined groups in the dataset
 
 baselines:
-- ERM的问题：整体的avg training loss降底但是certain group还是有high error；造成这种情况的原因：spurious correlation（shortcuts）。
-- 和JTT思想相似的一个方法是(DRO) that minimizes the conditional value at risk (CVaR)： [CVaR DRO](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers.md#cvar-dro)。但是JTT比CVaR DRO表现要好。两者的区别是JTT upweight的examples是固定的（static），CVaR DRO是动态upweight minibatch里的examples。
+- do not use training group annotation
+    - ERM的问题：整体的avg training loss降底但是certain group还是有high error；造成这种情况的原因：spurious correlation（shortcuts）。
+    - 和JTT思想相似的一个方法是(DRO) that minimizes the conditional value at risk (CVaR)： [CVaR DRO](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers.md#cvar-dro)。但是JTT比CVaR DRO表现要好。两者的区别是JTT upweight的examples是固定的（static），CVaR DRO是动态upweight minibatch里的examples。including a uncertainty set.
+- do use training group annotation
+    - Group DRO. Using group annotation to define uncertainty set. 选定一个组，这个组的empirical risk最大。这个方法需要给training set的data annotate（JTT不需要）。
 
 interesting related work mentioned (all require group annotations):
 - synthetically expand the minority groups via generative modeling []()
