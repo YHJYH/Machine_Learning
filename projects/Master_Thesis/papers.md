@@ -119,7 +119,7 @@ JTT, two-stage approach.
 - stage 1: train initial model and identify examples with high training loss (*worst-group*);
 - stage 2: train again with upweighted worst-group examples.
 
-stage 1 (identification): 通过ERM训练一个identification model $\^f_{id}$, 确定一个将$\^f_{id}$misclassifies的examples放进error set E。<br>
+stage 1 (identification): 通过ERM训练一个identification model $\hat{f}\_{id}$, 确定一个将$\hat{f}\_{id}$misclassifies的examples放进error set E。<br>
 stage 2 (upweighting): train a final model $\^f_{final}$ by upweighting points in E.<br>
 Both stages using ERM objective function.
 
