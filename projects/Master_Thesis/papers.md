@@ -131,8 +131,16 @@ baselines:
 - do not use training group annotation
     - ERM的问题：整体的avg training loss降底但是certain group还是有high error；造成这种情况的原因：spurious correlation（shortcuts）。
     - 和JTT思想相似的一个方法是(DRO) that minimizes the conditional value at risk (CVaR)： [CVaR DRO](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers.md#cvar-dro)。但是JTT比CVaR DRO表现要好。两者的区别是JTT upweight的examples是固定的（static），CVaR DRO是动态upweight minibatch里的examples。including a uncertainty set.
+    - [LfF method](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers.md#learning-from-failure-lff).
 - do use training group annotation
     - Group DRO. Using group annotation to define uncertainty set. 选定一个组，这个组的empirical risk最大。这个方法需要给training set的data annotate（JTT不需要）。
+
+结论：
+- JTT consistently achieves higher worst-group accuracy on all 4 datasets.
+- JTT performs well even relative to approaches that use training group information. 
+- JTT recovers a significant portion of the gap in worst-group accuracy between ERM and group DRO.
+- note that simple label balancing also achieves comparably worst-group accuracy to group DRO on CivilComments.
+- 有 modest drop in average accuracy。符合“ a tradeoff between average and worst-group accuracies.”的预期。[Sagawa et al., 2020a](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers.md#training-group-annotations)
 
 interesting related work mentioned (all require group annotations):
 - synthetically expand the minority groups via generative modeling []()
