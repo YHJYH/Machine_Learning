@@ -7,7 +7,7 @@ shortcut learning
 - [2-stage just train twice](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers.md#2-stage-just-train-twice)
 - [training group annotations]()
 - [CVaR DRO](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers.md#cvar-dro)
-- [2-stage LfF](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers.md#learning-from-failure-lff)
+- [2-stage LfF]([https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers.md#learning-from-failure-lff](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers.md#2-stage-learning-from-failure-lff))
 
 text summarization
 - [PlanSum](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers.md#plansum)
@@ -195,7 +195,22 @@ author: Junhyun Nam, Hyuntak Cha, Sungsoo Ahn, Jaeho Lee, Jinwoo Shin
 
 year: 2020
 
-dataset:
+dataset: colored MNIST, Corrupted CIFAR-10.
 
-summary:
+summary: <br>
+Two findings:
+- 只有当bias attribute比target attribute更容易学得的时候bias才会negatively affects the model;
+- classifier在训练早期会学得bias，后期会学得其他attributes。networks tend to defer learning hard concepts. 
+
+Terms: 
+- intended decision rule: decision rules that correctly classify images based on the target attribute.
+- unintended decision rule: decision rules based on other attributes i.e. bias attribute.
+- bias-aligned samples: samples can be correctly classified by the unintended decision rule.
+- bias-conflicting samples: by intended decision rule. 
+- malignant and benign bias: the bias attribute inducing malignant bias is “easier” to learn than the target attribute, e.g., Color is easier to learn than Digit.
+
+Debiasing scheme LfF:
+1. NN1: biased. focus on easy samples (samples aligned with bias). 
+2. NN2: debiased. focus on samples that the biased model struggles to learn (samples conflict with the bias i.e. worst group due to NN1).
+3. re-weight training samples using relative difficulty score based on loss of two NNs.
 
