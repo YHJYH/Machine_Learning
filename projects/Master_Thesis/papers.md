@@ -216,6 +216,6 @@ Debiasing scheme LfF 基本概况:
 
 算法细节：<br>
 - biased model $f_{B}$ . i.e. the model following the unintended decision rule.
-    - use generalized cross entropy (GCE) to amplify NN bias: ![lff1](./pics/lff1.PNG) $p(x; \theta)$ is softmax output, the other prob. is probability aligned to the target attribute y.
+    - use generalized cross entropy (GCE) to amplify NN bias: ![lff1](./pics/lff1.PNG) $p(x; \theta)$ is softmax output, the other prob. is probability aligned to the target attribute y. $q$ controls degree of amplification, a hyperparam.
     - 
 
