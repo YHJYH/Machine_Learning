@@ -96,9 +96,9 @@ summary: worst group指的是训练过程中表现training accuracy最低的那�
 
 本文使用的方法本质上还是**DRO** (distributionally robust optimization): 找到参数可以minimize empirical worst-group risk， worst-group risk通过将数据分类成不同的groups s.t. maximize expected loss of each group来obtain。具体两个公式如下所示。<br>
 worst-case risk (maximum over the expected loss of each group):
-![wgr1](./pics/wgr1.PNG)<br>
+![wgr1](./pics/wgr1.PNG) <br>
 group DRO model (minimize the empirical worst-case risk):
-![wgr2](./pics/wgr2.PNG)<br>
+![wgr2](./pics/wgr2.PNG) <br>
 
 Y(labels) = {Y1, Y2}, A(shortcut features) = {A1, A2}, # groups m = |Y|\*|A| = 4<br>
 如果一组数据，label都是Y1，都有A1 feature，且training loss很低（表示学到了A1 和 Y1的correlation），那么model在{Y1, A2}上的表现就应该很差。这种{Y1, A2}, {Y2, A1}就是worst-group。
