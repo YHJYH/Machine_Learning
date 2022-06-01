@@ -209,8 +209,13 @@ Terms:
 - bias-conflicting samples: by intended decision rule. 
 - malignant and benign bias: the bias attribute inducing malignant bias is “easier” to learn than the target attribute, e.g., Color is easier to learn than Digit.
 
-Debiasing scheme LfF:
+Debiasing scheme LfF 基本概况:
 1. NN1: biased. focus on easy samples (samples aligned with bias). 
 2. NN2: debiased. focus on samples that the biased model struggles to learn (samples conflict with the bias i.e. worst group due to NN1).
 3. re-weight training samples using relative difficulty score based on loss of two NNs.
+
+算法细节：<br>
+- biased model $f_{B}$ . i.e. the model following the unintended decision rule.
+    - use generalized cross entropy (GCE) to amplify NN bias: ![lff1](./pics/lff1.PNG) $p(x; \theta)$ is softmax output, the other prob. is probability aligned to the target attribute y.
+    - 
 
