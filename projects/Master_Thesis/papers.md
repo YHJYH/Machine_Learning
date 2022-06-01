@@ -28,7 +28,7 @@ local的又分为congruent和incongruent两种shortcuts，前者是training set�
 
 question: 
 - how to downweights?<br>
-    - 通过importance weights (IWs) $w_{i} = 1 - p(y_{i}|x_{i})$ probability of misclassification. w越大说明一个sample越容易被misclassify，说明这是一个包含shortcut的image(worst-group)。用normalized w乘以sample loss，则w越大的sample就会有更大的sample loss<br>
+    - 通过importance weights (IWs) $w_{i} = 1 - p(y_{i}|x_{i})$ probability of misclassification. w越大说明一个sample越容易被misclassify，说明这是一个包含shortcut的image(worst-group)。用normalized w乘以sample loss，则w越大的sample就会有更大的sample loss, 但是我们希望总的loss减小，所以network会focus在worst-group sample上。但这样怎么是downweight呢？听着像是upweight。<br>
 - how to get $p(y_{i}|x_{i})$ empirically?
 
 ## feature disentanglement in COVID-19 CXR image classification
@@ -40,7 +40,7 @@ year: 2021
 
 summary: 这篇文章借用了一种“feature 反纠缠”的方法，这种方法的特色是，我们提前知道shortcut feature是哪个了，我们通过最大化shortcut feature的loss来使其不被我们的networks care，即把shortcut feature从所有feature里disentangle出来。<br>
 同时feature entanglement也是建立在transfer learning的基础上，即一部分参数是训练好然后fronzen的。<br>
-具体来说主要分为两个parts, 第一：我们通过feature extractor $g(x, \theta)=z$ (这一步类似于kernel)得到提取的feature z，但是这个z不直接参与estimator $f(z, \phi)$ ，而是再经过一个feature extractor $f_{e}(z, \phi_{e})$ 得到z'。再将这个z'喂给两个classifiers，一个classifier是用来classifyshortcut feature的（recall上面提过，sc我们已经提前知道是哪个了），另一个则是其他features。第二就是使用的loss function了，是一个min-max的过程（和GAN有点像？），如下所示。（domain就是shortcut feature）<br>
+具体来说主要分为两个parts, 第一：我们通过feature extractor $g(x, \theta)=z$ (这一步类似于kernel)得到提取的feature z，但是这个z不直接参与estimator $f(z, \phi)$ ，而是再经过一个feature extractor $f_{e}(z, \phi_{e})$ 得到z'。再将这个z'喂给两个classifiers，一个classifier是用来classify shortcut feature的（recall上面提过，sc我们已经提前知道是哪个了），另一个则是其他features。第二就是使用的loss function了，是一个min-max的过程（和GAN有点像？），如下所示。（domain就是shortcut feature）<br>
 ![fdeq2](./pics/fdeq2.PNG)<br>
 ![fdeq34](./pics/fdeq34.PNG)<br>
 网络结构如下所示：
