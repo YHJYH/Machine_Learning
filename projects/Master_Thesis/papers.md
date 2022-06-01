@@ -162,7 +162,8 @@ does not require group annotations:
 - Learning from Failure (LfF): simultaneously learns a pair of models [LfF](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers.md#learning-from-failure-lff)
 
 Q：
-- misclassified examples确实是属于worst-group的examples但是不代表这些examples属于同一个group i.e. 有相同的shortcuts。(JTT不care具体的shortcuts，都在uncertainty set E里面)
+- misclassified examples确实是属于worst-group的examples但是不代表这些examples属于同一个group i.e. 有相同的shortcuts。
+    - JTT不care具体的shortcuts，都在uncertainty set E里面.
 - static为什么就比dynamic要好呢？(future work 1)
 
 ## training group annotations
