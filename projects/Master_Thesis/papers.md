@@ -28,7 +28,7 @@ local的又分为congruent和incongruent两种shortcuts，前者是training set�
 
 question: 
 - how to downweights?<br>
-    - 通过importance weights (IWs) $w_{i} = 1 - p(y_{i}|x_{i})$ probability of misclassification. w越大说明一个sample越容易被misclassify，说明这是一个包含shortcut的image(worst-group)。用normalized w乘以sample loss，则w越大的sample就会有更大的sample loss, 但是我们希望总的loss减小，所以network会focus在worst-group sample上。但这样怎么是downweight呢？听着像是upweight。<br>
+    - 通过importance weights (IWs) $w_{i} = 1 - p(y_{i}|x_{i})$ probability of misclassification. w越大说明一个sample越容易被misclassify，说明这是一个**不**包含shortcut的image(worst-group)。用normalized w乘以sample loss，则w越大的sample就会有更大的sample loss, 但是我们希望总的loss减小，所以network会focus在worst-group sample上。但这样怎么是downweight呢？听着像是upweight。<br>
 - how to get $p(y_{i}|x_{i})$ empirically?
 
 ## feature disentanglement in COVID-19 CXR image classification
