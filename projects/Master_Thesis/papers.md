@@ -215,6 +215,7 @@ Debiasing scheme LfF 基本概况:
 3. re-weight training samples using relative difficulty score based on loss of two NNs.
 
 算法细节：<br>
+![lff2](./pics/lff2.PNG)
 - biased model $f_{B}$ . i.e. the model following the unintended decision rule.
     - use generalized cross entropy (GCE) to amplify NN bias: ![lff1](./pics/lff1.PNG) $p(x; \theta)$ is softmax output, the other prob. is probability aligned to the target attribute y. $q$ controls degree of amplification, a hyperparam.
     - 
