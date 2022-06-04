@@ -1,3 +1,3 @@
+# shortcut learning in deep neural networks
 
-
-[back](./papers)
+[back](./refs.md)
