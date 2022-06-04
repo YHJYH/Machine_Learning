@@ -2,15 +2,12 @@
     - Shortcut learning in deep eural networks
     - Thesis overview
 - Related work
-    - shortcuts in computer vision
-    - shortcuts in NLP
-    - solutions
-        - two-stage methods
-- methods
-    - unsupervised opinion sumarization: identify the presence of shortcuts (where to introduce this this field?)
-- experiments setup
-- results and discussion
-- summary and conclusion
+    - metricsof correlation
+    - feature importance
+    - synthetic o.o.d. dataset
+    - summary of previous studies
+- Methods
+- Extension of methods
 
 design exps for shortcuts in opinion summarization, based on Res-Plansum, focus on:
 1. identify shorcut features
