@@ -1,5 +1,7 @@
-- introduction
-- literature review
+- Introduction
+    - Shortcut learning in deep eural networks
+    - Thesis overview
+- Related work
     - shortcuts in computer vision
     - shortcuts in NLP
     - solutions
