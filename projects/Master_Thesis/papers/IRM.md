@@ -4,8 +4,8 @@
 - IRM: a learning paradigm to estimate data representations eliciting invariant predictors $w \cdot \phi$ across multiple environments. ($\phi$ is the features) 
 
 IRM mathematical representation:
-![irm]() <br>
+![irm](./irm.PNG) <br>
 Phrasing the constraints as a penalty:
-![irmv1]() <br>
+![irmv1](./irmv1.PNG) <br>
 
 [back](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers/refs.md#content)
