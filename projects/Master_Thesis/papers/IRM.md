@@ -8,4 +8,8 @@ IRM mathematical representation:
 Phrasing the constraints as a penalty:
 ![irmv1](./irmv1.PNG) <br>
 
+- conclusion:
+    - IRM estimates nonlinear, invariant, causal predictors from multiple training environments;
+    - IRM enables o.o.d. generalization.
+
 [back](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers/refs.md#content)
