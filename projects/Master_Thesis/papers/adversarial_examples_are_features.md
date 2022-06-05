@@ -5,6 +5,9 @@
 - 实验设计：
     - 实验1：robust and non-robust features disentanglement. 将一个training set中的数据变换为一个robust dataset和一个non robust dataset，并在两个datasets上分别训练。在robust dataset上训练的model会有good standard & robust accuracy。第二个model则只会有good standard accuracy。robust accuracy指test set with adversarial features。
     - 实验2：一个training img无论使用robust 或者是non robust feature训练出来都会predict出正确的label，但是通过max不正确的label的probability，将training img变成adversarial example（错误的label，non robust会predict 错误label，robust会predict正确label），再在original test set上进行测试，依旧得到good accuracy。 
+- 结论：
+    - 结论1（实验1）：通过移除dataset的特定features可以提升模型的鲁棒性；adversarial vulnerability是由non-robust features 造成的，与training method无关。
+    - 结论2（实验2）：通常model用non-robust features来做预测，即使有robust feature存在；这些通过non-robust feature做的预测并不是overfitting，而是确实有预测性的。
 
 - setup:
     - binary classification
