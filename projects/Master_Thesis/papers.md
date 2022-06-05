@@ -92,7 +92,7 @@ summary: worst group指的是训练过程中表现training accuracy最低的那�
 本文使用的method是strongly-regularized group DRO, 包括三个部分的变化：
 1. L2 penalty
 2. early stopping
-3. *gropu adjustment*: 这一点证明了regularization对于整体的avg performance不一定有帮助，但是对worst-group performance还是很有帮助的。
+3. *group adjustment*: 这一点证明了regularization对于整体的avg performance不一定有帮助，但是对worst-group performance还是很有帮助的。
 
 本文使用的方法本质上还是**DRO** (distributionally robust optimization): 找到参数可以minimize empirical worst-group risk， worst-group risk通过将数据分类成不同的groups s.t. maximize expected loss of each group来obtain。具体两个公式如下所示。<br>
 worst-case risk (maximum over the expected loss of each group):
@@ -104,6 +104,11 @@ Y(labels) = {Y1, Y2}, A(shortcut features) = {A1, A2}, # groups m = |Y|\*|A| = 4
 如果一组数据，label都是Y1，都有A1 feature，且training loss很低（表示学到了A1 和 Y1的correlation），那么model在{Y1, A2}上的表现就应该很差。这种{Y1, A2}, {Y2, A1}就是worst-group。
 
 结果： 在maintain high avg acc的同时，本文通过上述方法很大程度提升了worst-group的acc。本文是建立在overparameterized NN上（即有很多参数，使training acc很高的同时也保证了generalize well on avg, but not on the worst-group）。
+- 使用strong L2 regularization和early stopping：1) 使DRO模型的training acc降低; 2) 减少了group的generalization gap（high worst-group acc -> high worst-group test acc）。
+- DRO表现得都比ERM要好。
+- image 任务普遍比NLI任务要好。
+- group adjusted DRO 表现更进一步。
+- 新介绍了一种一定会converge的gradient descent algo for group DRO: online optimization algo for group DRO.
 
 ## 2-stage just train twice
 title: Just Train Twice: Improving Group Robustness without Training Group Information
