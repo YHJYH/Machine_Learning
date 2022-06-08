@@ -52,8 +52,9 @@ Get to know the trained NN: by looking at and comparing their representaion.
 <br>
 <br>
 
-- **Sanity check** for similarity
-    - 两个*结构相同initialization不同*的NN A和B，A中的一个layer和B中对应的layer应该是**the most similar**的。
+### Sanity check for similarity
+
+- 两个*结构相同initialization不同*的NN A和B，A中的一个layer和B中对应的layer应该是**the most similar**的。
 
 ![cka1](cka1.PNG)
 
@@ -72,13 +73,26 @@ Sanity checks in terms of accuracy <br>
     - we can compute further CCA correlation under restriction:
         - canonical variables are orthogonal to previous variables: $Xw^{i}\_{X} \perp Xw^{j}\_{X}$, and $\forall_{j<i}$. Same for Y.
 
+### Principal components
+
 - **mean-squared CCA**
     - number of features in smaller representation: $m_{X}$ if $m_{X} < m_{Y}$, vice versa.
     - principal components of X and Y are eigenvectors of $XX^{T}$ and $YY^{T}$
-![CCA](cca.PNG)
+![cca](cca.PNG)
 
 - **CKA in PC**
     - amount of variance: CKA emphasis on similarity between components that are responsible for more variance in the original representation.
 ![cka5](cka5.PNG)
+
+
+### Other implementations & results of CKA
+
+- CKA finds correspondences between architectures;
+- CKA reveals networks pathology
+
+![cka6](cka6.PNG)
+![cka7](cka7.PNG)
+
+[cka website](https://cka-similarity.github.io/)
 
 [back](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers/refs.md#content)
