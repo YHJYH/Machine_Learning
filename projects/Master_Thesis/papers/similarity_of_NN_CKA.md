@@ -49,6 +49,12 @@ Get to know the trained NN: by looking at and comparing their representaion.
     - $K_{ij} = k(x_{i},x_{j})$, $K = \langle x,x \rangle$
     - define *centering matrix* $H$, so $\tilde{K} = HKH$
     - so the Eq. becomes $\frac{\langle vec(\tilde{K}),vec(\tilde{L}) \rangle}{||\tilde{K}||\_{F}||\tilde{L}||\_{F}}$.
+<br>
+<br>
 
+- **Sanity check** for similarity
+    - 两个*结构相同initialization不同*的NN A和B，A中的一个layer和B中对应的layer应该是**the most similar**的。
+
+![cka1](cka1.jpg)
 
 [back](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers/refs.md#content)
