@@ -70,7 +70,7 @@ Sanity checks in terms of accuracy <br>
     - First CCA correlation $\rho_{1} = \max_{w^{1}\_{X},w^{1}\_{Y}} corr(Xw^{1}\_{X},Yw^{1}\_{Y})$.
     - two terms in $corr()$ are *canonical variables* (linear combination of features).
     - we can compute further CCA correlation under restriction:
-        - canonical variables are orthogonal to previous variables: $Xw^{i}\_{X} \perp Xw^{j}\_{X}$, $\forall j<i$
+        - canonical variables are orthogonal to previous variables: $Xw^{i}\_{X} \perp Xw^{j}\_{X}$, $\forall_{j<i}$
 
 
 [back](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers/refs.md#content)
