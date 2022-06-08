@@ -4,3 +4,4 @@
 - [Adversarial Examples are not Bugs, they are Features](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers/adversarial_examples_are_features.md#adversarial-examples-are-not-bugs-they-are-features)
 - [Invariant Risk Minimization](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers/IRM.md#invariant-risk-minimization)
 - [Similarity of Neural Network Representations Revisited (CKA)](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers/similarity_of_NN_CKA.md#similarity-of-neural-network-representations-revisited)
+- [Learning De-biased Representations with Biased Representations](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers/learn_debias.md#learning-de-biased-representations-with-biased-representations)
