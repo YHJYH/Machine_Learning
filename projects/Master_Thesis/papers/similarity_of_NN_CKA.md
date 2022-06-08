@@ -55,6 +55,6 @@ Get to know the trained NN: by looking at and comparing their representaion.
 - **Sanity check** for similarity
     - 两个*结构相同initialization不同*的NN A和B，A中的一个layer和B中对应的layer应该是**the most similar**的。
 
-![cka1](cka1.jpg)
+![cka1](cka1.PNG)
 
 [back](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers/refs.md#content)
