@@ -5,4 +5,4 @@
 - [Invariant Risk Minimization](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers/IRM.md#invariant-risk-minimization)
 - [Similarity of Neural Network Representations Revisited (CKA)](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers/similarity_of_NN_CKA.md#similarity-of-neural-network-representations-revisited)
 - [Learning De-biased Representations with Biased Representations](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers/learn_debias.md#learning-de-biased-representations-with-biased-representations)
-- [RAPID LEARNING OR FEATURE REUSE? TOWARDS UNDERSTANDING THE EFFECTIVENESS OF MAML](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers/remove_inner_loop.md#rapid-learning-or-feature-reuse-towards-understanding-the-effectiveness-of-maml)
+- [RAPID LEARNING OR FEATURE REUSE? TOWARDS UNDERSTANDING THE EFFECTIVENESS OF MAML (remove inner loop)](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers/remove_inner_loop.md#rapid-learning-or-feature-reuse-towards-understanding-the-effectiveness-of-maml)
