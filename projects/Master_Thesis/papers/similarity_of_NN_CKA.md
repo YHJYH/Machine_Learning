@@ -57,4 +57,10 @@ Get to know the trained NN: by looking at and comparing their representaion.
 
 ![cka1](cka1.PNG)
 
+**CKA passes sanity checks across architectures** <br>
+![cka2](cka2.PNG)
+
+Compare to other approaches (other methods do not pass sanity check) <br>
+![cka3](cka3.PNG)
+
 [back](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers/refs.md#content)
