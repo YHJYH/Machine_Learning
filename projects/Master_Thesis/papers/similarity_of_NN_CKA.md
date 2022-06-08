@@ -63,4 +63,7 @@ Get to know the trained NN: by looking at and comparing their representaion.
 Compare to other approaches (other methods do not pass sanity check) <br>
 ![cka3](cka3.PNG)
 
+Sanity checks in terms of accuracy <br>
+![cka4](cka4.PNG)
+
 [back](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers/refs.md#content)
