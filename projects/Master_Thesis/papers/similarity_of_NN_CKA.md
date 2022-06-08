@@ -40,5 +40,6 @@ Get to know the trained NN: by looking at and comparing their representaion.
     - dot produc between two Gram vectors;
     - is equal to sum of squared dot products between features: $||X^{T}Y||^{2}\_{F} = \langle vec(XX^{T}, vec(YY^{T}))\rangle$;
     - so **comparing features = comparing examples**.
+    - normalization. $\frac{||X^{T}Y||^{2}\_{F}}{||X^{T}X||\_{F}||Y{T}Y||\_{F}} = \frac{\langle vec(XX^{T}, vec(YY^{T}))\rangle}{||XX^{T}||\_{F}||YY^{T}||\_{F}}$
 
 [back](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers/refs.md#content)
