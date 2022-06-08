@@ -41,5 +41,14 @@ Get to know the trained NN: by looking at and comparing their representaion.
     - is equal to sum of squared dot products between features: $||X^{T}Y||^{2}\_{F} = \langle vec(XX^{T}, vec(YY^{T}))\rangle$;
     - so **comparing features = comparing examples**.
     - normalization. $\frac{||X^{T}Y||^{2}\_{F}}{||X^{T}X||\_{F}||Y{T}Y||\_{F}} = \frac{\langle vec(XX^{T}, vec(YY^{T}))\rangle}{||XX^{T}||\_{F}||YY^{T}||\_{F}}$
+        - "F" stands for Frobenius norm/Euclidean norm/L2 norm.
+<br>
+<br>
+
+- The kernel trick
+    - $K_{ij} = k(x_{i},x_{j})$, $K = \langle x,x \rangle$
+    - define *centering matrix* $H$, so $\tilde{K} = HKH$
+    - so the Eq. becomes $\frac{\langle vec(\tilde{K}),vec(\tilde{L}) \rangle}{||\tilde{K}||\_{F}||\tilde{L}||\_{F}}$.
+
 
 [back](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers/refs.md#content)
