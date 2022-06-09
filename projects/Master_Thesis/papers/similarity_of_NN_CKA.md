@@ -77,7 +77,8 @@ Sanity checks in terms of accuracy <br>
 
 - **mean-squared CCA**
     - number of features in smaller representation: $m_{X}$ if $m_{X} < m_{Y}$, vice versa.
-    - principal components of X and Y are eigenvectors of $XX^{T}$ and $YY^{T}$
+    - principal components of X and Y are eigenvectors of $XX^{T}$ and $YY^{T}$.
+
 ![cca](cca.PNG)
 
 - **CKA in PC**
