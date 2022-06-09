@@ -21,5 +21,14 @@ Key points of answers:
     - HSIC(U,V)=0 iff two representations U and V are independent;
     - "be different" = minimize HSIC
 ![debias4](debias4.PNG)
+<br>
+<br>
+
+Proposed Method: ReBias<br>
+![debias5](debias5.PNG)
+![debias6](debias6.PNG)
+![debias7](debias7.PNG)
+![debias8](debias8.PNG)
+![debias9](debias9.PNG)
 
 [back](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers/refs.md#content)
