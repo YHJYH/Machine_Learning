@@ -31,4 +31,10 @@ Proposed Method: ReBias<br>
 ![debias8](debias8.PNG)
 ![debias9](debias9.PNG)
 
+<br>
+<br>
+
+Experiment results: <br>
+ReBias effectively removes bias in Biased MNIST, ImageNet (-A and -C) classification, and action recognition.
+
 [back](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers/refs.md#content)
