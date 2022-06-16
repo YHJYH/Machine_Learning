@@ -59,7 +59,7 @@ No.
 - RED: maintain 3.6% weights;
 - network used: LeNet 300-100-10 for MNIST
 - fully-connected
-- # params: 300k
+- number of params: 300k
 <br>
 
 ![lth2](./lth2.PNG)
