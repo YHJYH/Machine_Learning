@@ -4,7 +4,7 @@
 <br>
 
 - full network $f(x;W)$ reaches accuracy $a$ in $t$ iterations;
-- subnetwork $f(x;m \odot W)$, where $m \in /{0,1/}^{|W|}$, reaches accuracy $a'$ in $t'$ iterations.
+- subnetwork $f(x;m \odot W)$, where $m \in \{0,1 \} ^{|W|}$, reaches accuracy $a'$ in $t'$ iterations.
 
 The lottery ticket hypothesis states that $\exists m$ s.t. 
 1. $\sum m << |W|$, i.e. remaining number of parameters is small;
