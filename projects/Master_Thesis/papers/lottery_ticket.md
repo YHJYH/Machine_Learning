@@ -1,4 +1,20 @@
 # The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks
+**Dense, trainable networks have sparse, trainable subnetworks that are equally capable.**
+- equally capable: reach commensurate accuracy in a commensurate number of iterations.
+<br>
+
+- full network $f(x;W)$ reaches accuracy $a$ in $t$ iterations;
+- subnetwork $f(x;m \odot W)$, where $(m \in /{0,1/}^{|W|})$, reaches accuracy $a'$ in $t'$ iterations.
+
+The lottery ticket hypothesis states that $\exists m$ s.t. 
+1. $\sum m << |W|$, i.e. remaining number of parameters is small;
+2. $a' \geq a$, i.e. accuracy is at least as high as the original accuracy;
+3. $t' \leq t$, i.e. training time is at least as low as the original.
+
+### SUMMARY
+- The networks we typically train contain much smaller sparse, trainable subnetworks.
+- We can find these subnetworks via pruning.
+- The subnetworks have won the initialization lottery such that they can train in isolation.
 
 ### BACKGROUND: network pruning
 1. train the network
@@ -79,5 +95,10 @@ No.
     - reinitialization on subnetworks does not affect much.
 - ORANGE: learning rate low (0.01)
     - reinitialization affects a lot on subnetworks.
+
+### FUTURE IMPLICATIONS
+- Pruning neural networks early in training.
+- Examining subnetworks to develop better architectures and initializations.
+- Reusing subnetworks on new tasks.
 
 [back](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers/refs.md#content)
