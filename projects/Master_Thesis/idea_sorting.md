@@ -24,3 +24,20 @@ feature disentanglement method
 - maybe cka
 - kernel based method
 - truly independent not just un-correlated
+
+
+
+# lottery ticket hypothesis method
+source: [lottery ticket](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers/lottery_ticket.md#the-lottery-ticket-hypothesis-finding-sparse-trainable-neural-networks)<br>
+
+1. 训练一个full networks （超参数: lr，optimizer，# iterations，batch size，etc.）
+2. 训练完毕，记录test accuracy
+3. 检查除了output layer外每个layer的feature map的CKA（可以用不同的kernel试一试），画confusion matrix plot
+4. 将高相似度数（这是一个超参数：0.5，0.7，etc.）feature map的后layer直接去掉
+5. retrain，（尝试两种：使用初始的initialization(别忘了freeze)，或者reinitialize）
+6. repeat step 2 3 4 5
+<br>
+
+上述实验在shallow network初始试一试(fully-connected);<br>
+之后看情况在deep network上试一试(convolutional). [difference](https://medium.com/swlh/fully-connected-vs-convolutional-neural-networks-813ca7bc6ee5)
+
