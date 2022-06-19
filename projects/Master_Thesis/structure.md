@@ -15,3 +15,10 @@
 design exps for shortcuts in img cls, based on 2-stage LCN-HCN we may try feature disentanglement.
 
 main and supplement exps
+
+## code structure
+`utils.py`:
+- feature extraction
+- CKA calculation
+- confusion matrix plot
+
