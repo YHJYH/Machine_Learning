@@ -101,4 +101,4 @@ No.
 - Examining subnetworks to develop better architectures and initializations.
 - Reusing subnetworks on new tasks.
 
-[back](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers/refs.md#content)
+[back](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers/111.md#content)
