@@ -20,4 +20,4 @@
         - standard training. ERM.
         - robust training. Making useful but non-robust feature anti-correlated with the true label. Perturbation that maximises the loss. Use *adversarial loss function* discerns between robust and non-robust features.
 
-[back](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers/refs.md#content)
+[back](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers/111.md#content)
