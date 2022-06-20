@@ -10,4 +10,4 @@
 2. 介绍了某些layers的param freeze的方法；
 3. 提到了降底model complexity的好处；
 
-[back](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers/refs.md#content)
+[back](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers/111.md#content)
