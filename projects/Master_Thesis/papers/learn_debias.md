@@ -37,4 +37,4 @@ Proposed Method: ReBias<br>
 Experiment results: <br>
 ReBias effectively removes bias in Biased MNIST, ImageNet (-A and -C) classification, and action recognition.
 
-[back](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers/refs.md#content)
+[back](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers/111.md#content)
