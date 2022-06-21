@@ -19,6 +19,9 @@ main and supplement exps
 ## code structure
 `utils.py`:
 - feature extraction
+- gram matrix calcularion
+    - under different types of kernel
 - CKA calculation
-- confusion matrix plot
+- similarity matrix plot
+- 
 
