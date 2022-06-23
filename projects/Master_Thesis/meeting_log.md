@@ -1,6 +1,8 @@
 ### 23/Jun/2022
 1. multiple channels 的gram matrix的问题
-2. layers的划分问题
+2. layers的划分问题 （根据有无params定义 layers）
+
+更加关注shortcut的本质的 paper，less technical method，更加关注现象，definition shortcut
 
 ### 02/June/2022
 1. LCN-HCN questions.
