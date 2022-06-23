@@ -1,3 +1,7 @@
+### 23/Jun/2022
+1. multiple channels 的gram matrix的问题
+2. layers的划分问题
+
 ### 02/June/2022
 1. LCN-HCN questions.
 
