@@ -55,6 +55,23 @@ SB: causes of
 - this work: formalizing the notion of  the features and feature reliance (without domain knowledge).
 
 **adversarial robustness**:
-- 
+- phenomenon: NNs exhibit vulnerability to small adversarial perturbations.
+- improve methods: adversarial training & ensembles. 
+    - *local linearity of trained NNs*;
+    - insufficient data;
+    - inevitability in high dimensions;
+    - computational barriers;
+    - limitations of NN architectures;
+    - *presence of non-robust features*;
+    - *invariance to large label-relevant perturbations*;
+    - *universal adversarial perturbations (UAPs)*, agnostic to model and data.
  
+**implicit bias of SGD**:
+- phenomenon: SGD-trained NNs generalize well because SGD learns models of increasing complexity.
+- SGD 对线性分类器的非线性可分数据有implicit bias.
+- this work: SGD’s implicit bias towards simplicity can result in small-margin and feature-impoverished classifiers instead of large-margin and feature-dense classifiers.
+
+**feature reliance**:
+- 
+
 [back]()
