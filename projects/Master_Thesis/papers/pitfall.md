@@ -2,6 +2,9 @@
 
 linear-like simple classifier vs. nonlinear complex classifier.<br>
 SB: simplicity bais.<br>
+features:
+- spurious features & low-level statistical patterns.
+- semantic features & high-level abstractions.
 
 ## datasets
 different coordinates/blocks define decision boundaries of varying complexity.<br>
@@ -22,6 +25,7 @@ observations:
 1. the ideal decision boundary that achieves high accuracy and robustness relies on *all features to obtain a large margin*. 
     - the orange decision boundary in Figure 1 that learns φ1 and φ2 attains 100% accuracy and exhibits more robustness than the linear boundary because of larger margin. 
 2. *extreme nature of SB*: neural networks simply ignore several complex predictive features in the presence of few simple predictive features.
+    - open backdoor attacks against NNs.
 
 3 major pitfalls of SB:
 1. lack of robustness.
@@ -43,7 +47,14 @@ SB: causes of
 2. adversarial vulnerability;
 3. suboptimal generalization.
 
+## related works
+**ood performance**:
+- phenomenon: NN learns spurious features so poor ood performance.
+- implication: open backdoor attacks to against NNs.
+- improve methods: require *domain-specific knowledge* or *annotation artifacts*.
+- this work: formalizing the notion of  the features and feature reliance (without domain knowledge).
 
-+++++
-
+**adversarial robustness**:
+- 
+ 
 [back]()
