@@ -1,6 +1,7 @@
 # The Pitfalls of Simplicity Bias in Neural Networks
 
 linear-like simple classifier vs. nonlinear complex classifier.<br>
+SB: simplicity bais.<br>
 
 ## datasets
 different coordinates/blocks define decision boundaries of varying complexity.<br>
@@ -20,7 +21,29 @@ different coordinates/blocks define decision boundaries of varying complexity.<b
 observations:
 1. the ideal decision boundary that achieves high accuracy and robustness relies on *all features to obtain a large margin*. 
     - the orange decision boundary in Figure 1 that learns φ1 and φ2 attains 100% accuracy and exhibits more robustness than the linear boundary because of larger margin. 
-2. 
-3. 
+2. *extreme nature of SB*: neural networks simply ignore several complex predictive features in the presence of few simple predictive features.
+
+3 major pitfalls of SB:
+1. lack of robustness.
+    - small margin: susceptibility to small adversarial perturbations.
+    - simple features: supurious correlations.
+2. lack of reliable confidence estimates.
+    - high condidence: all predictive features agree in their prediction. 
+    - the network has high confidence even if several complex predictive features contradict the simple feature.
+3. suboptimal generalization.
+
+## summary
+2 contributions:
+1. designed datasets: stratification of features based on simplicity and predictive power. 
+2. evidence shows that NN exhibit extreme SB.
+3. additionally: approaches to improve generalization and robustness (ensembles and adversarial training) do not help SB and its pitfalls.
+
+SB: causes of
+1. poor ood performance;
+2. adversarial vulnerability;
+3. suboptimal generalization.
+
+
++++++
 
 [back]()
