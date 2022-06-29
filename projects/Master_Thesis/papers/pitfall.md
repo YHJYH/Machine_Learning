@@ -72,6 +72,6 @@ SB: causes of
 - this work: SGD’s implicit bias towards simplicity can result in small-margin and feature-impoverished classifiers instead of large-margin and feature-dense classifiers.
 
 **feature reliance**:
-- 
+- some interesting works.
 
-[back]()
+[back](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers/111.md#content)
