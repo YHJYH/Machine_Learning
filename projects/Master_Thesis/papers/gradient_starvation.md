@@ -22,10 +22,12 @@
 对此，作者认为原因是：
 - loss function的问题（cross-entropy loss 导致GS）
 - 当一个feature学得更快时（简单feature），包含简单feature的examples对于gradient的贡献会减少；
-- 这就导致梯度信号减少，阻止了NN学习其他的features（更为复杂的features）。
+- 这就导致梯度信号减少，阻止了NN学习其他的features（更为复杂的features）。 **这和我想的咋是反着的？**
 
 这种现象会造成的结果有：
-- 
+- Lack of robustness. 进而造成adversarial vulnerability。
+- Excessive invariance. 
+- Implicit regularization (优点).implicit regularization aspect of GS, prevent model from overfitting.
 
 
 [back](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers/111.md#content)
