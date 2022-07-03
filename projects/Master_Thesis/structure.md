@@ -3,7 +3,7 @@
     - definition, 
     - examples of DNNs' failures when the data distribution shifts
         - texture bias, 
-        - adversarial examples, 
+        - adversarial examples, [1](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers/Surface_Statistical_Regularities.md#measuring-the-tendency-of-cnns-to-learn-surface-statistical-regularities)
         - noisy data
 - Shortcuts:
 	- general definition, 
