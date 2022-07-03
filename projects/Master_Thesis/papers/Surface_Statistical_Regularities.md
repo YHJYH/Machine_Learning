@@ -19,6 +19,11 @@ Our last set of experiments involves training on the fully augmented training se
 
 ## sec 2: the generalization ability of a machine learning model and its relation to the surface statistical regularities of the dataset.
 
+Claim #1: Deep CNNs are **generalizing extremely well** to an unseen test set.<br>
+Claim #2: General sensitivity to adversarial examples show that deep CNNs are **not truly capturing abstractions in the dataset**.
+
+key intuition: __there is actually a strong statistical relationship between image statistics and visual understanding.__
+
 
 
 [back](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers/111.md#content)
