@@ -1,8 +1,12 @@
 # thesis structure (new)
 - Out-of-distribution generalisation in deep neural networks:
-    - definition, examples of DNNs' failures when the data distribution shifts (texture bias, adversarial examples, noisy data)
+    - definition, 
+    - examples of DNNs' failures when the data distribution shifts (texture bias, adversarial examples, noisy data)
 - Shortcuts:
-	- general definition, examples, reasons for why shortcut reliance should be avoided, existing methods for reducing shortcut reliance  
+	- general definition, 
+	- examples, 
+	- reasons for why shortcut reliance should be avoided, 
+	- existing methods for reducing shortcut reliance  
 - Current approach and hypothesis
 
 
