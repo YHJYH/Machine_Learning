@@ -1,7 +1,10 @@
 # thesis structure (new)
 - Out-of-distribution generalisation in deep neural networks:
     - definition, 
-    - examples of DNNs' failures when the data distribution shifts (texture bias, adversarial examples, noisy data)
+    - examples of DNNs' failures when the data distribution shifts
+        - texture bias, 
+        - adversarial examples, 
+        - noisy data
 - Shortcuts:
 	- general definition, 
 	- examples, 
