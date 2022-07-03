@@ -1,4 +1,6 @@
 # Measuring the tendency of CNNs to Learn Surface Statistical Regularities
+这篇文章注意学习一下作者是怎么先提出一个比较简陋的hypothesis,然后随着对内容的探讨愈加深入，逐渐formally state main hypothesis.
+
 ### introduction
 Deep CNNs have extreme sensitivity to _adversarial examples_:  the CNNs predict the wrong label, usually with very high confidence. 
 
@@ -24,6 +26,7 @@ Claim #2: General sensitivity to adversarial examples show that deep CNNs are **
 
 key intuition: __there is actually a strong statistical relationship between image statistics and visual understanding.__
 
-
+To this end, we formally state our main hypothesis:
+> The current incarnation of deep neural networks exhibit a tendency to learn surface statistical regularities as opposed to higher level abstractions in the dataset. For tasks such as object recognition, due to the strong statistical properties of natural images, these superficial cues that the deep neural network have learned are sufficient for high performance generalization, but in a narrow distributional sense.
 
 [back](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers/111.md#content)
