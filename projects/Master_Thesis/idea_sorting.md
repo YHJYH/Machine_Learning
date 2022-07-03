@@ -41,3 +41,25 @@ source: [lottery ticket](https://github.com/YHJYH/Machine_Learning/blob/main/pro
 上述实验在shallow network初始试一试(fully-connected);<br>
 之后看情况在deep network上试一试(convolutional). [difference](https://medium.com/swlh/fully-connected-vs-convolutional-neural-networks-813ca7bc6ee5)
 
+**some ideas from lab meeting**
+control condition : lower bound
+
+randonly remove compared with similarity remove (using different kernels)
+
+20% 40% 60% 80%
+
+receptive fields
+
+bias = False? in conv
+
+same architecture
+
+try resnet
+
+try to design a simple exp to support hypothesis
+
+early stopping
+
+set check points and use as sudo control conditions
+
+check points similarity plot
