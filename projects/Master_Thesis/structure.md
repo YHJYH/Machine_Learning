@@ -6,7 +6,7 @@
         - adversarial examples, [[1]](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers/Surface_Statistical_Regularities.md#measuring-the-tendency-of-cnns-to-learn-surface-statistical-regularities)
         - noisy data
 - Shortcuts:
-	- general definition, 
+	- general definition, [[2]](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers/shortcut_learning_in_deep_NN.md#shortcut-learning-in-deep-neural-networks)
 	- examples, 
 	- reasons for why shortcut reliance should be avoided, 
 	- existing methods for reducing shortcut reliance  
