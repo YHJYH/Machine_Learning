@@ -1,4 +1,6 @@
 # DEEP LEARNING GENERALIZES BECAUSE THE PARAMETER-FUNCTION MAP IS BIASED TOWARDS SIMPLE FUNCTIONS
+**why regularization works**
+
 _why DNNs do not strongly overfit?_
 
 Using probability-complexity bound recently derived from algorithmic information theory (AIT), we argue that the **parameter-function map of many DNNs should be exponentially biased towards simple functions**. 
