@@ -7,7 +7,7 @@
         - noisy data
 - Shortcuts:
 	- general definition, [[2]](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers/shortcut_learning_in_deep_NN.md#shortcut-learning-in-deep-neural-networks)
-	- examples, 
+	- examples, [[3]](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers/bias_towards_texture.md#imagenet-trained-cnns-are-biased-towards-texture-increasing-shape-bias-improves-accuracy-and-robustness)
 	- reasons for why shortcut reliance should be avoided, 
 	- existing methods for reducing shortcut reliance  
 - Current approach and hypothesis
