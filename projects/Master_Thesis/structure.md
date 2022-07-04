@@ -11,7 +11,8 @@
 	- examples, [[3]](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers/bias_towards_texture.md#imagenet-trained-cnns-are-biased-towards-texture-increasing-shape-bias-improves-accuracy-and-robustness)
 	- reasons for why shortcut reliance should be avoided, 
 	- existing methods for reducing shortcut reliance (loss function [[5]](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers/IRM.md#invariant-risk-minimization),datasets [[6]](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers/pitfall.md#the-pitfalls-of-simplicity-bias-in-neural-networks), regularizations [[7]](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers.md#group-worst-case-loss)[[11]](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers/PARAMETER_FUNCTION_MAP_IS_BIASED_TOWARDS_SIMPLE_FUNCTIONS.md#deep-learning-generalizes-because-the-parameter-function-map-is-biased-towards-simple-functions), two-stage methods [[8]](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers.md#2-stage-learning-from-failure-lff)[[9]](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers.md#2-stage-just-train-twice)[[10]](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers.md#2-stage-lcn-hcn)) 
-
+- New mthods
+    - thoery (CKA[[12]](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers/similarity_of_NN_CKA.md#similarity-of-neural-network-representations-revisited))
 
 
 # thesis structure (before)
