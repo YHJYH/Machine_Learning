@@ -5,12 +5,13 @@
         - texture bias, 
         - adversarial examples, [[1]](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers/Surface_Statistical_Regularities.md#measuring-the-tendency-of-cnns-to-learn-surface-statistical-regularities)
         - noisy data
+- Current approach and hypothesis (how are ood generalization and shortcut learning related) [[4]](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers/adversarial_examples_are_features.md#adversarial-examples-are-not-bugs-they-are-features)[[5]](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers/IRM.md#invariant-risk-minimization)[[6]](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers/pitfall.md#the-pitfalls-of-simplicity-bias-in-neural-networks)
 - Shortcuts:
 	- general definition, [[2]](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers/shortcut_learning_in_deep_NN.md#shortcut-learning-in-deep-neural-networks)
 	- examples, [[3]](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers/bias_towards_texture.md#imagenet-trained-cnns-are-biased-towards-texture-increasing-shape-bias-improves-accuracy-and-robustness)
 	- reasons for why shortcut reliance should be avoided, 
-	- existing methods for reducing shortcut reliance (loss function [[5]](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers/IRM.md#invariant-risk-minimization)) 
-- Current approach and hypothesis (how are ood generalization and shortcut learning related) [[4]](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers/adversarial_examples_are_features.md#adversarial-examples-are-not-bugs-they-are-features)[[5]](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers/IRM.md#invariant-risk-minimization)
+	- existing methods for reducing shortcut reliance (loss function [[5]](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers/IRM.md#invariant-risk-minimization),datasets [[6]](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers/pitfall.md#the-pitfalls-of-simplicity-bias-in-neural-networks)) 
+
 
 
 # thesis structure (before)
