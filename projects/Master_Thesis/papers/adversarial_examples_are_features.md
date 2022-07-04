@@ -12,7 +12,7 @@
 - setup:
     - binary classification
     - feature: function mapping from the input space to real numbers, mean-zero, uni-variance.
-        - $\rho$-useful features. A feature $f$ is $\rho$-useful if it is correlated with the true label in expectation. Feature and label are positively correlated, i.e. same sign, product greater than $\rho$.
+        - $\rho$ -useful features. A feature $f$ is $\rho$ -useful if it is correlated with the true label in expectation. Feature and label are positively correlated, i.e. same sign, product greater than $\rho$.
         - $\gamma$-robustly useful features. A useful feature f remains useful under adversarial perturbation. Perturbed feature and label are positively correlated, i.e. same sign, product greater than $\gamma$.
         - useful, non-robust features. Correlation with the labal can be flipped under perturbation.
     - classification: sgn(linear function).
