@@ -17,4 +17,15 @@ softmax function produces high-confidence predictions:
 
 **Conclusion**: Simple statistics **derived from softmax distributions** provide a surprisingly effective way to determine whether an example is misclassified or from a different distribution from the training data.
 
+
+## Problem formulation
+**Problem 1**: error and success prediction
+- can we predict whether a trained classifier will make an error on a particular held-out test example;
+- can we predict if it will correctly classify said example? 
+
+**Problem 2**: in- and out-of-distribution detection
+- can we predict whether a test example is from a different distribution from the training data;
+-  can we predict if it is from within the same distribution?
+-  adversarial example detection is considered in a seperate work.
+
 [back](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers/111.md#content)
