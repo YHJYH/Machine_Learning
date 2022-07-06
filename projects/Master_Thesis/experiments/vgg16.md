@@ -54,7 +54,7 @@ Forward/backward pass size (MB): 1.61
 Params size (MB): 114.21
 Estimated Total Size (MB): 115.83
 ----------------------------------------------------------------
--data_type=cifar10 -model_type=vgg16_N -learning_rate=0.001 -momentum=0.9 -num_epoch=50 -patience=3
+-data_type=cifar10 -model_type=vgg16_N -learning_rate=0.001 -momentum=0.9 -num_epoch=50 -patience=8
 ```
 VGG16_N model<br>
 %reduced params = (33638218-29939392)/33638218\*100 = 10.9959%<br>
@@ -121,4 +121,17 @@ def forward(self, x):
         
         return (feature_map, x38)
     # total params: 29,939,392
+```
+train_model2_1
+```
+Train loss: 0.236136, Valid loss: 1.159234
+----------------------------------------------
+...
+----------------------------------------------
+Train loss: 0.199417, Valid loss: 1.187770
+Early stopping at: 22
+```
+features2_1.pt
+```
+Test average loss: 1.3234, acc: 0.6978
 ```
