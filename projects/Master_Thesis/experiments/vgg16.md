@@ -50,9 +50,9 @@ Forward/backward pass size (MB): 1.61
 Params size (MB): 114.21
 Estimated Total Size (MB): 115.83
 ----------------------------------------------------------------
--data_type=cifar10 -model_type=vgg16_N -learning_rate=0.001 -momentum=0.9 -num_epoch=50 -patience=8
+-data_type=cifar10 -model_type=vgg16_N -learning_rate=0.001 -momentum=0.9 -num_epoch=50 -patience=50
 ```
-VGG16_N model<br>
+VGG16_N model (VGG12)<br>
 %reduced params = (33638218-29939392)/33638218\*100 = 10.9959%<br>
 num. of reduced params = 33638218-29939392 = 3698826
 ```
@@ -133,3 +133,87 @@ CKA (Linear) plot:
 
 CKA (RBF) plot:
 ![2_1rbf](2_1rbf.png)
+
+### remove ~20% or 5 conv layers
+```
+Total params: 27,580,096
+Trainable params: 27,580,096
+Non-trainable params: 0
+----------------------------------------------------------------
+Input size (MB): 0.01
+Forward/backward pass size (MB): 1.59
+Params size (MB): 105.21
+Estimated Total Size (MB): 106.82
+----------------------------------------------------------------
+-mode=train -model_type=vgg16_N -data_type=cifar10 -learning_rate=0.001 -momentum=0.9 -num_epoch=50 -patience=50
+```
+VGG16_N model (VGG11) <br>
+%reduced params = (33638218-27580096)/33638218\*100 = 18.0096%<br>
+num. of reduced params = 33638218-27580096 = 6058122
+```
+def forward(self, x):
+        
+        x1 = self.conv1(x)
+        
+        x2 = F.relu(x1)
+        x3 = self.conv2(x2)
+        
+        x4 = F.relu(x3)
+        x5 = F.max_pool2d(x4, kernel_size=2, stride=2)
+        x6 = self.conv3(x5)
+        
+        #x7 = F.relu(x6)
+        #x8 = self.conv4(x7)
+        
+        x9 = F.relu(x6)
+        x10 = F.max_pool2d(x9, kernel_size=2, stride=2)
+        x11 = self.conv5(x10)
+        
+        #x12 = F.relu(x11)
+        #x13 = self.conv6(x12)
+        
+        #x14 = F.relu(x13)
+        #x15 = self.conv7(x14)
+        
+        x16 = F.relu(x11)
+        x17 = F.max_pool2d(x16, kernel_size=2, stride=2)
+        x18 = self.conv8(x17)
+        
+        #x19 = F.relu(x18)
+        #x20 = self.conv9(x19)
+        
+        x21 = F.relu(x18)
+        x22 = self.conv10(x21)
+        
+        x23 = F.relu(x22)
+        x24 = F.max_pool2d(x23, kernel_size=2, stride=2)
+        x25 = self.conv11(x24)
+        
+        x26 = F.relu(x25)
+        x27 = self.conv12(x26)
+        
+        #x28 = F.relu(x27)
+        #x29 = self.conv13(x28)
+        
+        x30 = F.relu(x27)
+        x31 = F.max_pool2d(x30, kernel_size=2, stride=2)
+        x32 = torch.reshape(torch.flatten(x31), (-1, 512))
+        x33 = self.fc1(x32)
+        
+        x34 = F.relu(x33)
+        x35 = self.fc2(x34)
+        
+        x36 = F.relu(x35)
+        x37 = self.fc3(x36)
+        
+        x38 = F.log_softmax(x37, dim=1)
+        
+        feature_map = [x1, x3, x6, x11, x18, x22, x25, x27, x33, x35, x37]
+        
+        return (feature_map, x38)
+    # total params: 27,580,096
+```
+train_model3_1
+```
+
+```
