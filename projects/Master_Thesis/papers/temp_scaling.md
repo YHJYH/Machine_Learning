@@ -7,3 +7,5 @@
 # Introduction
 A network should provide a calibrated confidence measure in addition to its prediction:  indicate when they are likely to be incorrect. 
 
+Observation: The average confidence of LeNet closely matches its accuracy, while the average confidence of the ResNet is substantially higher than its accuracy. 
+
