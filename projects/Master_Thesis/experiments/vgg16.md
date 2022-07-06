@@ -54,7 +54,7 @@ Forward/backward pass size (MB): 1.61
 Params size (MB): 114.21
 Estimated Total Size (MB): 115.83
 ----------------------------------------------------------------
--data_type=cifar10 -model_type=vgg16_N -learning_rate=0.001 -momentum=0.9 -num_epoch=50 -patience=2
+-data_type=cifar10 -model_type=vgg16_N -learning_rate=0.001 -momentum=0.9 -num_epoch=50 -patience=3
 ```
 VGG16_N model<br>
 %reduced params = (33638218-29939392)/33638218\*100 = 10.9959%<br>
