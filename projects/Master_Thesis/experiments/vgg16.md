@@ -1,4 +1,10 @@
-**raw VGG16**
+# Content
+- [raw VGG16]()
+- [CKA layer removal VGG16]()
+- [random param=0 VGG16]()
+
+
+## raw VGG16
 ```
 Total params: 33,625,792
 Trainable params: 33,625,792
@@ -34,3 +40,5 @@ CKA (Linear) plot:
 
 CKA (RBF) plot:
 ![1_1rbf](1_1rbf.png)
+
+## CKA layer removal VGG16
