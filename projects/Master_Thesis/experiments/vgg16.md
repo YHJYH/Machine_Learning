@@ -222,5 +222,10 @@ Early stopping at: 14
 ```
 features3_1.pt
 ```
-
+Test average loss: 2.2414, acc: 0.7353
 ```
+CKA (Linear) plot:
+![3_1linear](3_1linear.png)
+
+CKA (RBF) plot:
+![3_1rbf](3_1rbf.png)
