@@ -5,3 +5,5 @@
 - 所谓Confidence calibration指的是我们对预测出来的概率有多confident.
 
 # Introduction
+A network should provide a calibrated confidence measure in addition to its prediction:  indicate when they are likely to be incorrect. 
+
