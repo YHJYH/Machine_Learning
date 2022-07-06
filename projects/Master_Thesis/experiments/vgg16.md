@@ -128,4 +128,8 @@ features2_1.pt
 ```
 Test average loss: 2.4430, acc: 0.7314
 ```
+CKA (Linear) plot:
+![2_1linear](2_1linear.png)
 
+CKA (RBF) plot:
+![2_1rbf](2_1rbf.png)
