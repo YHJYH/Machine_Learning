@@ -9,3 +9,5 @@ A network should provide a calibrated confidence measure in addition to its pred
 
 Observation: The average confidence of LeNet closely matches its accuracy, while the average confidence of the ResNet is substantially higher than its accuracy. 
 
+> the confidence estimate Pˆ to be calibrated, which intuitively means that Pˆ represents a true probability.
+
