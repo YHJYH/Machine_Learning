@@ -30,5 +30,7 @@ features1_1.pt
 Test average loss: 0.8804, acc: 0.7098
 ```
 CKA (Linear) plot:
-![1_1](1_1.png)
+![1_1linear](1_1linear.png)
 
+CKA (RBF) plot:
+![1_1rbf](1_1rbf.png)
