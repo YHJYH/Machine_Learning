@@ -216,5 +216,11 @@ def forward(self, x):
 ```
 train_model3_1
 ```
+Train loss: 0.606346, Valid loss: 0.950074
+Updating model file...
+Early stopping at: 14
+```
+features3_1.pt
+```
 
 ```
