@@ -2,7 +2,7 @@
 - Out-of-distribution generalisation in deep neural networks:
     - definition, 
     - examples of DNNs' failures when the data distribution shifts
-        - texture bias, 
+        - texture bias, [[20]](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers/texture_bias.md#the-origins-and-prevalence-of-texture-bias-in-convolutional-neural-networks) 
         - adversarial examples, [[1]](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers/Surface_Statistical_Regularities.md#measuring-the-tendency-of-cnns-to-learn-surface-statistical-regularities)
         - noisy data
 - current approaches (detection/seperation of ood samples) [[19]](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers/temp_scaling.md#on-calibration-of-modern-neural-networks)[[18]](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers/ODIN.md#enhancing-the-reliability-of-out-of-distribution-image-detection-in-neural-networks)[[17]](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers/miclassied_or_ood.md#a-baseline-for-detecting-misclassified-and-out-of-distribution-examples-in-neural-networks)
