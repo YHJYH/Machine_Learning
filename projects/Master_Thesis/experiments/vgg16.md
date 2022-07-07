@@ -49,6 +49,13 @@ Train loss: 0.557071, Valid loss: 0.826835
 Updating model file...
 Early stopping at: 25
 ----------------------------------------------
+1_4
+Train loss: 0.594662, Valid loss: 0.805917
+Updating model file...
+Early stopping at: 25
+----------------------------------------------
+1_5
+
 ```
 features1_x.pt
 ```
