@@ -187,7 +187,9 @@ Updating model file...
 Early stopping at: 16
 ----------------------------------------------
 2_4
-
+Train loss: 0.593968, Valid loss: 0.939733
+Updating model file...
+Early stopping at: 16
 ```
 features2_x.pt
 ```
@@ -203,10 +205,10 @@ Test average loss: 2.0945, acc: 0.7105
 
 ```
 CKA (Linear) plot:<br>
-![2_1linear](2_1linear.png) ![2_2linear](2_2linear.png) ![2_3linear](2_3linear.png)
+![2_1linear](2_1linear.png) ![2_2linear](2_2linear.png) ![2_3linear](2_3linear.png) ![2_4linear](2_4linear.png)
 
 CKA (RBF) plot:<br>
-![2_1rbf](2_1rbf.png) ![2_2rbf](2_2rbf.png) ![2_3rbf](2_3rbf.png)
+![2_1rbf](2_1rbf.png) ![2_2rbf](2_2rbf.png) ![2_3rbf](2_3rbf.png) ![2_4rbf](2_4rbf.png)
 
 ### remove ~18% or 5 conv layers (VGG11)
 ```
