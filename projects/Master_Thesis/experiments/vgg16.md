@@ -796,9 +796,16 @@ num. of reduced params = 33638218-3647168 = 29991050
 ```
 train_model9_1
 ```
-
+Train loss: 0.583674, Valid loss: 0.839788
+Updating model file...
+Early stopping at: 14
 ```
 features9_1.pt
 ```
-
+Test average loss: 1.6781, acc: 0.7319
 ```
+CKA (Linear) plot:
+![9_1linear](9_1linear.png)
+
+CKA (RBF) plot:
+![9_1rbf](9_1rbf.png)
