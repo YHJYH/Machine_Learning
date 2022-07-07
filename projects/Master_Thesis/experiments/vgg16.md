@@ -18,7 +18,7 @@
 - fixed initialization: try not fixed initialization. 
 
 ## raw VGG16
-5 experiments: [0.7581, 0.7641, ]
+5 experiments: [0.7581, 0.7641, 0.7548, 0.7469, ]
 ```
 Total params: 33,625,792
 Trainable params: 33,625,792
@@ -73,13 +73,16 @@ Test average loss: 1.5527, acc: 0.7548
 ----------
 
 1_4
+Test average loss: 1.4928, acc: 0.7469
+----------
 
+1_5
 ```
 CKA (Linear) plot:<br>
-![1_1linear](1_1linear.png) ![1_2linear](1_2linear.png) ![1_3linear](1_3linear.png)
+![1_1linear](1_1linear.png) ![1_2linear](1_2linear.png) ![1_3linear](1_3linear.png) ![1_4linear](1_4linear.png)
 
 CKA (RBF) plot:<br>
-![1_1rbf](1_1rbf.png) ![1_2rbf](1_2rbf.png) ![1_3rbf](1_3rbf.png)
+![1_1rbf](1_1rbf.png) ![1_2rbf](1_2rbf.png) ![1_3rbf](1_3rbf.png) ![1_4rbf](1_4rbf.png)
 
 ## CKA layer removal VGG16
 ### remove ~10% params or 4 conv layers
