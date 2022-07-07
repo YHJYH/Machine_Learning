@@ -61,10 +61,10 @@ Test average loss: 1.4824, acc: 0.7641
 
 ```
 CKA (Linear) plot:
-![1_1linear](1_1linear.png)
+![1_1linear](1_1linear.png) ![1_2linear](1_2linear.png)
 
 CKA (RBF) plot:
-![1_1rbf](1_1rbf.png)
+![1_1rbf](1_1rbf.png) ![1_2rbf](1_2rbf.png)
 
 ## CKA layer removal VGG16
 ### remove ~10% params or 4 conv layers
