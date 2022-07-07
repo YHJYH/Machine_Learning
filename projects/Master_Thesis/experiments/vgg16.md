@@ -506,5 +506,10 @@ Early stopping at: 14
 ```
 features6_1.py
 ```
-
+Test average loss: 2.1356, acc: 0.7421
 ```
+CKA (Linear) plot:
+![6_1linear](6_1linear.png)
+
+CKA (RBF) plot:
+![6_1rbf](6_1rbf.png)
