@@ -318,7 +318,7 @@ Early stopping at: 13
 ```
 features4_1.pt
 ```
-
+Test average loss: 2.2320, acc: 0.7454
 ```
 CKA (Linear) plot:
 ![4_1linear](4_1linear.png)
