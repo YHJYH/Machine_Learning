@@ -723,7 +723,13 @@ Estimated Total Size (MB): 14.89
 %reduced params = (33638218-3647168)/33638218\*100 = 89.1577% <br>
 num. of reduced params = 33638218-3647168 = 29991050
 ```
-def forward(self, x):
+        #self.fc1 = nn.Linear(512, 4096, bias=False)
+        self.fc1 = nn.Linear(512*2*2, 4096, bias=False)
+        self.fc2 = nn.Linear(4096, 4096, bias=False)
+        self.fc3 = nn.Linear(4096, 10, bias=False)
+        
+        
+    def forward(self, x):
         
         x1 = self.conv1(x)
         
@@ -769,7 +775,10 @@ def forward(self, x):
         
         x30 = F.relu(x18)
         x31 = F.max_pool2d(x30, kernel_size=2, stride=2)
-        x32 = torch.reshape(torch.flatten(x31), (-1, 512))
+        #print(x31.shape)
+        x32 = x31.view(x31.size(0),-1)
+        #x32 = torch.reshape(torch.flatten(x31), (-1, 512))
+        #print(x32.shape)
         x33 = self.fc1(x32)
         
         #x34 = F.relu(x33)
