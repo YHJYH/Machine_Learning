@@ -180,6 +180,9 @@ Early stopping at: Epoch 13
 Train loss: 0.601131, Valid loss: 0.943132
 Updating model file...
 Early stopping at: 16
+
+2_3
+
 ```
 features2_x.pt
 ```
@@ -191,11 +194,11 @@ Test average loss: 2.3425, acc: 0.7350
 2_3
 
 ```
-CKA (Linear) plot:
-![2_1linear](2_1linear.png) ![2_2linear](2_2linear.png)
+CKA (Linear) plot:<br>
+![2_1linear](2_1linear.png) ![2_2linear](2_2linear.png) ![2_3linear](2_3linear.png)
 
-CKA (RBF) plot:
-![2_1rbf](2_1rbf.png) ![2_2rbf](2_2rbf.png)
+CKA (RBF) plot:<br>
+![2_1rbf](2_1rbf.png) ![2_2rbf](2_2rbf.png) ![2_3rbf](2_3rbf.png)
 
 ### remove ~18% or 5 conv layers (VGG11)
 ```
