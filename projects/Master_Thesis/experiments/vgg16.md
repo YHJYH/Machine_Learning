@@ -18,7 +18,7 @@
 - fixed initialization: try not fixed initialization. 
 
 ## raw VGG16
-5 experiments: [0.7581, ]
+5 experiments: [0.7581, 0.7641, ]
 ```
 Total params: 33,625,792
 Trainable params: 33,625,792
