@@ -55,7 +55,10 @@ Updating model file...
 Early stopping at: 25
 ----------------------------------------------
 1_5
-
+Train loss: 0.465813, Valid loss: 0.808837
+Updating model file...
+Early stopping at: 27
+----------------------------------------------
 ```
 features1_x.pt
 ```
