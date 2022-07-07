@@ -18,7 +18,7 @@
 - fixed initialization: try not fixed initialization. 
 
 ## raw VGG16
-5 experiments: [0.7581, 0.7641, 0.7548, 0.7469, ]
+5 experiments: [0.7581, 0.7641, 0.7548, 0.7469, 0.7515]
 ```
 Total params: 33,625,792
 Trainable params: 33,625,792
@@ -80,6 +80,8 @@ Test average loss: 1.4928, acc: 0.7469
 ----------
 
 1_5
+Test average loss: 1.5996, acc: 0.7515
+----------
 ```
 CKA (Linear) plot:<br>
 ![1_1linear](1_1linear.png) ![1_2linear](1_2linear.png) ![1_3linear](1_3linear.png) ![1_4linear](1_4linear.png)
