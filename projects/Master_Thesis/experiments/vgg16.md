@@ -609,7 +609,7 @@ CKA (Linear) plot:
 CKA (RBF) plot:
 ![7_1rbf](7_1rbf.png)
 
-### remove ~% or 10 layers (VGG6)
+### remove ~82% or 10 layers (VGG6)
 ```
 Total params: 6,006,464
 Trainable params: 6,006,464
