@@ -136,7 +136,7 @@ CKA (Linear) plot:
 CKA (RBF) plot:
 ![2_1rbf](2_1rbf.png)
 
-### remove ~20% or 5 conv layers (VGG11)
+### remove ~18% or 5 conv layers (VGG11)
 ```
 Total params: 27,580,096
 Trainable params: 27,580,096
@@ -231,7 +231,7 @@ CKA (Linear) plot:
 CKA (RBF) plot:
 ![3_1rbf](3_1rbf.png)
 
-### remove ~20% params or 6 layers (VGG10)
+### remove ~18% params or 6 layers (VGG10)
 ```
 Total params: 27,539,136
 Trainable params: 27,539,136
