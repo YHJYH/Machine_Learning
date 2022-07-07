@@ -406,9 +406,16 @@ def forward(self, x):
 ```
 train_model5_1
 ```
-
+Train loss: 0.584666, Valid loss: 0.830359
+Updating model file...
+Early stopping at: 16
 ```
 features5_1.pt
 ```
-
+Test average loss: 2.0481, acc: 0.7561
 ```
+CKA (Linear) plot:
+![5_1linear](5_1linear.png)
+
+CKA (RBF) plot:
+![5_1rbf](5_1rbf.png)
