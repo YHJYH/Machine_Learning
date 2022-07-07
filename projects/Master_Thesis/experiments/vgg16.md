@@ -9,7 +9,7 @@
     - [25% or 8 layers](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/experiments/vgg16.md#remove-25-or-8-layers-vgg8)
     - [32% or 9 layers](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/experiments/vgg16.md#remove-32-or-9-layers-vgg7)
     - [82% or 10 layers](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/experiments/vgg16.md#remove-82-or-10-layers-vgg6)
-    - [reaching the limit: % or 11 layers]()
+    - [reaching the limit: 89% or 11 layers](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/experiments/vgg16.md#reaching-the-limit-remove-89-or-11-layers-vgg5)
 - [random param=0 VGG16]()
 
 ## current observations
