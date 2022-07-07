@@ -6,7 +6,7 @@
     - [18% or 6 layers](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/experiments/vgg16.md#remove-18-params-or-6-layers-vgg10)
     - [18% or 7 layers](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/experiments/vgg16.md#remove-18-params-or-7-layers-vgg9)
     - [25% or 8 layers](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/experiments/vgg16.md#remove-25-or-8-layers-vgg8)
-    - [% or 9 layers]()
+    - [32% or 9 layers]()
 - [random param=0 VGG16]()
 
 
@@ -515,7 +515,7 @@ CKA (Linear) plot:
 CKA (RBF) plot:
 ![6_1rbf](6_1rbf.png)
 
-### remove ~% or 9 layers (VGG7)
+### remove ~32% or 9 layers (VGG7)
 ```
 Total params: 22,783,680
 Trainable params: 22,783,680
