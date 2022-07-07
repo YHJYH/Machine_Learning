@@ -18,6 +18,7 @@
 - fixed initialization: try not fixed initialization. 
 
 ## raw VGG16
+5 experiments: [0.7581, ]
 ```
 Total params: 33,625,792
 Trainable params: 33,625,792
@@ -30,19 +31,24 @@ Estimated Total Size (MB): 130.46
 ----------------------------------------------------------------
 -data_type=cifar10 -model_type=vgg16 -learning_rate=0.001 -momentum=0.9 -num_epoch=50 -patience=50
 ```
-train_model1_1:
+train_model1_x:
 ```
+1_1
 ----------------------------------------------
 Train loss: 0.688125, Valid loss: 0.835164
 Updating model file...
 Early stopping at: 24
 ----------------------------------------------
+1_2
 ```
-features1_1.pt
+features1_x.pt
 ```
+1_1
 -mode=test -data_type=cifar10 -model_type=vgg16
 ----------------------------------------------
 Test average loss: 1.6674, acc: 0.7581
+
+1_2
 ```
 CKA (Linear) plot:
 ![1_1linear](1_1linear.png)
