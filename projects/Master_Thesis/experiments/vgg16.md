@@ -167,21 +167,33 @@ def forward(self, x):
         return (feature_map, x38)
     # total params: 29,939,392
 ```
-train_model2_1
+train_model2_x
 ```
+2_1
 Train loss: 0.840259, Valid loss: 0.978522
 Updating model file...
 Early stopping at: Epoch 13
+
+2_2
+Train loss: 0.601131, Valid loss: 0.943132
+Updating model file...
+Early stopping at: 16
 ```
-features2_1.pt
+features2_x.pt
 ```
+2_1
 Test average loss: 2.4430, acc: 0.7314
+2_2
+Test average loss: 2.3425, acc: 0.7350
+----------
+2_3
+
 ```
 CKA (Linear) plot:
-![2_1linear](2_1linear.png)
+![2_1linear](2_1linear.png) ![2_2linear](2_2linear.png)
 
 CKA (RBF) plot:
-![2_1rbf](2_1rbf.png)
+![2_1rbf](2_1rbf.png) ![2_2rbf](2_2rbf.png)
 
 ### remove ~18% or 5 conv layers (VGG11)
 ```
