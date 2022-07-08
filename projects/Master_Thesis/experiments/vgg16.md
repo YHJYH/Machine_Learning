@@ -569,7 +569,10 @@ Updating model file...
 Early stopping at: 16
 
 5_2
-
+Train loss: 0.529756, Valid loss: 0.844136
+Updating model file...
+Early stopping at: 16
+----------------------------------------------
 5_3
 
 5_4
@@ -583,7 +586,8 @@ features5_x.pt
 Test average loss: 2.0481, acc: 0.7561
 
 5_2
-
+Test average loss: 1.2710, acc: 0.7125
+----------
 5_3
 
 5_4
@@ -592,10 +596,10 @@ Test average loss: 2.0481, acc: 0.7561
 
 ```
 CKA (Linear) plot:<br>
-![5_1linear](5_1linear.png)
+![5_1linear](5_1linear.png) ![5_2linear](5_2linear.png) ![5_3linear](5_3linear.png) ![5_4linear](5_4linear.png) ![5_5linear](5_5linear.png)
 
 CKA (RBF) plot:<br>
-![5_1rbf](5_1rbf.png)
+![5_1rbf](5_1rbf.png) ![5_2rbf](5_2rbf.png) ![5_3rbf](5_3rbf.png) ![5_4rbf](5_4rbf.png) ![5_5rbf](5_5rbf.png)
 
 ### remove ~25% or 8 layers (VGG8)
 ```
