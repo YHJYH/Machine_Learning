@@ -10,6 +10,7 @@
     - VGG7 [32% or 9 layers](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/experiments/vgg16.md#remove-32-or-9-layers-vgg7)
     - VGG6 [82% or 10 layers](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/experiments/vgg16.md#remove-82-or-10-layers-vgg6)
     - VGG5 [reaching the limit: 89% or 11 layers](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/experiments/vgg16.md#reaching-the-limit-remove-89-or-11-layers-vgg5)
+    - Ablation 1 VGG6 [20% or 10 layers]()
 - [random param=0 VGG16]()
 
 ## current observations
@@ -1147,6 +1148,7 @@ CKA (RBF) plot:<br>
 ![9_1rbf](9_1rbf.png) ![9_2rbf](9_2rbf.png) ![9_3rbf](9_3rbf.png) ![9_4rbf](9_4rbf.png) ![9_5rbf](9_5rbf.png)
 
 ### Ablation 1: remove ~20% params or 10 layers but conv not fc
+The removal in this ablation study is not based on the observation of CKA similarity plot, and in fact, we remove the conv layer purely because it is a removable layer, and the architecture will not change even if we remove it. We keep the second fc layer although it is more similar to the adjacent fc layer. <br>
 5 exps: [] (mean,std) = ()
 ```
 ----------------------------------------------------------------
