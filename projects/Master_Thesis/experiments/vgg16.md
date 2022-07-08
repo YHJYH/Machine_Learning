@@ -10,7 +10,7 @@
     - VGG7 [32% or 9 layers](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/experiments/vgg16.md#remove-32-or-9-layers-vgg7)
     - VGG6 [82% or 10 layers](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/experiments/vgg16.md#remove-82-or-10-layers-vgg6)
     - VGG5 [reaching the limit: 89% or 11 layers](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/experiments/vgg16.md#reaching-the-limit-remove-89-or-11-layers-vgg5)
-    - Ablation 1 VGG6 [20% or 10 layers]()
+    - Ablation 1 VGG6 [20% or 10 layers](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/experiments/vgg16.md#ablation-1-remove-20-params-or-10-layers-but-conv-not-fc)
 - [random param=0 VGG16]()
 
 ## current observations
