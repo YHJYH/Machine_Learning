@@ -697,19 +697,26 @@ Train loss: 0.660711, Valid loss: 0.851595
 Updating model file...
 Early stopping at: 14
 
-6_1
+6_2
 Train loss: 0.602200, Valid loss: 0.863321
 Updating model file...
 Early stopping at: 15
 ----------------------------------------------
-6_2
-
 6_3
-
+Train loss: 0.687117, Valid loss: 0.874917
+Updating model file...
+Early stopping at: 14
+----------------------------------------------
 6_4
-
+Train loss: 0.715518, Valid loss: 0.859828
+Updating model file...
+Early stopping at: 13
+----------------------------------------------
 6_5
-
+Train loss: 0.567657, Valid loss: 0.848754
+Updating model file...
+Early stopping at: 16
+----------------------------------------------
 ```
 features6_x.py
 ```
@@ -720,11 +727,14 @@ Test average loss: 2.1356, acc: 0.7421
 Test average loss: 1.0195, acc: 0.7161
 ----------
 6_3
-
+Test average loss: 1.0824, acc: 0.7034
+----------
 6_4
-
+Test average loss: 0.9548, acc: 0.7281
+----------
 6_5
-
+Test average loss: 0.9945, acc: 0.7191
+----------
 ```
 CKA (Linear) plot:
 ![6_1linear](6_1linear.png) ![6_2linear](6_2linear.png) ![6_3linear](6_3linear.png) ![6_4linear](6_4linear.png) ![6_5linear](6_5linear.png)
