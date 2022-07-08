@@ -312,6 +312,11 @@ Updating model file...
 Early stopping at: 13
 ----------------------------------------------
 3_3
+Train loss: 0.699429, Valid loss: 0.932371
+Updating model file...
+Early stopping at: 13
+----------------------------------------------
+3_4
 
 ```
 features3_x.pt
@@ -324,13 +329,17 @@ Test average loss: 2.4621, acc: 0.7321
 ----------
 
 3_3
+Test average loss: 2.1219, acc: 0.7228
+----------
+
+3_4
 
 ```
 CKA (Linear) plot:
-![3_1linear](3_1linear.png) ![3_2linear](3_2linear.png) ![3_3linear](3_3linear.png)
+![3_1linear](3_1linear.png) ![3_2linear](3_2linear.png) ![3_3linear](3_3linear.png) ![3_4linear](3_4linear.png) ![3_5linear](3_5linear.png)
 
 CKA (RBF) plot:
-![3_1rbf](3_1rbf.png) ![3_2rbf](3_2rbf.png) ![3_3rbf](3_3rbf.png)
+![3_1rbf](3_1rbf.png) ![3_2rbf](3_2rbf.png) ![3_3rbf](3_3rbf.png) ![3_4rbf](3_4rbf.png) ![3_5rbf](3_5rbf.png)
 
 ### remove ~18% params or 6 layers (VGG10)
 ```
