@@ -971,7 +971,10 @@ Updating model file...
 Early stopping at: 18
 ----------------------------------------------
 8_5
-
+Train loss: 0.532771, Valid loss: 0.851450
+Updating model file...
+Early stopping at: 16
+----------------------------------------------
 ```
 features8_x.pt
 ```
@@ -988,7 +991,8 @@ Test average loss: 0.9710, acc: 0.7109
 Test average loss: 0.9749, acc: 0.7164
 ----------
 8_5
-
+Test average loss: 0.9998, acc: 0.7063
+----------
 ```
 CKA (Linear) plot:<br>
 ![8_1linear](8_1linear.png) ![8_2linear](8_2linear.png) ![8_3linear](8_3linear.png) ![8_4linear](8_4linear.png) ![8_5linear](8_5linear.png)
