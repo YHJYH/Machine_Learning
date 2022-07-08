@@ -736,10 +736,10 @@ Test average loss: 0.9548, acc: 0.7281
 Test average loss: 0.9945, acc: 0.7191
 ----------
 ```
-CKA (Linear) plot:
+CKA (Linear) plot:<br>
 ![6_1linear](6_1linear.png) ![6_2linear](6_2linear.png) ![6_3linear](6_3linear.png) ![6_4linear](6_4linear.png) ![6_5linear](6_5linear.png)
 
-CKA (RBF) plot:
+CKA (RBF) plot:<br>
 ![6_1rbf](6_1rbf.png) ![6_2rbf](6_2rbf.png) ![6_3rbf](6_3rbf.png) ![6_4rbf](6_4rbf.png) ![6_5rbf](6_5rbf.png)
 
 ### remove ~32% or 9 layers (VGG7)
@@ -819,21 +819,41 @@ def forward(self, x):
         return (feature_map, x38)
     # total params: 22,783,680
 ```
-train_model7_1
+train_model7_x
 ```
+7_1
 Train loss: 0.522085, Valid loss: 0.880628
 Updating model file...
 Early stopping at: 15
+
+7_2
+
+7_3
+
+7_4
+
+7_5
+
 ```
-features7_1.pt
+features7_x.pt
 ```
+7_1
 Test average loss: 1.8591, acc: 0.7422
+
+7_2
+
+7_3
+
+7_4
+
+7_5
+
 ```
 CKA (Linear) plot:
-![7_1linear](7_1linear.png)
+![7_1linear](7_1linear.png) ![7_2linear](7_2linear.png) ![7_3linear](7_3linear.png) ![7_4linear](7_4linear.png) ![7_5linear](7_5linear.png)
 
 CKA (RBF) plot:
-![7_1rbf](7_1rbf.png)
+![7_1rbf](7_1rbf.png) ![7_2rbf](7_2rbf.png) ![7_3rbf](7_3rbf.png) ![7_4rbf](7_4rbf.png) ![7_5rbf](7_5rbf.png)
 
 ### remove ~82% or 10 layers (VGG6)
 ```
