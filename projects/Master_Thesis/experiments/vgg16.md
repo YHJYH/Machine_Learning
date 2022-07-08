@@ -445,7 +445,10 @@ Updating model file...
 Early stopping at: 14
 ----------------------------------------------
 4_3
-
+Train loss: 0.585402, Valid loss: 0.885301
+Updating model file...
+Early stopping at: 15
+----------------------------------------------
 4_4
 
 4_5
@@ -460,7 +463,8 @@ Test average loss: 2.2320, acc: 0.7454
 Test average loss: 2.1772, acc: 0.7561
 ----------
 4_3
-
+Test average loss: 2.2484, acc: 0.7445
+----------
 4_4
 
 4_5
