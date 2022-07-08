@@ -827,13 +827,25 @@ Updating model file...
 Early stopping at: 15
 
 7_2
-
+Train loss: 0.555697, Valid loss: 0.842057
+Updating model file...
+Early stopping at: 15
+----------------------------------------------
 7_3
-
+Train loss: 0.488027, Valid loss: 0.868555
+Updating model file...
+Early stopping at: 16
+----------------------------------------------
 7_4
-
+Train loss: 0.398970, Valid loss: 0.861331
+Updating model file...
+Early stopping at: 17
+----------------------------------------------
 7_5
-
+Train loss: 0.354991, Valid loss: 0.878753
+Updating model file...
+Early stopping at: 18
+----------------------------------------------
 ```
 features7_x.pt
 ```
@@ -841,13 +853,17 @@ features7_x.pt
 Test average loss: 1.8591, acc: 0.7422
 
 7_2
-
+Test average loss: 1.0358, acc: 0.7183
+----------
 7_3
-
+Test average loss: 1.0422, acc: 0.7112
+----------
 7_4
-
+Test average loss: 1.0087, acc: 0.7285
+----------
 7_5
-
+Test average loss: 1.0733, acc: 0.7141
+----------
 ```
 CKA (Linear) plot:
 ![7_1linear](7_1linear.png) ![7_2linear](7_2linear.png) ![7_3linear](7_3linear.png) ![7_4linear](7_4linear.png) ![7_5linear](7_5linear.png)
