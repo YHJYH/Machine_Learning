@@ -698,7 +698,10 @@ Updating model file...
 Early stopping at: 14
 
 6_1
-
+Train loss: 0.602200, Valid loss: 0.863321
+Updating model file...
+Early stopping at: 15
+----------------------------------------------
 6_2
 
 6_3
@@ -714,7 +717,8 @@ features6_x.py
 Test average loss: 2.1356, acc: 0.7421
 
 6_2
-
+Test average loss: 1.0195, acc: 0.7161
+----------
 6_3
 
 6_4
