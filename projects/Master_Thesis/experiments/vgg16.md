@@ -18,7 +18,7 @@
 - fixed initialization: try not fixed initialization. 
 
 ## raw VGG16
-5 experiments: [0.7581, 0.7641, 0.7548, 0.7469, 0.7515]
+5 experiments: [0.7581, 0.7641, 0.7548, 0.7469, 0.7515] mean±std = 
 ```
 Total params: 33,625,792
 Trainable params: 33,625,792
@@ -91,6 +91,7 @@ CKA (RBF) plot:<br>
 
 ## CKA layer removal VGG16
 ### remove ~10% params or 4 conv layers
+5 exps: [0.7314, 0.7350, 0.7105, 0.7353, 0.7189] mean±std = 
 ```
 Total params: 29,939,392
 Trainable params: 29,939,392
