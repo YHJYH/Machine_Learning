@@ -320,6 +320,10 @@ features3_x.pt
 Test average loss: 2.2414, acc: 0.7353
 
 3_2
+Test average loss: 2.4621, acc: 0.7321
+----------
+
+3_3
 
 ```
 CKA (Linear) plot:
