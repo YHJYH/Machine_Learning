@@ -317,6 +317,11 @@ Updating model file...
 Early stopping at: 13
 ----------------------------------------------
 3_4
+Train loss: 0.632378, Valid loss: 0.927835
+Updating model file...
+Early stopping at: 14
+----------------------------------------------
+3_5
 
 ```
 features3_x.pt
@@ -333,6 +338,9 @@ Test average loss: 2.1219, acc: 0.7228
 ----------
 
 3_4
+Test average loss: 2.2657, acc: 0.7197
+----------
+3_5
 
 ```
 CKA (Linear) plot:
