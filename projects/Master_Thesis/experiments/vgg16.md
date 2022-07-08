@@ -450,9 +450,15 @@ Updating model file...
 Early stopping at: 15
 ----------------------------------------------
 4_4
-
+Train loss: 0.540360, Valid loss: 0.908679
+Updating model file...
+Early stopping at: 15
+----------------------------------------------
 4_5
-
+Train loss: 0.640493, Valid loss: 0.906032
+Updating model file...
+Early stopping at: 14
+----------------------------------------------
 ```
 features4_x.pt
 ```
@@ -466,9 +472,11 @@ Test average loss: 2.1772, acc: 0.7561
 Test average loss: 2.2484, acc: 0.7445
 ----------
 4_4
-
+Test average loss: 2.2425, acc: 0.7444
+----------
 4_5
-
+Test average loss: 2.1341, acc: 0.7374
+----------
 ```
 CKA (Linear) plot:<br>
 ![4_1linear](4_1linear.png) ![4_2linear](4_2linear.png) ![4_3linear](4_3linear.png) ![4_4linear](4_4linear.png) ![4_5linear](4_5linear.png)
