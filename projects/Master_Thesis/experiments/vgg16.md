@@ -1087,18 +1087,38 @@ num. of reduced params = 33638218-3647168 = 29991050
         return (feature_map, x38)
     # total params: 3,647,168
 ```
-train_model9_1
+train_model9_x
 ```
+9_1
 Train loss: 0.583674, Valid loss: 0.839788
 Updating model file...
 Early stopping at: 14
+
+9_2
+
+9_3
+
+9_4
+
+9_5
+
 ```
-features9_1.pt
+features9_x.pt
 ```
+9_1
 Test average loss: 1.6781, acc: 0.7319
+
+9_2
+
+9_3
+
+9_4
+
+9_5
+
 ```
 CKA (Linear) plot:
-![9_1linear](9_1linear.png)
+![9_1linear](9_1linear.png) ![9_2linear](9_2linear.png) ![9_3linear](9_3linear.png) ![9_4linear](9_4linear.png) ![9_5linear](9_5linear.png)
 
 CKA (RBF) plot:
-![9_1rbf](9_1rbf.png)
+![9_1rbf](9_1rbf.png) ![9_2rbf](9_2rbf.png) ![9_3rbf](9_3rbf.png) ![9_4rbf](9_4rbf.png) ![9_5rbf](9_5rbf.png)
