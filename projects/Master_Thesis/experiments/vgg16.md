@@ -690,21 +690,43 @@ def forward(self, x):
         return (feature_map, x38)
     # total params: 25,142,976
 ```
-train_model6_1
+train_model6_x
 ```
+6_1
 Train loss: 0.660711, Valid loss: 0.851595
 Updating model file...
 Early stopping at: 14
+
+6_1
+
+6_2
+
+6_3
+
+6_4
+
+6_5
+
 ```
-features6_1.py
+features6_x.py
 ```
+6_1
 Test average loss: 2.1356, acc: 0.7421
+
+6_2
+
+6_3
+
+6_4
+
+6_5
+
 ```
 CKA (Linear) plot:
-![6_1linear](6_1linear.png)
+![6_1linear](6_1linear.png) ![6_2linear](6_2linear.png) ![6_3linear](6_3linear.png) ![6_4linear](6_4linear.png) ![6_5linear](6_5linear.png)
 
 CKA (RBF) plot:
-![6_1rbf](6_1rbf.png)
+![6_1rbf](6_1rbf.png) ![6_2rbf](6_2rbf.png) ![6_3rbf](6_3rbf.png) ![6_4rbf](6_4rbf.png) ![6_5rbf](6_5rbf.png)
 
 ### remove ~32% or 9 layers (VGG7)
 ```
