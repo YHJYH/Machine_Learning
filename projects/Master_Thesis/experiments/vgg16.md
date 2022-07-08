@@ -18,7 +18,7 @@
 - fixed initialization: try not fixed initialization. 
 
 ## raw VGG16
-5 experiments: [0.7581, 0.7641, 0.7548, 0.7469, 0.7515] mean±std = 
+5 experiments: [0.7581, 0.7641, 0.7548, 0.7469, 0.7515] mean±std = (0.7551,0.0058)
 ```
 Total params: 33,625,792
 Trainable params: 33,625,792
@@ -91,7 +91,7 @@ CKA (RBF) plot:<br>
 
 ## CKA layer removal VGG16
 ### remove ~10% params or 4 conv layers
-5 exps: [0.7314, 0.7350, 0.7105, 0.7353, 0.7189] mean±std = 
+5 exps: [0.7314, 0.7350, 0.7105, 0.7353, 0.7189] mean±std = (0.7262,0.0099)
 ```
 Total params: 29,939,392
 Trainable params: 29,939,392
@@ -221,6 +221,7 @@ CKA (RBF) plot:<br>
 ![2_1rbf](2_1rbf.png) ![2_2rbf](2_2rbf.png) ![2_3rbf](2_3rbf.png) ![2_4rbf](2_4rbf.png) ![2_5rbf](2_5rbf.png)
 
 ### remove ~18% or 5 conv layers (VGG11)
+5 exps: [0.7353, 0.7321, 0.7228, 0.7197, 0.7357] mean±std = (0.7291, 0.0066)
 ```
 Total params: 27,580,096
 Trainable params: 27,580,096
@@ -354,6 +355,7 @@ CKA (RBF) plot:<br>
 ![3_1rbf](3_1rbf.png) ![3_2rbf](3_2rbf.png) ![3_3rbf](3_3rbf.png) ![3_4rbf](3_4rbf.png) ![3_5rbf](3_5rbf.png)
 
 ### remove ~18% params or 6 layers (VGG10)
+5 exps: [0.7454, 0.7561, 0.7445, 0.7444, 0.7374] mean±std = (0.7456, 0.0060)
 ```
 Total params: 27,539,136
 Trainable params: 27,539,136
@@ -485,6 +487,7 @@ CKA (RBF) plot:<br>
 ![4_1rbf](4_1rbf.png) ![4_2rbf](4_2rbf.png) ![4_3rbf](4_3rbf.png) ![4_4rbf](4_4rbf.png) ![4_5rbf](4_5rbf.png)
 
 ### remove ~18% params or 7 layers (VGG9)
+5 exps: [0.7561, 0.7125, 0.7392, 0.7323, 0.7262] mean±std = (0.7333, 0.0144)
 ```
 Total params: 27,502,272
 Trainable params: 27,502,272
@@ -614,6 +617,7 @@ CKA (RBF) plot:<br>
 ![5_1rbf](5_1rbf.png) ![5_2rbf](5_2rbf.png) ![5_3rbf](5_3rbf.png) ![5_4rbf](5_4rbf.png) ![5_5rbf](5_5rbf.png)
 
 ### remove ~25% or 8 layers (VGG8)
+5 exps: [0.7421, 0.7161, 0.7034, 0.7281, 0.7191] mean±std = (0.7218, 0.0129)
 ```
 Total params: 25,142,976
 Trainable params: 25,142,976
@@ -743,6 +747,7 @@ CKA (RBF) plot:<br>
 ![6_1rbf](6_1rbf.png) ![6_2rbf](6_2rbf.png) ![6_3rbf](6_3rbf.png) ![6_4rbf](6_4rbf.png) ![6_5rbf](6_5rbf.png)
 
 ### remove ~32% or 9 layers (VGG7)
+[0.7422, 0.7183, 0.7112, 0.7285, 0.7141] mean±std = (0.7229, 0.0113)
 ```
 Total params: 22,783,680
 Trainable params: 22,783,680
@@ -872,6 +877,7 @@ CKA (RBF) plot:<br>
 ![7_1rbf](7_1rbf.png) ![7_2rbf](7_2rbf.png) ![7_3rbf](7_3rbf.png) ![7_4rbf](7_4rbf.png) ![7_5rbf](7_5rbf.png)
 
 ### remove ~82% or 10 layers (VGG6)
+[0.7350, 0.7016, 0.7109, 0.7164, 0.7063] mean±std = (0.7140, 0.0116)
 ```
 Total params: 6,006,464
 Trainable params: 6,006,464
@@ -1002,6 +1008,7 @@ CKA (RBF) plot:<br>
 
 
 ### reaching the limit: remove 89% or 11 layers (VGG5)
+[0.7319, 0.7204, 0.7176, 0.7198, 0.7166] mean±std = (0.7213, 0.0055)
 ```
 Total params: 3,647,168
 Trainable params: 3,647,168
@@ -1133,8 +1140,8 @@ Test average loss: 0.9790, acc: 0.7198
 Test average loss: 1.0242, acc: 0.7166
 ----------
 ```
-CKA (Linear) plot:
+CKA (Linear) plot:<br>
 ![9_1linear](9_1linear.png) ![9_2linear](9_2linear.png) ![9_3linear](9_3linear.png) ![9_4linear](9_4linear.png) ![9_5linear](9_5linear.png)
 
-CKA (RBF) plot:
+CKA (RBF) plot:<br>
 ![9_1rbf](9_1rbf.png) ![9_2rbf](9_2rbf.png) ![9_3rbf](9_3rbf.png) ![9_4rbf](9_4rbf.png) ![9_5rbf](9_5rbf.png)
