@@ -584,7 +584,10 @@ Updating model file...
 Early stopping at: 16
 ----------------------------------------------
 5_5
-
+Train loss: 0.640914, Valid loss: 0.832715
+Updating model file...
+Early stopping at: 14
+----------------------------------------------
 ```
 features5_x.pt
 ```
@@ -601,7 +604,8 @@ Test average loss: 0.9462, acc: 0.7392
 Test average loss: 0.9763, acc: 0.7323
 ----------
 5_5
-
+Test average loss: 0.9981, acc: 0.7262
+----------
 ```
 CKA (Linear) plot:<br>
 ![5_1linear](5_1linear.png) ![5_2linear](5_2linear.png) ![5_3linear](5_3linear.png) ![5_4linear](5_4linear.png) ![5_5linear](5_5linear.png)
