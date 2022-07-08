@@ -98,7 +98,10 @@ num. of reduced params = 33638218-26715840 = 6922378
 train_model10_x
 ```
 10_1
-
+Train loss: 0.619738, Valid loss: 0.851704
+Updating model file...
+Early stopping at: 12
+----------------------------------------------
 10_2
 
 10_3
@@ -111,7 +114,8 @@ train_model10_x
 features10_x.pt
 ```
 10_1
-
+Test average loss: 1.8064, acc: 0.7393
+----------
 10_2
 
 10_3
