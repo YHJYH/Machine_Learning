@@ -1,6 +1,6 @@
 ### Ablation 1: remove ~20% params or 10 layers but conv not fc
 The removal in this ablation study is not based on the observation of CKA similarity plot, and in fact, we remove the conv layer purely because it is a removable layer, and the architecture will not change even if we remove it. We keep the second fc layer although it is more similar to the adjacent fc layer. <br>
-5 exps: [] (mean,std) = ()
+5 exps: [0.7393, 0.7072, 0.7103, 0.7197, 0.7214] (mean,std) = (0.7196, 0.0112)
 ```
 ----------------------------------------------------------------
         Layer (type)               Output Shape         Param #
@@ -113,9 +113,15 @@ Updating model file...
 Early stopping at: 13
 ----------------------------------------------
 10_4
-
+Train loss: 0.496380, Valid loss: 0.864690
+Updating model file...
+Early stopping at: 14
+----------------------------------------------
 10_5
-
+Train loss: 0.700456, Valid loss: 0.870713
+Updating model file...
+Early stopping at: 11
+----------------------------------------------
 ```
 features10_x.pt
 ```
@@ -129,9 +135,11 @@ Test average loss: 1.1475, acc: 0.7072
 Test average loss: 1.0790, acc: 0.7103
 ----------
 10_4
-
+Test average loss: 1.1483, acc: 0.7197
+----------
 10_5
-
+Test average loss: 1.0496, acc: 0.7214
+----------
 ```
 CKA (Linear) plot:<br>
 ![10_1linear](10_1linear.png) ![10_2linear](10_2linear.png) ![10_3linear](10_3linear.png) ![10_4linear](10_4linear.png) ![10_5linear](10_5linear.png)
