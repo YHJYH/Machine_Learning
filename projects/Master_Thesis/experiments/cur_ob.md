@@ -14,4 +14,5 @@ Based on the plot:<br>
 
 其他实验现象似乎也满足这两个hypothesis：
 - 在VGG10的基础上再减少1，2个conv layers(VGG9, VGG8)，mean acc下降；
+- 再减少一个conv layer（VGG7），mean acc slightly increases（不符合hypothesis）；
 - 
