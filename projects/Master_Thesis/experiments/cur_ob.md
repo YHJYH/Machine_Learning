@@ -8,6 +8,10 @@ Based on the plot:<br>
 ![acc_vs_percent_removal](acc_percent_param.png) and <br>
 ![u_shape](U.png) <br>
 
-我们减少了4，5个conv layers，mean acc 表现出了明显的下降；在额外减少了一个fc之后，mean acc表现出了明显的上升，这是否说明：
+我们减少了4，5个conv layers（VGG12, VGG11），mean acc 表现出了明显的下降；在额外减少了一个fc之后(VGG10)，mean acc表现出了明显的上升，这是否说明有以下两个hypothesis：
 - conv grabs information?
 - fc distort learned information?
+
+其他实验现象似乎也满足这两个hypothesis：
+- 在VGG10的基础上再减少1，2个conv layers(VGG9, VGG8)，mean acc下降；
+- 
