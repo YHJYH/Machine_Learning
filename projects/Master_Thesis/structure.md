@@ -1,5 +1,5 @@
 # thesis structure (new)
-- Deep CNNs read differently from human vision.
+- Deep CNNs read differently from human vision. [[22]](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers/Intriguing_properties_of_NN.md#intriguing-properties-of-neural-networks)
 - Out-of-distribution generalisation in deep neural networks:
     - definition, 
     - examples of DNNs' failures when the data distribution shifts
