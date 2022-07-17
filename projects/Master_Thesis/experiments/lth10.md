@@ -13,6 +13,11 @@ Updating model file...
 Early stopping at: 16
 ----------------------------------------------
 1_2
+Train loss: 0.493147, Valid loss: 0.730518
+Updating model file...
+Early stopping at: 15
+----------------------------------------------
+1_3
 
 ```
 
@@ -22,9 +27,12 @@ LTH_features1_x.pt
 Test average loss: 1.5805, acc: 0.7574
 ----------
 1_2
-0
+
 ```
 
 similarity plots: <br>
-![lth1_1rbf](lth1_1rbf.png) ![lth1_1linear](lth1_1linear.png)
+1_1<br>
+![lth1_1rbf](lth1_1rbf.png) ![lth1_1linear](lth1_1linear.png)<br>
+1_2<br>
+![lth1_2rbf](lth1_2rbf.png) ![lth1_2linear](lth1_2linear.png)<br><br>
 
