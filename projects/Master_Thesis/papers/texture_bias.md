@@ -29,4 +29,8 @@ takeways keys:
     - center-crop models had higher shape bias than random-crop models throughout the training process.
 2. Appearance-modifying data augmentation reduces texture bias. 
 
+The effect of augmentations that reduce texture bias was additive.
+
+这篇文章很好的structure了hypothesis的叙述方式，以及不同hypothesis additive如何表述，可做参考。
+
 [back](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers/111.md#content)
