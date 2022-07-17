@@ -2,6 +2,8 @@
 
 **A way of Data augmentation to reduce texture bias and increase shape bias.**
 
+> While both architecture and training objective have an effect on the level of texture bias in a model, the statistics of the training dataset are the most important factor. Changing these statistics using data augmentations qualitatively similar to those induced by the human visual system and visual environment is the most effective way to instill in CNNs shape-biased representations like those documented in the human psychological literature.
+
 Finding: 
 - when trained on datasets of images with **conflicting shape and texture**, CNNs learn to classify by shape at least as easily as by texture.
 - apparent differences in the way humans and ImageNet-trained CNNs process images may arise from differences in the data that they see.
