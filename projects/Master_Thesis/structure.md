@@ -1,4 +1,5 @@
 # thesis structure (new)
+- Deep CNNs read differently from human vision.
 - Out-of-distribution generalisation in deep neural networks:
     - definition, 
     - examples of DNNs' failures when the data distribution shifts
