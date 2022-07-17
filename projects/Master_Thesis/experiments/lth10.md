@@ -27,7 +27,9 @@ LTH_features1_x.pt
 Test average loss: 1.5805, acc: 0.7574
 ----------
 1_2
-
+Test average loss: 1.5377, acc: 0.7638
+----------
+1_3
 ```
 
 similarity plots: <br>
