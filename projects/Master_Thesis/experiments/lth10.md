@@ -35,7 +35,8 @@ Test average loss: 1.5805, acc: 0.7574
 Test average loss: 1.5377, acc: 0.7638
 ----------
 1_3
-
+Test average loss: 1.3216, acc: 0.7473
+----------
 ```
 
 similarity plots: <br>
