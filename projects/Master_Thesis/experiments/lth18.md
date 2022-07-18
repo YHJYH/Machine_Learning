@@ -1,4 +1,4 @@
-# LTH remove 10% params on VGG16
+# LTH remove 18% params on VGG16
 
 acc. = [0.7537, ]
 
