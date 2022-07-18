@@ -1,7 +1,7 @@
 # LTH remove 25% params on VGG16
 acc. = []
 
-remain params: <br>
+remain params: 25219345<br>
 percentage: <br>
 
 LTH_train3_x
