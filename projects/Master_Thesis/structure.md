@@ -1,5 +1,5 @@
 # thesis structure (new)
-- Deep CNNs read differently from human vision. [[22]](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers/Intriguing_properties_of_NN.md#intriguing-properties-of-neural-networks) [[23]](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers/Deep_NNs_are_Easily_Fooled.md#deep-neural-networks-are-easily-fooled-high-confidence-predictions-for-unrecognizable-images)
+- Deep CNNs read differently from human vision. [[22]](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers/Intriguing_properties_of_NN.md#intriguing-properties-of-neural-networks) [[23]](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers/Deep_NNs_are_Easily_Fooled.md#deep-neural-networks-are-easily-fooled-high-confidence-predictions-for-unrecognizable-images) [[24]](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers/comparison_of_human_and_DL_recognition_performance.md#a-study-and-comparison-of-human-and-deep-learning-recognition-performance-under-visual-distortions)
 - Out-of-distribution generalisation in deep neural networks:
     - definition, 
     - examples of DNNs' failures when the data distribution shifts
