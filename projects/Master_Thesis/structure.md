@@ -1,6 +1,7 @@
 # thesis structure (new)
 - Deep CNNs read differently from human vision. [[22]](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers/Intriguing_properties_of_NN.md#intriguing-properties-of-neural-networks) [[23]](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers/Deep_NNs_are_Easily_Fooled.md#deep-neural-networks-are-easily-fooled-high-confidence-predictions-for-unrecognizable-images) [[24]](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/papers/comparison_of_human_and_DL_recognition_performance.md#a-study-and-comparison-of-human-and-deep-learning-recognition-performance-under-visual-distortions)
     - 深度cnn看的和human vision不一样，主要是两个原因，其一是distribution不同，cnn只学到了固定distribution内的statistics，而不是global的；第二则是因为shortcuts，即使在同一个distribution内（参考包含月亮星星位置图片那篇文章）cnn学习到的feature可能是和object本身无关的，比如背景，texture等。
+    - feature map在cnn中传递的过程展示了cnn是如果抓取，以及抓取了哪些信息
 - Out-of-distribution generalisation in deep neural networks:
     - definition, 
     - examples of DNNs' failures when the data distribution shifts
