@@ -12,6 +12,11 @@ Updating model file...
 Early stopping at: 11
 ----------------------------------------------
 3_2
+Train loss: 0.401528, Valid loss: 0.594477
+Updating model file...
+Early stopping at: 9
+----------------------------------------------
+3_3
 
 ```
 
@@ -20,5 +25,9 @@ LTH_features3_x.pt
 3_1
 Test average loss: 1.4076, acc: 0.7576
 ----------
+3_2
+Test average loss: 1.1993, acc: 0.7550
+----------
+3_3
 
 ```
