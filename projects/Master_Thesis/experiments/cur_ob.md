@@ -9,6 +9,8 @@ LTH的architecture并没有改变，这导致相较于VGG16：
 1. 如果不删除layer，而是initialize以后根据CKA similarity限制整个layer no_grad()呢？
 2. 还是不删除layer，只对high CKA similarity的layer进行LTH操作？
 
+how are models performance on cifar10 with shortcuts. identifying etc.
+
 - max pooling layer is important
     - exp: deduce which layers contain max_pool in raw VGG16 can be deducted, see what happens if reduce layers with max_pool (control number of layers or params equivalent)
 - fixed initialization: try not fixed initialization. 
