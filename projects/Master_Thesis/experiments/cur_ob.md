@@ -3,7 +3,11 @@ LTH的architecture并没有改变，这导致相较于VGG16：
 1. memory 不变；
 2. 不同layer的weights no grad
 
-问题： no_grad和mask的区别和对其他weights的影响？
+问题： no_grad和mask的区别和对其他weights的影响？(math part, backpropagation)
+
+新实验：
+1. 如果不删除layer，而是initialize以后根据CKA similarity限制整个layer no_grad()呢？
+2. 还是不删除layer，只对high CKA similarity的layer进行LTH操作？
 
 - max pooling layer is important
     - exp: deduce which layers contain max_pool in raw VGG16 can be deducted, see what happens if reduce layers with max_pool (control number of layers or params equivalent)
