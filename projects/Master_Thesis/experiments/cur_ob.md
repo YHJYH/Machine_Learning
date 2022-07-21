@@ -11,6 +11,7 @@ LTH的architecture并没有改变，这导致相较于VGG16：
 
 how are models performance on cifar10 with shortcuts. identifying etc.<br>
 closeness between architectures (CKA between two networks).<br>
+VGG16 without fc<br>
 
 - max pooling layer is important
     - exp: deduce which layers contain max_pool in raw VGG16 can be deducted, see what happens if reduce layers with max_pool (control number of layers or params equivalent)
