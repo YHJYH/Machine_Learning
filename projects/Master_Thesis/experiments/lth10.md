@@ -1,6 +1,6 @@
 # LTH remove 10% params on VGG16
 
-acc = [0.7574, ]
+acc = [0.7574, 0.7638, 0.7473, 0.7341, ]
 
 remaining params.: 30263206 <br>
 removed: 33625792 - 30263206 = 3362586 = 10%
