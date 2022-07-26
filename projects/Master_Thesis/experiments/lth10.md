@@ -1,6 +1,6 @@
 # LTH remove 10% params on VGG16
 
-acc = [0.7574, 0.7638, 0.7473, 0.7341, ]
+acc = [0.7574, 0.7638, 0.7473, 0.7341, 0.7245]
 
 remaining params.: 30263206 <br>
 removed: 33625792 - 30263206 = 3362586 = 10%
@@ -28,7 +28,10 @@ Updating model file...
 Early stopping at: 15
 ----------------------------------------------
 1_5
-
+Train loss: 0.413660, Valid loss: 0.717727
+Updating model file...
+Early stopping at: 16
+----------------------------------------------
 ```
 
 LTH_features1_x.pt
@@ -46,7 +49,8 @@ Test average loss: 1.3216, acc: 0.7473
 Test average loss: 1.1367, acc: 0.7341
 ----------
 1_5
-
+Test average loss: 1.3289, acc: 0.7245
+----------
 ```
 
 similarity plots: <br>
