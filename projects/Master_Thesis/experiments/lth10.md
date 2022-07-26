@@ -31,7 +31,8 @@ Early stopping at: 16
 LTH_features1_x.pt
 ```
 1_1
-
+Test average loss: 1.3225, acc: 0.7355
+----------
 1_2
 Test average loss: 1.5377, acc: 0.7638
 ----------
