@@ -8,7 +8,10 @@ removed: 33625792 - 30263206 = 3362586 = 10%
 LTH_train_model1_x
 ```
 1_1
-
+Train loss: 0.421612, Valid loss: 0.745001
+Updating model file...
+Early stopping at: 16
+----------------------------------------------
 1_2
 Train loss: 0.493147, Valid loss: 0.730518
 Updating model file...
