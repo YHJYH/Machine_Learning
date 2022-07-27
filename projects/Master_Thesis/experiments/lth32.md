@@ -7,7 +7,10 @@ percentage: <br>
 LTH_train4_x
 ```
 4_1
-
+Train loss: 0.308225, Valid loss: 0.538320
+Updating model file...
+Early stopping at: 8
+----------------------------------------------
 4_2
 Train loss: 0.196730, Valid loss: 0.544074
 Updating model file...
@@ -19,7 +22,8 @@ Early stopping at: 10
 LTH_features4_x.pt
 ```
 4_1
-
+Test average loss: 1.2370, acc: 0.7544
+----------
 4_2
 Test average loss: 1.3525, acc: 0.7566
 ----------
