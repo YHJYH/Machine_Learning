@@ -27,7 +27,10 @@ Updating model file...
 Early stopping at: 20
 ----------------------------------------------
 5_5
-
+Train loss: 2.302566, Valid loss: 2.302566
+Updating model file...
+Early stopping at: 20
+----------------------------------------------
 ```
 
 LTH_features5_x.pt
