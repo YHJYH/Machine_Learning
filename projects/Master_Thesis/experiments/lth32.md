@@ -1,5 +1,5 @@
 # LTH remove 32% params on VGG16
-acc. = [0.7544, 0.7566, 0.7549, 0.7452, ]
+acc. = [0.7544, 0.7566, 0.7549, 0.7452, 0.7595]
 
 remain params: 22865536<br>
 percentage: <br>
@@ -27,7 +27,10 @@ Updating model file...
 Early stopping at: 9
 ----------------------------------------------
 4_5
-
+Train loss: 0.412021, Valid loss: 0.524788
+Updating model file...
+Early stopping at: 7
+----------------------------------------------
 ```
 
 LTH_features4_x.pt
@@ -45,5 +48,6 @@ Test average loss: 1.3163, acc: 0.7549
 Test average loss: 1.3695, acc: 0.7452
 ----------
 4_5
-
+Test average loss: 1.2751, acc: 0.7595
+----------
 ```
