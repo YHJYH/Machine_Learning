@@ -1,5 +1,5 @@
 # LTH remove 82% params on VGG16
-acc. = [0.4400, 0.2301, 0.2715, 0.2537, ]
+acc. = [0.4400, 0.2301, 0.2715, 0.2537, 0.2124]
 
 remain params: 6052651<br>
 percentage: <br>
@@ -48,5 +48,6 @@ Test average loss: 2.3025, acc: 0.2715
 Test average loss: 2.3026, acc: 0.2537
 ----------
 5_5
-
+Test average loss: 2.3026, acc: 0.2124
+----------
 ```
