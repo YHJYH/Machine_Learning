@@ -29,7 +29,8 @@ LTH_features6_x
 Test average loss: 2.3026, acc: 0.1683
 ----------
 6_2
-
+Test average loss: 2.3026, acc: 0.1682
+----------
 6_3
 
 6_4
