@@ -23,7 +23,8 @@ Early stopping at: 11
 LTH_features6_x
 ```
 6_1
-
+Test average loss: 2.3026, acc: 0.1683
+----------
 6_2
 
 6_3
