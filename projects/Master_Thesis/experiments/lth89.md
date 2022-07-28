@@ -11,7 +11,9 @@ Updating model file...
 Early stopping at: 11
 ----------------------------------------------
 6_2
-
+Train loss: 2.302584, Valid loss: 2.302584
+Updating model file...
+Early stopping at: 2
 ----------------------------------------------
 6_3
 
@@ -27,7 +29,8 @@ LTH_features6_x
 Test average loss: 2.3026, acc: 0.1683
 ----------
 6_2
-
+Test average loss: 2.3026, acc: 0.1732
+----------
 6_3
 
 6_4
