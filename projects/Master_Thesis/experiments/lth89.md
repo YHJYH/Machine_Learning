@@ -11,7 +11,10 @@ Updating model file...
 Early stopping at: 11
 ----------------------------------------------
 6_2
-
+Train loss: 2.302584, Valid loss: 2.302584
+Updating model file...
+Early stopping at: 6
+----------------------------------------------
 6_3
 
 6_4
