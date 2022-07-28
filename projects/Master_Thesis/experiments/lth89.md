@@ -1,7 +1,7 @@
 # LTH remove 89% parameters
 acc. = [] mean: std: 
 
-remaining params: 
+remaining params: 3698848
 
 LTH_train_model6_x
 ```
