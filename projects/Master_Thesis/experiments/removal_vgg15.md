@@ -86,7 +86,10 @@ Updating model file...
 Early stopping at: 24
 ----------------------------------------------
 11_2
-
+Train loss: 0.614235, Valid loss: 0.825426
+Updating model file...
+Early stopping at: 23
+----------------------------------------------
 11_3
 
 11_4
@@ -101,7 +104,8 @@ features11_x
 Test average loss: 1.4277, acc: 0.7474
 ----------
 11_2
-
+Test average loss: 1.1595, acc: 0.7176
+----------
 11_3
 
 11_4
