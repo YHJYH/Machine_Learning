@@ -144,6 +144,12 @@ Test average loss: 1.1483, acc: 0.7197
 Test average loss: 1.0496, acc: 0.7214
 ----------
 ```
+CKA Linear avg <br>
+![vgg6a_linear](vgg6a_linear.png)
+
+CKA RBF avg: <br>
+![vgg6a_rbf](vgg6a_rbf.png)
+
 CKA (Linear) plot:<br>
 ![10_1linear](10_1linear.png) ![10_2linear](10_2linear.png) ![10_3linear](10_3linear.png) ![10_4linear](10_4linear.png) ![10_5linear](10_5linear.png)
 
