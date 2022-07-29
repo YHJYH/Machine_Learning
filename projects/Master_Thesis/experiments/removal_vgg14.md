@@ -1,5 +1,5 @@
 # vgg14 remove 1 conv 1 fc
-acc. = []
+acc. = [ 0.7416, ]
 
 reduced: (33638218-16701120)/33638218 * 100 = 50.35076%
 remain: 49.6492%
@@ -18,7 +18,10 @@ Estimated Total Size (MB): 65.61
 train_model12_x:
 ```
 12_1
-
+Train loss: 0.537619, Valid loss: 0.827904
+Updating model file...
+Early stopping at: 22
+----------------------------------------------
 12_2
 
 12_3
@@ -32,7 +35,8 @@ train_model12_x:
 features12_x.pt:
 ```
 12_1
-
+Test average loss: 1.0942, acc: 0.7416
+----------
 12_2
 
 12_3
