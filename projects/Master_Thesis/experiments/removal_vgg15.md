@@ -81,7 +81,10 @@ def forward(self, x):
 train_model11_x
 ```
 11_1
-
+Train loss: 0.516391, Valid loss: 0.832608
+Updating model file...
+Early stopping at: 24
+----------------------------------------------
 11_2
 
 11_3
@@ -95,7 +98,8 @@ train_model11_x
 features11_x
 ```
 11_1
-
+Test average loss: 1.4277, acc: 0.7474
+----------
 11_2
 
 11_3
