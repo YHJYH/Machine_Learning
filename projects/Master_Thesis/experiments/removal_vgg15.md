@@ -1,5 +1,5 @@
 # VGG15 remove 1 fc layer (~50% params)
-acc. = []
+acc. = [0.7474, 0.7176, 0.7286, 0.7115, 0.7267] mean:0.7264 std: 0.0122
 
 ```
 Total params: 16,848,576
