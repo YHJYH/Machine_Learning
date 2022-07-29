@@ -1,5 +1,5 @@
 # LTH remove 89% parameters
-acc. = [] mean: std: 
+acc. = [0.1683, 0.1732, 0.1746, 0.1608, 0.1528] mean: std: 
 
 remaining params: 3698843
 
@@ -26,7 +26,10 @@ Updating model file...
 Early stopping at: 12
 ----------------------------------------------
 6_5
-
+Train loss: 2.302584, Valid loss: 2.302584
+Updating model file...
+Early stopping at: 9
+----------------------------------------------
 ```
 
 LTH_features6_x
@@ -44,5 +47,6 @@ Test average loss: 2.3026, acc: 0.1746
 Test average loss: 2.3026, acc: 0.1608
 ----------
 6_5
-
+Test average loss: 2.3026, acc: 0.1528
+----------
 ```
