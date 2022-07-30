@@ -1,5 +1,5 @@
 # vgg14 remove 1 conv 1 fc
-acc. = [ 0.7416, 0.7235, 0.7386, 0.7238]
+acc. = [0.7416, 0.7235, 0.7386, 0.7238, 0.7298] mean:0.7315 std: 0.0075
 
 reduced: (33638218-16701120)/33638218 * 100 = 50.35076%
 remain: 49.6492%
@@ -38,7 +38,10 @@ Updating model file...
 Early stopping at: 22
 ----------------------------------------------
 12_5
-
+Train loss: 0.535410, Valid loss: 0.841385
+Updating model file...
+Early stopping at: 22
+----------------------------------------------
 ```
 
 features12_x.pt:
@@ -56,7 +59,8 @@ Test average loss: 0.9765, acc: 0.7386
 Test average loss: 0.9601, acc: 0.7238
 ----------
 12_5
-
+Test average loss: 0.9999, acc: 0.7298
+----------
 ```
 
 CKA Linear avg:<br>
