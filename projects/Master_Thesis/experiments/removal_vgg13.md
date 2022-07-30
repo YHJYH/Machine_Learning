@@ -1,18 +1,32 @@
 # VGG13 remove 1 fc and 2 convs
 acc. = [] mean: std: 
 
-removed:  <br>
-remained:
+removed: 57.36449534% <br>
+remained: 14341824/33638218\*100 = 42.635504651%
 ```
-
+Total params: 14,341,824
+Trainable params: 14,341,824
+Non-trainable params: 0
+----------------------------------------------------------------
+Input size (MB): 0.01
+Forward/backward pass size (MB): 1.88
+Params size (MB): 54.71
+Estimated Total Size (MB): 56.60
+----------------------------------------------------------------
 ```
 
 train_model13_x
 ```
 13_1
-
+Train loss: 0.571584, Valid loss: 0.851048
+Updating model file...
+Early stopping at: 19
+----------------------------------------------
 13_2
-
+Train loss: 0.499687, Valid loss: 0.823276
+Updating model file...
+Early stopping at: 20
+----------------------------------------------
 13_3
 
 13_4
@@ -24,9 +38,11 @@ train_model13_x
 features13_x
 ```
 13_1
-
+Test average loss: 0.9961, acc: 0.7225
+----------
 13_2
-
+Test average loss: 1.1228, acc: 0.7011
+----------
 13_3
 
 13_4
