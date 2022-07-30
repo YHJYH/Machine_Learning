@@ -1,5 +1,5 @@
 # VGG13 remove 1 fc and 2 convs
-acc. = [0.7225, 0.7011, 0.7207, 0.7197, ] mean: std: 
+acc. = [0.7225, 0.7011, 0.7207, 0.7197, 0.7382] mean: std: 
 
 removed: 57.36449534% <br>
 remained: 14341824/33638218\*100 = 42.635504651%
@@ -38,7 +38,10 @@ Updating model file...
 Early stopping at: 20
 ----------------------------------------------
 13_5
-
+Train loss: 0.583303, Valid loss: 0.839197
+Updating model file...
+Early stopping at: 19
+----------------------------------------------
 ```
 
 features13_x
@@ -56,7 +59,8 @@ Test average loss: 0.9760, acc: 0.7207
 Test average loss: 1.1620, acc: 0.7197
 ----------
 13_5
-
+Test average loss: 0.9560, acc: 0.7382
+----------
 ```
 
 CKA Linear avg: <br>
