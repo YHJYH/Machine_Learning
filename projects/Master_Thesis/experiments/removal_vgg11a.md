@@ -24,7 +24,10 @@ Updating model file...
 Early stopping at: 14
 ----------------------------------------------
 16_2
-
+Train loss: 0.620268, Valid loss: 0.918675
+Updating model file...
+Early stopping at: 15
+----------------------------------------------
 16_3
 
 16_4
@@ -39,7 +42,8 @@ features16_x
 Test average loss: 1.2255, acc: 0.7126
 ----------
 16_2
-
+Test average loss: 1.3809, acc: 0.7037
+----------
 16_3
 
 16_4
