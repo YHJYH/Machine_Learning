@@ -1,4 +1,11 @@
 ## current observations
+acc. change vs. reduced num. of params.
+
+acc. change vs. reduced num. of layers
+
+acc. comparison between 
+
+
 LTH的architecture并没有改变，这导致相较于VGG16：
 1. memory 不变；
 2. 不同layer的weights no grad
