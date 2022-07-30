@@ -1,5 +1,5 @@
 # vgg11a remove 1 fc and 4 convs
-acc. = [0.7126, 0.7037, 0.7006, ] mean: std:
+acc. = [0.7126, 0.7037, 0.7006, 0.7038, 0.7024] mean: std:
 
 remained: 11392704/33638218\*100 = 33.8683339289%
 
@@ -34,9 +34,15 @@ Updating model file...
 Early stopping at: 17
 ----------------------------------------------
 16_4
-
+Train loss: 0.704132, Valid loss: 0.917469
+Updating model file...
+Early stopping at: 14
+----------------------------------------------
 16_5
-
+Train loss: 0.606559, Valid loss: 0.922661
+Updating model file...
+Early stopping at: 15
+----------------------------------------------
 ```
 
 features16_x
@@ -51,9 +57,11 @@ Test average loss: 1.3809, acc: 0.7037
 Test average loss: 1.2947, acc: 0.7006
 ----------
 16_4
-
+Test average loss: 1.2698, acc: 0.7038
+----------
 16_5
-
+Test average loss: 1.4216, acc: 0.7024
+----------
 ```
 
 CKA linear avg <br>
