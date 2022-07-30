@@ -1,7 +1,7 @@
 # vgg12a remove 1fc and 3 convs
 acc. = [] mean: std: 
 
-remained: 13752000/33638218\*100 = 40.8820705%
+remained: 13752000/33638218\*100 = 40.8820705% <br>
 reduced: 59.1179295%
 ```
 Total params: 13,752,000
