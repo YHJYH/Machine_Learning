@@ -1,5 +1,5 @@
 # vgg11a remove 1 fc and 4 convs
-acc. = [] mean: std:
+acc. = [0.7126, ] mean: std:
 
 remained: 11392704/33638218\*100 = 33.8683339289%
 
