@@ -1,5 +1,5 @@
 # vgg8a remove 1 fc and 7 convs
-acc. = [] mean: std:
+acc. = [0.7218, 0.7168, ] mean: std:
 
 remained: 8406720/33638218\*100 = 24.9915735%<br>
 removed: 75.00842642%
@@ -23,7 +23,10 @@ Updating model file...
 Early stopping at: 15
 ----------------------------------------------
 15_2
-
+Train loss: 0.556707, Valid loss: 0.855371
+Updating model file...
+Early stopping at: 15
+----------------------------------------------
 15_3
 
 15_4
@@ -38,7 +41,8 @@ features15_x
 Test average loss: 1.1293, acc: 0.7218
 ----------
 15_2
-
+Test average loss: 1.2084, acc: 0.7168
+----------
 15_3
 
 15_4
