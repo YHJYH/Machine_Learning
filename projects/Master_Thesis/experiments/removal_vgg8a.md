@@ -18,7 +18,10 @@ Estimated Total Size (MB): 33.08
 train_model15_x
 ```
 15_1
-
+Train loss: 0.497500, Valid loss: 0.868706
+Updating model file...
+Early stopping at: 15
+----------------------------------------------
 15_2
 
 15_3
@@ -32,7 +35,8 @@ train_model15_x
 features15_x
 ```
 15_1
-
+Test average loss: 1.1293, acc: 0.7218
+----------
 15_2
 
 15_3
