@@ -18,7 +18,10 @@ Estimated Total Size (MB): 54.22
 train_model14_x
 ```
 14_1
-
+Train loss: 0.651281, Valid loss: 0.892203
+Updating model file...
+Early stopping at: 16
+----------------------------------------------
 14_2
 
 14_3
@@ -32,7 +35,8 @@ train_model14_x
 features14_x
 ```
 14_1
-
+Test average loss: 1.0495, acc: 0.7173
+----------
 14_2
 
 14_3
