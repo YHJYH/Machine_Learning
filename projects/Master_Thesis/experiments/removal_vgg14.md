@@ -1,5 +1,5 @@
 # vgg14 remove 1 conv 1 fc
-acc. = [ 0.7416, 0.7235, ]
+acc. = [ 0.7416, 0.7235, 0.7386, 0.7238]
 
 reduced: (33638218-16701120)/33638218 * 100 = 50.35076%
 remain: 49.6492%
@@ -33,7 +33,10 @@ Updating model file...
 Early stopping at: 19
 ----------------------------------------------
 12_4
-
+Train loss: 0.570383, Valid loss: 0.828118
+Updating model file...
+Early stopping at: 22
+----------------------------------------------
 12_5
 
 ```
@@ -50,7 +53,8 @@ Test average loss: 1.1265, acc: 0.7235
 Test average loss: 0.9765, acc: 0.7386
 ----------
 12_4
-
+Test average loss: 0.9601, acc: 0.7238
+----------
 12_5
 
 ```
