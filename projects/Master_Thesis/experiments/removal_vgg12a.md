@@ -1,5 +1,5 @@
 # vgg12a remove 1fc and 3 convs
-acc. = [0.7173, 0.7243, ] mean: std: 
+acc. = [0.7173, 0.7243, 0.7038, ] mean: std: 
 
 remained: 13752000/33638218\*100 = 40.8820705% <br>
 reduced: 59.1179295%
@@ -28,7 +28,10 @@ Updating model file...
 Early stopping at: 16
 ----------------------------------------------
 14_3
-
+Train loss: 0.725766, Valid loss: 0.895957
+Updating model file...
+Early stopping at: 15
+----------------------------------------------
 14_4
 
 14_5
@@ -44,7 +47,8 @@ Test average loss: 1.0495, acc: 0.7173
 Test average loss: 1.0757, acc: 0.7243
 ----------
 14_3
-
+Test average loss: 1.0432, acc: 0.7038
+----------
 14_4
 
 14_5
