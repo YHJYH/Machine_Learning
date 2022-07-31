@@ -6,7 +6,7 @@
 |    30     |  0.7003    |
 |    40     |   0.6944   |
 
-remained params: 30263207
+remained params: 
 
 CL_train_model1_x
 ```
