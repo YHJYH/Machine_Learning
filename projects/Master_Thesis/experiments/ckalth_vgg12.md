@@ -19,7 +19,10 @@ remained params: 10087743
 CL_train_model12_x
 ```
 12_1
-
+Train loss: 0.298954, Valid loss: 0.477192
+Updating model file...
+Early stopping at: 7
+----------------------------------------------
 12_2
 
 12_3
@@ -33,7 +36,8 @@ CL_train_model12_x
 CL_features12_x
 ```
 12_1
-
+Test average loss: 1.5832, acc: 0.7217
+----------
 12_2
 
 12_3
