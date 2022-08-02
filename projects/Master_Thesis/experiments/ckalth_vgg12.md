@@ -14,6 +14,8 @@
 |    80     |   0.7054   |
 |    90     |   0.3382   |
 
+acc = [0.7217, 0.7255, 0.7231, 0.7233, 0.7257] mean: 0.7239 std: 0.0015
+
 remained params: 10087743
 
 CL_train_model12_x
@@ -39,7 +41,10 @@ Updating model file...
 Early stopping at: 6
 ----------------------------------------------
 12_5
-
+Train loss: 0.233043, Valid loss: 0.476877
+Updating model file...
+Early stopping at: 8
+----------------------------------------------
 ```
 
 CL_features12_x
@@ -57,7 +62,8 @@ Test average loss: 1.7293, acc: 0.7231
 Test average loss: 1.3847, acc: 0.7233
 ----------
 12_5
-
+Test average loss: 1.6749, acc: 0.7257
+----------
 ```
 
 CKA Linear avg: <br>
