@@ -14,7 +14,7 @@
 |    80     |   0.7054   |
 |    90     |   0.3382   |
 
-remained params: 
+remained params: 10087743
 
 CL_train_model12_x
 ```
