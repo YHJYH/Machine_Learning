@@ -7,7 +7,10 @@ acc = [] mean: std:
 CL_train_model11_x
 ```
 11_1
-
+Train loss: 0.290201, Valid loss: 0.474105
+Updating model file...
+Early stopping at: 7
+----------------------------------------------
 11_2
 
 11_3
@@ -21,7 +24,8 @@ CL_train_model11_x
 CL_features11_x
 ```
 11_1
-
+Test average loss: 1.5123, acc: 0.7223
+----------
 11_2
 
 11_3
