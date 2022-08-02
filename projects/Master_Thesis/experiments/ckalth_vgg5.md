@@ -3,6 +3,8 @@ prune_percent: 70
 
 acc. = [0.7314, 0.7232, 0.7279, 0.7353, 0.7395] mean: 0.7315 std: 0.0057
 
+param. remained: 11975180
+
 CL_train_model5_x
 ```
 5_1
