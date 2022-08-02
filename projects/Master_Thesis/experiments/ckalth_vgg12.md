@@ -16,31 +16,31 @@
 
 remained params: 
 
-CL_train_model1_x
+CL_train_model12_x
 ```
-1_1
+12_1
 
-1_2
+12_2
 
-1_3
+12_3
 
-1_4
+12_4
 
-1_5
+12_5
 
 ```
 
-CL_features1_x
+CL_features12_x
 ```
-1_1
+12_1
 
-1_2
+12_2
 
-1_3
+12_3
 
-1_4
+12_4
 
-1_5
+12_5
 
 ```
 
