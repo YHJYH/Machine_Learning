@@ -2,7 +2,7 @@
 
 remained: 10087744
 
-acc = [] mean: std: 
+acc = [0.7223, 0.7285, 0.7256, 0.7208, 0.7265] mean:0.7247 std: 0.0028
 
 CL_train_model11_x
 ```
