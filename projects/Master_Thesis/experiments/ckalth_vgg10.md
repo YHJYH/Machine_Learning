@@ -1,7 +1,7 @@
 # vgg10
 acc = [] mean: std: 
 
-remained: 
+remained: 10087745
 
 CL_train_model10_x
 ```
