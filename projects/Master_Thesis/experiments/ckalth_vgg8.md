@@ -1,5 +1,5 @@
 # vgg8
-acc = [0.7343, 0.7156, ] mean: std:
+acc = [0.7343, 0.7156, 0.7208, ] mean: std:
 
 remained: 10087743
 
@@ -16,7 +16,10 @@ Updating model file...
 Early stopping at: 10
 ----------------------------------------------
 8_3
-
+Train loss: 0.316025, Valid loss: 0.562964
+Updating model file...
+Early stopping at: 12
+----------------------------------------------
 8_4
 
 8_5
@@ -32,7 +35,8 @@ Test average loss: 1.3333, acc: 0.7343
 Test average loss: 1.0907, acc: 0.7156
 ----------
 8_3
-
+Test average loss: 1.2262, acc: 0.7208
+----------
 8_4
 
 8_5
