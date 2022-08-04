@@ -1,5 +1,5 @@
 # vgg10
-acc = [0.7328, 0.7406, 0.7362, 0.7301, ] mean: std: 
+acc = [0.7328, 0.7406, 0.7362, 0.7301, 0.7316] mean:0.7343 std: 0.0038
 
 remained: 10087745
 
@@ -26,7 +26,10 @@ Updating model file...
 Early stopping at: 8
 ----------------------------------------------
 10_5
-
+Train loss: 0.225017, Valid loss: 0.455208
+Updating model file...
+Early stopping at: 8
+----------------------------------------------
 ```
 
 CL_features10_x
@@ -44,6 +47,7 @@ Test average loss: 1.4532, acc: 0.7362
 Test average loss: 1.4978, acc: 0.7301
 ----------
 10_5
-
+Test average loss: 1.4803, acc: 0.7316
+----------
 ```
 
