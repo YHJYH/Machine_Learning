@@ -1,5 +1,5 @@
 # vgg9
-acc = [0.7485, 0.7465, 0.7423, ] mean: std: 
+acc = [0.7485, 0.7465, 0.7423, 0.7299, ] mean: std: 
 
 remained: 10087745
 
@@ -21,7 +21,10 @@ Updating model file...
 Early stopping at: 10
 ----------------------------------------------
 9_4
-
+Train loss: 0.447303, Valid loss: 0.586197
+Updating model file...
+Early stopping at: 10
+----------------------------------------------
 9_5
 
 ```
@@ -38,7 +41,8 @@ Test average loss: 1.2859, acc: 0.7465
 Test average loss: 0.9617, acc: 0.7423
 ----------
 9_4
-
+Test average loss: 1.0382, acc: 0.7299
+----------
 9_5
 
 ```
