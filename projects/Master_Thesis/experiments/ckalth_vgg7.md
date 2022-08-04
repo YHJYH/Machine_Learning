@@ -1,12 +1,13 @@
 # vgg7
-acc = [] mean: std:
+acc = [0.7358, ] mean: std:
 
 remained: 10087744
 
 CL_features7_x
 ```
 7_1
-
+Test average loss: 1.3430, acc: 0.7358
+----------
 7_2
 
 7_3
