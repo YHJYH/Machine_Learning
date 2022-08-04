@@ -20,7 +20,10 @@ CL_features7_x
 CL_train_model7_x
 ```
 7_1
-
+Train loss: 0.128643, Valid loss: 0.507068
+Updating model file...
+Early stopping at: 14
+----------------------------------------------
 7_2
 
 7_3
