@@ -1,12 +1,15 @@
 # vgg8
-acc = [] mean: std:
+acc = [0.7343, ] mean: std:
 
 remained: 10087743
 
 CL_train_model8_x
 ```
 8_1
-
+Train loss: 0.184199, Valid loss: 0.469478
+Updating model file...
+Early stopping at: 11
+----------------------------------------------
 8_2
 
 8_3
@@ -20,7 +23,8 @@ CL_train_model8_x
 CL_features8_x
 ```
 8_1
-
+Test average loss: 1.3333, acc: 0.7343
+----------
 8_2
 
 8_3
