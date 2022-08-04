@@ -51,3 +51,10 @@ Test average loss: 1.4803, acc: 0.7316
 ----------
 ```
 
+linear:
+
+![cl_vgg10_linear](cl_vgg10_linear.png)
+
+rbf:
+
+![cl_vgg10_rbf](cl_vgg10_rbf.png)
