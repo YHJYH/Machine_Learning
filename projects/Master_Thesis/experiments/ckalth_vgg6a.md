@@ -1,7 +1,7 @@
 # vgg6a
 acc = [] mean: std: 
 
-remained:
+remained: 11975182
 
 CL_features6a_x
 ```
