@@ -1,5 +1,5 @@
 # vgg6
-acc = [0.7122, ] mean: std:
+acc = [0.7122, 0.7208, ] mean: std:
 
 remained:
 
@@ -9,7 +9,8 @@ CL_features6_x
 Test average loss: 1.2632, acc: 0.7122
 ----------
 6_2
-
+Test average loss: 1.1552, acc: 0.7208
+----------
 6_3
 
 6_4
@@ -26,7 +27,10 @@ Updating model file...
 Early stopping at: 12
 ----------------------------------------------
 6_2
-
+Train loss: 0.230788, Valid loss: 0.590888
+Updating model file...
+Early stopping at: 16
+----------------------------------------------
 6_3
 
 6_4
