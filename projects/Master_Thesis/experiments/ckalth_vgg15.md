@@ -1,7 +1,7 @@
 # vgg15
 acc. = [] mean: std: 
 
-remained:
+remained: 10087745
 
 CL_features15_x
 ```
