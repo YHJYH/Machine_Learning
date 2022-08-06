@@ -1,5 +1,5 @@
 # vgg6a
-acc = [0.7240, 0.7249, 0.7234, 0.7306, ] mean: std: 
+acc = [0.7240, 0.7249, 0.7234, 0.7306, 0.7278] mean:0.7261 std: 0.0027
 
 remained: 11975182
 
@@ -18,7 +18,8 @@ Test average loss: 1.0099, acc: 0.7234
 Test average loss: 1.0500, acc: 0.7306
 ----------
 6a_5
-
+Test average loss: 1.0808, acc: 0.7278
+----------
 ```
 
 CL_train_model6a_x
@@ -44,7 +45,10 @@ Updating model file...
 Early stopping at: 11
 ----------------------------------------------
 6a_5
-
+Train loss: 0.272426, Valid loss: 0.547082
+Updating model file...
+Early stopping at: 12
+----------------------------------------------
 ```
 
 linear:
