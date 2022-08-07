@@ -1,5 +1,5 @@
 # vgg14
-acc. = [0.7406, 0.7450, 0.7417, 0.7107, ] mean: std: 
+acc. = [0.7406, 0.7450, 0.7417, 0.7421, ] mean: std: 
 
 remained:
 
@@ -15,7 +15,8 @@ Test average loss: 1.1022, acc: 0.7450
 Test average loss: 0.9529, acc: 0.7417
 ----------
 14_4
-
+Test average loss: 1.0095, acc: 0.7421
+----------
 14_5
 
 ```
@@ -38,7 +39,10 @@ Updating model file...
 Early stopping at: 12
 ----------------------------------------------
 14_4
-
+Train loss: 0.420833, Valid loss: 0.663202
+Updating model file...
+Early stopping at: 15
+----------------------------------------------
 14_5
 
 ```
