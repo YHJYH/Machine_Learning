@@ -18,7 +18,8 @@ Test average loss: 1.1341, acc: 0.7391
 Test average loss: 1.1889, acc: 0.7352
 ----------
 13_5
-
+Test average loss: 1.0963, acc: 0.7299
+----------
 ```
 
 CL_train_model13_x
@@ -44,7 +45,10 @@ Updating model file...
 Early stopping at: 13
 ----------------------------------------------
 13_5
-
+Train loss: 0.412926, Valid loss: 0.606589
+Updating model file...
+Early stopping at: 12
+----------------------------------------------
 ```
 
 linear:
