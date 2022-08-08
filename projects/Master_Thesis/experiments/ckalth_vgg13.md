@@ -1,12 +1,13 @@
 # vgg13
-acc = [] mean: std: 
+acc = [0.7336, ] mean: std: 
 
 remained:
 
 CL_features13_x
 ```
 13_1
-
+Test average loss: 1.1004, acc: 0.7336
+----------
 13_2
 
 13_3
@@ -20,7 +21,10 @@ CL_features13_x
 CL_train_model13_x
 ```
 13_1
-
+Train loss: 0.407191, Valid loss: 0.608111
+Updating model file...
+Early stopping at: 13
+----------------------------------------------
 13_2
 
 13_3
