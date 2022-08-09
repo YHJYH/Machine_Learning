@@ -1,5 +1,5 @@
 # vgg8a
-acc = [0.7213, ] mean: std:
+acc = [0.7213, 0.7305, ] mean: std:
 
 remained:
 
@@ -9,7 +9,8 @@ CL_features8a_x
 Test average loss: 1.1436, acc: 0.7213
 ----------
 8a_2
-
+Test average loss: 1.3218, acc: 0.7305
+----------
 8a_3
 
 8a_4
@@ -27,7 +28,10 @@ Updating model file...
 Early stopping at: 9
 ----------------------------------------------
 8a_2
-
+Train loss: 0.198946, Valid loss: 0.523373
+Updating model file...
+Early stopping at: 12
+----------------------------------------------
 8a_3
 
 8a_4
