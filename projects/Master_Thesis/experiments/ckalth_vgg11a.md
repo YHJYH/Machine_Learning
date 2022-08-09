@@ -1,5 +1,5 @@
 # vgg11a
-acc = [0.7119, ] mean: std:
+acc = [0.7119, 0.7135, ] mean: std:
 
 time = [] mean: std:
 
@@ -11,7 +11,8 @@ CL_features11a_x
 Test average loss: 1.5041, acc: 0.7119
 ----------
 11a_2
-
+Test average loss: 1.4017, acc: 0.7135
+----------
 11a_3
 
 11a_4
@@ -28,7 +29,10 @@ Updating model file...
 Early stopping at: 10
 ----------------------------------------------
 11a_2
-
+Train loss: 0.394346, Valid loss: 0.560341
+Updating model file...
+Early stopping at: 8
+----------------------------------------------
 11a_3
 
 11a_4
