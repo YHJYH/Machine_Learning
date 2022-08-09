@@ -1,5 +1,5 @@
 # vgg12a
-acc = [0.7311, 0.7338, 0.7283, ] mean: std:
+acc = [0.7311, 0.7338, 0.7283, 0.7303, ] mean: std:
 
 remained:
 
@@ -15,7 +15,8 @@ Test average loss: 1.1999, acc: 0.7338
 Test average loss: 1.1521, acc: 0.7283
 ----------
 12a_4
-
+Test average loss: 1.0611, acc: 0.7303
+----------
 12a_5
 
 ```
@@ -38,7 +39,10 @@ Updating model file...
 Early stopping at: 11
 ----------------------------------------------
 12a_4
-
+Train loss: 0.481748, Valid loss: 0.609573
+Updating model file...
+Early stopping at: 10
+----------------------------------------------
 12a_5
 
 ```
