@@ -1,6 +1,8 @@
 # vgg11a
 acc = [0.7119, ] mean: std:
 
+time = [] mean: std:
+
 remained:
 
 CL_features11a_x
