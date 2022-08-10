@@ -1,7 +1,7 @@
 # vgg11a
-acc = [0.7119, 0.7135, 0.7115, ] mean: std:
+acc = [0.7119, 0.7135, 0.7115, 0.7180, ] mean: std:
 
-time = [, , 86.2338, ] mean: std:
+time = [, , 86.2338, 68.1300, ] mean: std:
 
 remained:
 
@@ -17,7 +17,8 @@ Test average loss: 1.4017, acc: 0.7135
 Test average loss: 1.2197, acc: 0.7115
 ----------
 11a_4
-
+Test average loss: 1.4044, acc: 0.7180
+----------
 11a_5
 
 ```
@@ -40,7 +41,7 @@ Updating model file...
 Early stopping at: 7
 ----------------------------------------------
 11a_4
-
+---
 11a_5
 
 ```
