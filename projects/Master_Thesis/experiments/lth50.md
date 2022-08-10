@@ -1,7 +1,7 @@
 # 50% vgg16
-acc = [0.7453, 0.7558, 0.7547, ] mean: std: 
+acc = [0.7453, 0.7558, 0.7547, 0.7402, ] mean: std: 
 
-time: [54.6701, 66.2927, 52.4928, ] mean: std:
+time: [54.6701, 66.2927, 52.4928, 52.3782, ] mean: std:
 
 remained: 16812897
 
@@ -20,7 +20,9 @@ Test average loss: 1.2726, acc: 0.7547
 Test time: 52.4928 s
 ----------
 50_4
-
+Test average loss: 1.1929, acc: 0.7402
+Test time: 52.3782 s
+----------
 50_5
 
 ```
@@ -43,7 +45,10 @@ Updating model file...
 Early stopping at: 8
 ----------------------------------------------
 50_4
-
+Train loss: 0.220351, Valid loss: 0.427867
+Updating model file...
+Early stopping at: 8
+----------------------------------------------
 50_5
 
 ```
