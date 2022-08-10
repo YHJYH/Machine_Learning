@@ -1,12 +1,16 @@
 # 50% vgg16
-acc = [] mean: std: 
+acc = [0.7453, ] mean: std: 
+
+time: [54.6701, ] mean: std:
 
 remained: 16812897
 
 LTH_features50_x
 ```
 50_1
-
+Test average loss: 1.4826, acc: 0.7453
+Test time: 54.6701 s
+----------
 50_2
 
 50_3
@@ -20,7 +24,10 @@ LTH_features50_x
 LTH_train_model50_x
 ```
 50_1
-
+Train loss: 0.241824, Valid loss: 0.453130
+Updating model file...
+Early stopping at: 7
+----------------------------------------------
 50_2
 
 50_3
