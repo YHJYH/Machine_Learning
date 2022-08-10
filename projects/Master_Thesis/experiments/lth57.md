@@ -1,7 +1,9 @@
 # 57% vgg16
 acc = [] mean: std:
 
-remained:
+time = [] mean: std:
+
+remained: 14459090
 
 LTH_features57_x
 ```
