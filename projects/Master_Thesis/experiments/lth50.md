@@ -1,7 +1,7 @@
 # 50% vgg16
 acc = [] mean: std: 
 
-remained:
+remained: 16812897
 
 LTH_features50_x
 ```
