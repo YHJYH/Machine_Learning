@@ -1,7 +1,7 @@
 # vgg16 66%
-acc = [0.7519, 0.7518, 0.7569, ] mean: std:
+acc = [0.7519, 0.7518, 0.7569, 0.7514, 0.7606] mean: std:
 
-time = [58.4802, 57.5566, 64.8435, ] mean: std:
+time = [58.4802, 57.5566, 64.8435, 57.7457, 58.7581] mean: std:
 
 remained: 11432773
 
@@ -24,7 +24,9 @@ Test average loss: 1.3055, acc: 0.7514
 Test time: 57.7457 s
 ----------
 66_5
-
+Test average loss: 1.2076, acc: 0.7606
+Test time: 58.7581 s
+----------
 ```
 
 LTH_train_model66_x
@@ -50,7 +52,10 @@ Updating model file...
 Early stopping at: 12
 ----------------------------------------------
 66_5
-
+Train loss: 0.299028, Valid loss: 0.465042
+Updating model file...
+Early stopping at: 11
+----------------------------------------------
 ```
 
 linear:
