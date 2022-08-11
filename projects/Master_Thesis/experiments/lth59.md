@@ -1,7 +1,7 @@
 # 59% vgg16
 acc= [] mean: std:
 
-remained:
+remained: 13786577
 
 LTH_features59_x
 ```
