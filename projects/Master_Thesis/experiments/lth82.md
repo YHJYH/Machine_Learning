@@ -1,6 +1,8 @@
 # LTH remove 82% params on VGG16
 acc. = [0.4400, 0.2301, 0.2715, 0.2537, 0.2124] mean: 0.2815 std: 0.0817
 
+0.2419 0.0225
+
 remain params: 6052651<br>
 percentage: <br>
 
