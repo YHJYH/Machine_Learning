@@ -8,15 +8,13 @@ remained: 8406454
 LTH_features75_x
 ```
 75_1
-Test average loss: 1.9998, acc: 0.2940
-Test time: 53.2395 s
-----------
-75_2
-Test average loss: 2.2978, acc: 0.4343
-Test time: 55.2960 s
-----------
-75_3
 
+75_2
+
+75_3
+Test average loss: 1.2552, acc: 0.7545
+Test time: 54.1251 s
+----------
 75_4
 
 75_5
@@ -26,15 +24,12 @@ Test time: 55.2960 s
 LTH_train_model75_x
 ```
 75_1
-Train loss: 2.117169, Valid loss: 2.003411
+Train loss: 0.308157, Valid loss: 0.522946
 Updating model file...
-Early stopping at: 20
+Early stopping at: 30
 ----------------------------------------------
 75_2
-Train loss: 2.298019, Valid loss: 2.297684
-Updating model file...
-Early stopping at: 20
-----------------------------------------------
+
 75_3
 
 75_4
