@@ -12,7 +12,9 @@ Test average loss: 1.9998, acc: 0.2940
 Test time: 53.2395 s
 ----------
 75_2
-
+Test average loss: 2.2978, acc: 0.4343
+Test time: 55.2960 s
+----------
 75_3
 
 75_4
@@ -29,7 +31,10 @@ Updating model file...
 Early stopping at: 20
 ----------------------------------------------
 75_2
-
+Train loss: 2.298019, Valid loss: 2.297684
+Updating model file...
+Early stopping at: 20
+----------------------------------------------
 75_3
 
 75_4
