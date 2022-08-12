@@ -1,7 +1,7 @@
 # vgg16 75%
-acc = [] mean: std:
+acc = [0.7526, 0.7586, 0.7545, ] mean: std:
 
-time = [] mean: std:
+time = [54.5612, 56.5292, 54.1251, ] mean: std:
 
 remained: 8406454
 
