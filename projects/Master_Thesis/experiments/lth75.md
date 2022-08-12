@@ -24,7 +24,9 @@ Test average loss: 1.3132, acc: 0.7529
 Test time: 59.6009 s
 ----------
 75_5
-
+Test average loss: 1.1788, acc: 0.7489
+Test time: 53.4043 s
+----------
 ```
 
 LTH_train_model75_x
@@ -50,7 +52,10 @@ Updating model file...
 Early stopping at: 32
 ----------------------------------------------
 75_5
-
+Train loss: 0.288716, Valid loss: 0.511445
+Updating model file...
+Early stopping at: 32
+----------------------------------------------
 ```
 
 linear:
