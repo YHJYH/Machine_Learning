@@ -14,6 +14,8 @@ Estimated Total Size (MB): 66.42
 ```
 remained params: 16848576/33638218\*100 = 50.087599%
 
+removed: 49.9124%
+
 model detail:
 ```
 def forward(self, x):
