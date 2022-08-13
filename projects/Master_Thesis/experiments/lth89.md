@@ -3,6 +3,8 @@ acc. = [] mean:0. std: 0.
 
 time = [] mean: std:
 
+lr = 0.1
+
 remaining params: 3698843
 
 LTH_features6_x
