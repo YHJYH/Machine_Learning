@@ -1,12 +1,50 @@
 # LTH remove 82% params on VGG16
-acc. = [0.4400, 0.2301, 0.2715, 0.2537, 0.2124] mean: 0.2815 std: 0.0817
+acc. = [] mean:  std: 0.
 
-0.2419 0.0225
+
 
 remain params: 6052651<br>
 percentage: <br>
 
+LTH_features5_x.pt
+```
+5_1
+Test average loss: 0.9594, acc: 0.7045
+Test time: 59.8993 s
+----------
+5_2
+
+5_3
+
+5_4
+
+5_5
+
+```
+
 LTH_train5_x
+```
+5_1
+Train loss: 0.751883, Valid loss: 0.821070
+Updating model file...
+Early stopping at: 8
+----------------------------------------------
+5_2
+
+5_3
+
+5_4
+
+5_5
+
+```
+
+CKA Linear plot (averaged over 5 exps): <br>
+![vgg16_82_linear](vgg16_82_linear.png)
+
+CKA RBF plot (averaged over 5 exps): <br>
+![vgg16_82_rbf](vgg16_82_linear.png)
+
 ```
 5_1
 Train loss: 2.302323, Valid loss: 2.302320
@@ -39,7 +77,6 @@ Early stopping at: 20
 ----------------------------------------------
 ```
 
-LTH_features5_x.pt
 ```
 5_1
 Test average loss: 2.3023, acc: 0.4400
@@ -60,9 +97,3 @@ Test average loss: 2.3026, acc: 0.2537
 Test average loss: 2.3026, acc: 0.2124
 ----------
 ```
-
-CKA Linear plot (averaged over 5 exps): <br>
-![vgg16_82_linear](vgg16_82_linear.png)
-
-CKA RBF plot (averaged over 5 exps): <br>
-![vgg16_82_rbf](vgg16_82_linear.png)
