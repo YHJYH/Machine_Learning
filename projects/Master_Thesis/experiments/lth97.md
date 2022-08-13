@@ -3,6 +3,8 @@ acc = [] mean: std:
 
 time = [] mean: std:
 
+lr=0.1 
+
 remained: 1008779
 
 LTH_features97_x:
