@@ -1,7 +1,7 @@
 # LTH remove 97%
 acc = [0.1000, ] mean: std:
 
-time = [51.9772, ] mean: std:
+time = [51.9772, 51.0201, ] mean: std:
 
 lr=0.1 
 
@@ -12,7 +12,9 @@ LTH_features97_x:
 Test average loss: 2.3026, acc: 0.1000
 Test time: 51.9772 s
 ----------
-
+Test average loss: 2.3026, acc: 0.1000
+Test time: 51.0201 s
+----------
 ```
 
 LTH_train_model97_x:
