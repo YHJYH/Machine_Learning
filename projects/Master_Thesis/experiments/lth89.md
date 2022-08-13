@@ -1,5 +1,5 @@
 # LTH remove 89% parameters
-acc. = [] mean:0. std: 0.
+acc. = [0.1683, 0.1732, 0.1746, 0.1608, 0.1528] mean:0.1659 std: 0.0082
 
 time = [] mean: std:
 
