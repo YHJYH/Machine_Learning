@@ -1,0 +1,16 @@
+# LTH on CKA reinit
+- vgg12 10%
+- vgg11 18%
+- vgg10 18%
+- vgg9 18%
+- vgg6a 20%
+- vgg8 25%
+- vgg7 32%
+- vgg15 49%
+- vgg14 50%
+- vgg13 57%
+- vgg12a 59%
+- vgg11a 66%
+- vgg8a 75%
+- vgg6 82%
+- vgg5 89%
