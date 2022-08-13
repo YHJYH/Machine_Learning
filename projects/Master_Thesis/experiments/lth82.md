@@ -1,7 +1,9 @@
 # LTH remove 82% params on VGG16
 acc. = [] mean:  std: 0.
 
+time = [] mean: std:
 
+lr = 0.1
 
 remain params: 6052651<br>
 percentage: <br>
