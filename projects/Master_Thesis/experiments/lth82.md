@@ -50,6 +50,14 @@ Early stopping at: 8
 82_5
 
 ```
+linear:
+
+![lth82linear](lth82linear.png)
+
+rbf:
+
+![lth82rbf](lth82rbf.png)
+
 
 CKA Linear plot (averaged over 5 exps): <br>
 ![vgg16_82_linear](vgg16_82_linear.png)
