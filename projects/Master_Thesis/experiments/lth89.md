@@ -7,31 +7,31 @@ lr = 0.1
 
 remaining params: 3698843
 
-LTH_features6_x
+LTH_features89_x
 ```
-6_1
+89_1
 
-6_2
+89_2
 
-6_3
+89_3
 
-6_4
+89_4
 
-6_5
+89_5
 
 ```
 
-LTH_train_model6_x
+LTH_train_mode89_x
 ```
-6_1
+89_1
 
-6_2
+89_2
 
-6_3
+89_3
 
-6_4
+89_4
 
-6_5
+89_5
 
 ```
 
