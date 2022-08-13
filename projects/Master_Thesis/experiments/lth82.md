@@ -1,7 +1,7 @@
 # LTH remove 82% params on VGG16
-acc. = [] mean:  std: 0.
+acc. = [0.7045, 0.6491, 0.7035] mean:0.6857  std: 0.0259
 
-time = [] mean: std:
+time = [59.8993, 54.3612,61.6313] mean:58.6306 std:3.1006
 
 lr = 0.1
 
