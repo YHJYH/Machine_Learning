@@ -1,5 +1,5 @@
 # CKA re-init
-- vgg12 10%
+- [vgg12 10%](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/experiments/recka12.md#reinit-cka-vgg12)
 - vgg11 18%
 - vgg10 18%
 - vgg9 18%
