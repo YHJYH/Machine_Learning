@@ -1,7 +1,7 @@
-# vgg11 reinit cka
-acc = []
+# vgg11 reinit cka 
+acc = [0.7123,0.7122,0.7203]  (0.7149, 0.0038)
 
-time = []
+time = [34.0974, 34.6099,34.3016]  (34.3363, 0.2107)
 
 size = 239094kb
 
@@ -12,6 +12,9 @@ Test time: 34.0974 s
 ----------
 Test average loss: 1.0071, acc: 0.7122
 Test time: 34.6099 s
+----------
+Test average loss: 1.1069, acc: 0.7203
+Test time: 34.3016 s
 ----------
 ```
 
@@ -25,6 +28,10 @@ Early stopping at: 14
 Train loss: 0.742828, Valid loss: 0.895895
 Updating model file...
 Early stopping at: 12
+----------------------------------------------
+Train loss: 0.600870, Valid loss: 0.863900
+Updating model file...
+Early stopping at: 14
 ----------------------------------------------
 ```
 
