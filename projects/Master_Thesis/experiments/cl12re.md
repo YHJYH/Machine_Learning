@@ -7,6 +7,9 @@ model size =
 
 reinit_CL_features12_x
 ```
+Test average loss: 2.3026, acc: 0.0992
+Test time: 35.5722 s
+----------
 
 ```
 
