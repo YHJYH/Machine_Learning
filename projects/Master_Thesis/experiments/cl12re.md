@@ -7,6 +7,9 @@ model size =
 
 reinit_CL_features12_x
 ```
+Test average loss: 2.3026, acc: 0.0967
+Test time: 34.8115 s
+----------
 
 
 ```
@@ -14,6 +17,8 @@ reinit_CL_features12_x
 hyperparams.
 ```
 Namespace(mode='train', data_type='cifar10', model_type='vgg16_N', seed=79, learning_rate=0.001, momentum=0.9, prune_percentage=70, num_epoch=50, patience=5)
+Namespace(mode='train', data_type='cifar10', model_type='vgg16_N', seed=23, learning_rate=0.01, momentum=0.9, prune_percentage=70, num_epoch=50, patience=5)
+
 ```
 
 weight boundary
@@ -35,6 +40,24 @@ weight boundary
 'fc1.weight': [0.025371691, 0.025371709465980528, 0.025371717], 
 'fc2.weight': [0.01896125, 0.018961253575980663, 0.018961256], 
 'fc3.weight': [0.031973224, 0.03197539113461971, 0.03197546]}))])"
+
+"OrderedDict([(0, defaultdict(<class 'list'>, {
+'conv1.weight': [0.11198498, 0.11202171593904495, 0.11214114], 
+'conv2.weight': [0.053030692, 0.05303071737289429, 0.053039704], 
+'conv3.weight': [0.043776233, 0.04377931877970694, 0.04378008], 
+'conv4.weight': [0.035792366, 0.0357929952442646, 0.035793], 
+'conv5.weight': [0.03067404, 0.03067537918686866, 0.030675832], 
+'conv6.weight': [0.025284782, 0.02528479248285293, 0.025284968], 
+'conv7.weight': [0.025266424, 0.025266427919268607, 0.02526651], 
+'conv8.weight': [0.02140199, 0.021402081288397306, 0.021402193], 
+'conv9.weight': [0.01785763, 0.017857633531093597, 0.017857637], 
+'conv10.weight': [0.018215325, 0.018215326592326164, 0.01821534], 
+'conv11.weight': [0.018034011, 0.018034063279628754, 0.018034067], 
+'conv12.weight': [0.01799661, 0.017996611073613167, 0.017996613], 
+'conv13.weight': [0.0179778, 0.01797780767083168, 0.01797782], 
+'fc1.weight': [0.02537425, 0.025374281778931616, 0.025374303], 
+'fc2.weight': [0.018961346, 0.018961346708238125, 0.018961353], 
+'fc3.weight': [0.031985734, 0.03198637627065182, 0.031987876]}))])"
 ```
 
 reinit_CL_train_model12_x
