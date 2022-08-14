@@ -3,7 +3,7 @@ acc = [] mean: std:
 
 time = [] mean: std:
 
-model size = 
+model size = 248310kb
 
 reinit_CL_features12_x
 ```
