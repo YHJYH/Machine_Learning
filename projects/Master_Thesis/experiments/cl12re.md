@@ -18,7 +18,7 @@ hyperparams.
 ```
 Namespace(mode='train', data_type='cifar10', model_type='vgg16_N', seed=79, learning_rate=0.001, momentum=0.9, prune_percentage=70, num_epoch=50, patience=5)
 Namespace(mode='train', data_type='cifar10', model_type='vgg16_N', seed=23, learning_rate=0.01, momentum=0.9, prune_percentage=70, num_epoch=50, patience=5)
-
+Namespace(mode='train', data_type='cifar10', model_type='vgg16_N', seed=35, learning_rate=0.01, momentum=0.9, prune_percentage=70, num_epoch=50, patience=5)
 ```
 
 weight boundary
@@ -58,6 +58,24 @@ weight boundary
 'fc1.weight': [0.02537425, 0.025374281778931616, 0.025374303], 
 'fc2.weight': [0.018961346, 0.018961346708238125, 0.018961353], 
 'fc3.weight': [0.031985734, 0.03198637627065182, 0.031987876]}))])"
+
+"OrderedDict([(0, defaultdict(<class 'list'>, {
+'conv1.weight': [0.11207877, 0.11251496002078056, 0.11252544], 
+'conv2.weight': [0.05300857, 0.05301152467727661, 0.053013362], 
+'conv3.weight': [0.043693177, 0.04369402565062046, 0.043699097], 
+'conv4.weight': [0.035792366, 0.0357929952442646, 0.035793], 
+'conv5.weight': [0.030693376, 0.03069355115294456, 0.030693626], 
+'conv6.weight': [0.025284782, 0.02528479248285293, 0.025284968], 
+'conv7.weight': [0.025266424, 0.025266427919268607, 0.02526651], 
+'conv8.weight': [0.021413263, 0.021413272991776464, 0.021413274], 
+'conv9.weight': [0.01785763, 0.017857633531093597, 0.017857637], 
+'conv10.weight': [0.01821506, 0.01821506954729557, 0.018215112], 
+'conv11.weight': [0.018039308, 0.0180393373593688, 0.01803934], 
+'conv12.weight': [0.017995091, 0.017995095811784267, 0.017995121], 
+'conv13.weight': [0.017982759, 0.017982766032218933, 0.01798278], 
+'fc1.weight': [0.025374336, 0.025374350138008595, 0.025374353], 
+'fc2.weight': [0.018961133, 0.018961137160658836, 0.018961143], 
+'fc3.weight': [0.03193408, 0.0319371297955513, 0.031938147]}))])"
 ```
 
 reinit_CL_train_model12_x
