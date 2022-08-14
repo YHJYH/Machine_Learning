@@ -1,7 +1,7 @@
 # CL VGG12 reinit
-acc = [] mean: std:
+acc = [0.0967, 0.0998,0.1000] mean:0.0988 std:0.0015
 
-time = [] mean: std:
+time = [34.8115,35.1443,35.4354] mean:35.1304 std:0.2549
 
 model size = 248310kb
 
@@ -10,8 +10,12 @@ reinit_CL_features12_x
 Test average loss: 2.3026, acc: 0.0967
 Test time: 34.8115 s
 ----------
-
-
+Test average loss: 2.3026, acc: 0.0998
+Test time: 35.1443 s
+----------
+Test average loss: 2.3026, acc: 0.1000
+Test time: 35.4354 s
+----------
 ```
 
 hyperparams.
