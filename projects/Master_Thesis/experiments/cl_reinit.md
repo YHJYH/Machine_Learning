@@ -1,5 +1,5 @@
 # LTH on CKA reinit
-- vgg12 10%
+- [vgg12 10%](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/experiments/cl12re.md#cl-vgg12-reinit)
 - vgg11 18%
 - vgg10 18%
 - vgg9 18%
