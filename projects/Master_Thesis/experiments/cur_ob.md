@@ -5,6 +5,8 @@ acc. change vs. reduced num. of layers
 
 acc. comparison between 
 
+**和weights的位置没关系，和weights的大小有关系**。在CL实验中，reinit，mask取自cka实验的train_model，CLreinit的结果奇差无比，因为cka的train_model来自于初始的init，此时的mask在reinit上会遮住相同位置的不同weights，这就表明和（weights的）位置无关，和大小有关。
+
 
 LTH的architecture并没有改变，这导致相较于VGG16：
 1. memory 不变；
