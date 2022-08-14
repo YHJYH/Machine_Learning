@@ -1,4 +1,4 @@
-# vgg16 reinit cka
+# vgg11 reinit cka
 acc = []
 
 time = []
