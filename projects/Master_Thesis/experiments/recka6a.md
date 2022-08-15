@@ -1,9 +1,9 @@
 # vgg6a cka reinit
-acc = []
+acc = [0.7391,0.7290,0.7330]  (0.7337, 0.0042)
 
-time = []
+time = [22.9575,22.4779,22.8402]  (22.7585, 0.2041)
 
-size = 
+size = 260293 kb
 
 recka_features6a_x
 ```
