@@ -1,9 +1,9 @@
 # vgg7 cka reinit
-acc = []
+acc = [0.7304, 0.7295, ]
 
-time = []
+time = [22.1430, 22.5529,]
 
-size = 
+size = 220357 kb
 
 recka_features7_x
 ```
