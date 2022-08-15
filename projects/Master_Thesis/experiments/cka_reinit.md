@@ -1,7 +1,7 @@
 # CKA re-init
 - [vgg12 10%](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/experiments/recka12.md#reinit-cka-vgg12) 0.7113 35.7179 p
 - [vgg11 18%](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/experiments/recka11.md#vgg11-reinit-cka) 0.7149 34.3363 p
-- [vgg10 18%](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/experiments/recka10.md#vgg10-cka-reinit)
+- [vgg10 18%](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/experiments/recka10.md#vgg10-cka-reinit) 0.7127 35.4186 p
 - [vgg9 18%](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/experiments/recka9.md#vgg9-cka-reinit)
 - [vgg6a 20%](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/experiments/recka6a.md#vgg6a-cka-reinit)
 - [vgg8 25%](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/experiments/recka8.md#vgg8-cka-reinit)
