@@ -1,7 +1,7 @@
 # vgg15 reinint cka
-acc = [] 
+acc = [0.7503,0.7523,] 
 
-time = []
+time = [57.1729,55.8004,]
 
 size: 197175 kb
 
