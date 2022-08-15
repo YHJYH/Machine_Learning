@@ -13,7 +13,9 @@ Test time: 22.9575 s
 Test average loss: 1.0685, acc: 0.7290
 Test time: 22.4779 s
 ----------
-
+Test average loss: 0.8484, acc: 0.7330
+Test time: 22.8402 s
+----------
 ```
 
 recka_train_model6a_x
@@ -26,7 +28,10 @@ Train loss: 0.443089, Valid loss: 0.864425
 Updating model file...
 Early stopping at: 15
 ----------------------------------------------
-
+Train loss: 0.704914, Valid loss: 0.820710
+Updating model file...
+Early stopping at: 11
+----------------------------------------------
 ```
 
 linaer:
