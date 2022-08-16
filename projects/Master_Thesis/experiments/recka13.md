@@ -7,11 +7,18 @@ size:
 
 recka_features13_x
 ```
+Test average loss: 1.1146, acc: 0.7136
+Test time: 44.5546 s
+----------
 
 ```
 
 recka_train_model13_x
 ```
+Train loss: 0.466409, Valid loss: 0.859192
+Updating model file...
+Early stopping at: 21
+----------------------------------------------
 
 ```
 
