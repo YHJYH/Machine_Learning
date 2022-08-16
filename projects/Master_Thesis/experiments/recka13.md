@@ -3,7 +3,7 @@ acc = []
 
 time = []
 
-size:
+size: 187383 kb
 
 recka_features13_x
 ```
