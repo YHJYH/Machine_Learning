@@ -17,8 +17,8 @@ recka_train_model8a_x
 
 linear:
 
-![recka11alinear](recka8alinear.png)
+![recka8alinear](recka8alinear.png)
 
 rbf:
 
-![recka11arbf](recka8arbf.png)
+![recka8arbf](recka8arbf.png)
