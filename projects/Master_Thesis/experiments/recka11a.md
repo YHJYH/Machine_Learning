@@ -1,9 +1,9 @@
 # vgg11a cka reinit
-acc = []
+acc = [0.7061,0.7202,0.7233]
 
-time = []
+time = [33.8861, 34.2532, 34.1934]
 
-size = 
+size = 175862 kb
 
 recka_features11a_x
 ```
