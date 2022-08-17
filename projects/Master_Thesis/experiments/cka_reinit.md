@@ -11,6 +11,6 @@
 - [vgg13 57%](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/experiments/recka13.md#vgg13-reinint-cka) 0.7499 44.5885 p
 - [vgg12a 59%](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/experiments/recka12a.md#vgg12a-reinit-cka) 0.7342 37.5198 p
 - [vgg11a 66%](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/experiments/recka11a.md#vgg11a-cka-reinit) 0.7165 34.1109 p
-- [vgg8a 75%](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/experiments/recka8a.md#vgg8a-cka-reinit)
+- [vgg8a 75%](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/experiments/recka8a.md#vgg8a-cka-reinit) 0.7205 19.4982 p
 - [vgg6 82%](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/experiments/recka6.md#vgg6-cka-reinit)
 - [vgg5 89%](https://github.com/YHJYH/Machine_Learning/blob/main/projects/Master_Thesis/experiments/recka5.md#vgg5-cka-reinit)
