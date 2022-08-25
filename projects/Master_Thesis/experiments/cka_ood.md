@@ -5,9 +5,7 @@ acc, time, similarity plot
 
 OOD_features1_1
 ```
-Test average loss: 13.0603, acc: 0.0875
-Test time: 10.3830 s
-----------
+
 ```
 linear:
 
@@ -18,9 +16,7 @@ rbf:
 
 OOD_features2_1
 ```
-Test average loss: 2.3178, acc: 0.0900
-Test time: 10.4810 s
-----------
+
 ```
 linear:
 
