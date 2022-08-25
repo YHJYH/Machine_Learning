@@ -1,4 +1,6 @@
 # CKA OOD
+acc, time, similarity plot
+
 - vgg12 10% 
 
 linear:
