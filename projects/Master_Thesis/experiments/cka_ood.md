@@ -1,6 +1,18 @@
 # CKA OOD
 acc, time, similarity plot
 
+- vgg16 0%
+
+```
+Test average loss: 13.0603, acc: 0.0875
+Test time: 10.3830 s
+----------
+```
+linear:
+
+rbf:
+
+
 - vgg12 10% 
 
 linear:
