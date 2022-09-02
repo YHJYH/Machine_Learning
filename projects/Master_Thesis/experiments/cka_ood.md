@@ -30,8 +30,11 @@ Test time: 10.5264 s
 ```
 linear:
 
+![vgg16_ood](vgg16_ood.png)
+
 rbf:
 
+![vgg16_ood_rbf](vgg16_ood_rbf.png)
 
 - vgg12 10% 
 ```
@@ -65,6 +68,27 @@ linear:
 rbf:
 
 - vgg11 18%
+```
+ood_features3_x = {
+avg_time: 
+std_time: 
+avg_acc: 
+std_acc: 
+}
+```
+
+```
+Test average loss: 4.8428, acc: 0.5550
+Test time: 7.0643 s
+----------
+Test average loss: 5.3311, acc: 0.5635
+Test time: 8.9313 s
+----------
+Test average loss: 4.4372, acc: 0.5595
+Test time: 10.1848 s
+----------
+
+```
 
 linear:
 
