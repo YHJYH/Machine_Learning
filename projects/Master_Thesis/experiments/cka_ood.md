@@ -71,10 +71,10 @@ rbf:<br>
 - vgg11 18%
 ```
 ood_features3_x = {
-avg_time: 
-std_time: 
-avg_acc: 
-std_acc: 
+avg_time: 8.1673
+std_time: 1.2345
+avg_acc: 0.5592
+std_acc: 0.0055
 }
 ```
 
@@ -97,8 +97,9 @@ Test time: 6.9139 s
 ```
 
 linear:<br>
-![]()<br>
+![vgg11oodlinear](vgg11oodlinear.png)<br>
 rbf:<br>
+![vgg11oodrbf](vgg11oodrbf.png)<br>
 
 - vgg10 18%
 ```
@@ -109,8 +110,14 @@ avg_acc:
 std_acc: 
 }
 ```
-```
 
+```
+Test average loss: 4.6810, acc: 0.5825
+Test time: 7.2148 s
+----------
+Test average loss: 4.5164, acc: 0.6015
+Test time: 8.8070 s
+----------
 
 ```
 linear:
