@@ -97,11 +97,22 @@ Test time: 6.9139 s
 ```
 
 linear:<br>
-
+![]()<br>
 rbf:<br>
 
 - vgg10 18%
+```
+ood_features4_x = {
+avg_time: 
+std_time: 
+avg_acc: 
+std_acc: 
+}
+```
+```
 
+
+```
 linear:
 
 rbf:
