@@ -63,9 +63,10 @@ Test average loss: 4.7684, acc: 0.5605
 Test time: 7.5519 s
 ----------
 ```
-linear:
-
-rbf:
+linear:<br>
+![vgg12_ood_linear](vgg12_ood_linear.png)<br>
+rbf:<br>
+![vgg12_ood_rbf](vgg12_ood_rbf.png)<br>
 
 - vgg11 18%
 ```
@@ -95,9 +96,9 @@ Test time: 6.9139 s
 ----------
 ```
 
-linear:
+linear:<br>
 
-rbf:
+rbf:<br>
 
 - vgg10 18%
 
