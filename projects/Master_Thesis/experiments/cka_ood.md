@@ -329,6 +329,71 @@ rbf:<br>
 - **vgg13 57%**
 ```
 ood_features13_x = {
+avg_time: 9.2937
+std_time: 1.1889
+avg_acc: 0.5517
+std_acc: 0.0091
+}
+```
+
+```
+Test average loss: 1.9869, acc: 0.5460
+Test time: 10.4747 s
+----------
+Test average loss: 2.1334, acc: 0.5440
+Test time: 10.9942 s
+----------
+Test average loss: 1.8855, acc: 0.5595
+Test time: 8.2408 s
+----------
+Test average loss: 2.3695, acc: 0.5435
+Test time: 8.3732 s
+----------
+Test average loss: 1.9371, acc: 0.5655
+Test time: 8.3854 s
+----------
+```
+
+linear:<br>
+![vgg13oodlinear](vgg13oodlinear.png)<br>
+rbf:<br>
+![vgg13oodrbf](vgg13oodrbf.png)<br>
+
+- **vgg12a 59%**
+```
+ood_features14_x = {
+avg_time: 7.9235
+std_time: 0.6876
+avg_acc: 0.557
+std_acc: 0.0084
+}
+```
+
+```
+Test average loss: 2.0257, acc: 0.5640
+Test time: 9.2927 s
+----------
+Test average loss: 2.1287, acc: 0.5670
+Test time: 7.6162 s
+----------
+Test average loss: 1.9508, acc: 0.5560
+Test time: 7.6817 s
+----------
+Test average loss: 2.0981, acc: 0.5550
+Test time: 7.5269 s
+----------
+Test average loss: 1.9679, acc: 0.5430
+Test time: 7.5000 s
+----------
+```
+linear:<br>
+![vgg12aoodlinear](vgg12aoodlinear.png)<br>
+rbf:<br>
+![vgg12aoodrbf](vgg12aoodrbf.png)<br>
+
+- **vgg11a 66%**
+```
+ood_features16_x = {
 avg_time: 
 std_time: 
 avg_acc: 
@@ -337,45 +402,36 @@ std_acc:
 ```
 
 ```
+Test average loss: 2.3855, acc: 0.5395
+Test time: 8.9966 s
+----------
 
 ```
-
 linear:<br>
-![vgg13oodlinear](vgg13oodlinear.png)<br>
+![]()<br>
 rbf:<br>
-![vgg13oodrbf](vgg13oodrbf.png)<br>
+<br>
 
-- vgg12a 59%
-
-linear:
-
-rbf:
-
-- vgg11a 66%
+- **vgg8a 75%**
 
 linear:
 
 rbf:
 
-- vgg8a 75%
+- **vgg6 82%**
+```
 
-linear:
+```
+linear:<br>
+<br>
+rbf:<br>
+<br>
 
-rbf:
-
-- vgg6 82%
-
-linear:
-
-rbf:
-
-- vgg5 89%
+- **vgg5 89%**
 
 OOD_features9_1
 ```
-Test average loss: 13.6125, acc: 0.1010
-Test time: 3.8723 s
-----------
+
 ```
 
 linear:
