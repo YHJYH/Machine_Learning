@@ -394,10 +394,10 @@ rbf:<br>
 - **vgg11a 66%**
 ```
 ood_features16_x = {
-avg_time: 
-std_time: 
-avg_acc: 
-std_acc: 
+avg_time: 7.2488
+std_time: 0.8768
+avg_acc: 0.5383
+std_acc: 0.0041
 }
 ```
 
@@ -405,35 +405,117 @@ std_acc:
 Test average loss: 2.3855, acc: 0.5395
 Test time: 8.9966 s
 ----------
-
+Test average loss: 2.7010, acc: 0.5325
+Test time: 6.8458 s
+----------
+Test average loss: 2.4008, acc: 0.5420
+Test time: 6.7315 s
+----------
+Test average loss: 2.4181, acc: 0.5430
+Test time: 6.7438 s
+----------
+Test average loss: 2.8204, acc: 0.5345
+Test time: 6.9261 s
+----------
 ```
 linear:<br>
-![]()<br>
+![vgg11aoodlinear](vgg11aoodlinear.png)<br>
 rbf:<br>
-<br>
+![vgg11aoodrbf](vgg11aoodrbf.png)<br>
 
 - **vgg8a 75%**
+```
+ood_features15_x = {
+avg_time: 4.1612
+std_time: 0.4524
+avg_acc: 0.5506
+std_acc: 0.0076
+}
+```
 
-linear:
-
-rbf:
+```
+Test average loss: 2.3223, acc: 0.5575
+Test time: 3.9047 s
+----------
+Test average loss: 2.3600, acc: 0.5510
+Test time: 3.8502 s
+----------
+Test average loss: 1.9714, acc: 0.5540
+Test time: 3.8701 s
+----------
+Test average loss: 1.8516, acc: 0.5545
+Test time: 4.1392 s
+----------
+Test average loss: 1.9578, acc: 0.5360
+Test time: 5.0418 s
+----------
+```
+linear:<br>
+![vgg8aoodlinear](vgg8aoodlinear.png)<br>
+rbf:<br>
+![vgg8aoodrbf](vgg8aoodrbf.png)<br>
 
 - **vgg6 82%**
 ```
+ood_features8_x = {
+avg_time: 3.7372
+std_time: 0.0448
+avg_acc: 0.5548
+std_acc: 0.0111
+}
+```
 
+```
+Test average loss: 3.9421, acc: 0.5745
+Test time: 3.7445 s
+----------
+Test average loss: 1.8602, acc: 0.5435
+Test time: 3.7785 s
+----------
+Test average loss: 1.7935, acc: 0.5590
+Test time: 3.7360 s
+----------
+Test average loss: 1.8499, acc: 0.5485
+Test time: 3.7732 s
+----------
+Test average loss: 1.9476, acc: 0.5485
+Test time: 3.6536 s
+----------
 ```
 linear:<br>
-<br>
+![vgg6oodlinear](vgg6oodlinear.png)<br>
 rbf:<br>
-<br>
+![vgg6oodrbf](vgg6oodrbf.png)<br>
 
 - **vgg5 89%**
-
-OOD_features9_1
+```
+ood_features9_x = {
+avg_time: 3.8921
+std_time: 0.1012
+avg_acc: 0.554
+std_acc: 0.0103
+}
 ```
 
 ```
+Test average loss: 3.6408, acc: 0.5745
+Test time: 4.0495 s
+----------
+Test average loss: 1.9995, acc: 0.5490
+Test time: 3.8057 s
+----------
+Test average loss: 1.9143, acc: 0.5495
+Test time: 3.8387 s
+----------
+Test average loss: 1.9956, acc: 0.5470
+Test time: 3.7940 s
+----------
+Test average loss: 1.9937, acc: 0.5500
+Test time: 3.9724 s
+----------
+```
 
-linear:
-
-rbf:
+linear:<br>
+![vgg5oodlinear](vgg5oodlinear.png)<br>
+rbf:<br>
+![vgg5oodrbf](vgg5oodrbf.png)<br>
