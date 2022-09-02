@@ -90,7 +90,9 @@ Test time: 10.1848 s
 Test average loss: 4.5807, acc: 0.5515
 Test time: 7.7423 s
 ----------
-
+Test average loss: 4.9220, acc: 0.5665
+Test time: 6.9139 s
+----------
 ```
 
 linear:
