@@ -30,7 +30,7 @@ Test time: 10.5264 s
 ```
 linear:
 
-![vgg16_ood](vgg16_ood.png)
+![vgg16_ood_linear](vgg16_ood_linear.png)
 
 rbf:
 
@@ -86,6 +86,9 @@ Test time: 8.9313 s
 ----------
 Test average loss: 4.4372, acc: 0.5595
 Test time: 10.1848 s
+----------
+Test average loss: 4.5807, acc: 0.5515
+Test time: 7.7423 s
 ----------
 
 ```
