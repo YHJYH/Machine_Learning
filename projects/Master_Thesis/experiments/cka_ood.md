@@ -3,7 +3,7 @@ acc, time, similarity plot
 
 - vgg16 0%
 
-OOD_features1_1 (means used train_model1_1)
+ood_features1_1 (means used train_model1_1)
 ```
 Test average loss: 3.5005, acc: 0.5935
 Test time: 10.6502 s
@@ -16,10 +16,10 @@ rbf:
 
 - vgg12 10% 
 
-OOD_features2_1
+ood_features2_1
 ```
-Test average loss: 14.6894, acc: 0.0985
-Test time: 7.1450 s
+Test average loss: 5.0388, acc: 0.5690
+Test time: 7.3186 s
 ----------
 ```
 linear:
