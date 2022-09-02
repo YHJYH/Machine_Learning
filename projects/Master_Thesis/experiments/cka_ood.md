@@ -21,6 +21,18 @@ ood_features2_x
 Test average loss: 5.0388, acc: 0.5690
 Test time: 7.3186 s
 ----------
+Test average loss: 4.8026, acc: 0.5670
+Test time: 7.0941 s
+----------
+Test average loss: 3.9518, acc: 0.5550
+Test time: 7.2570 s
+----------
+Test average loss: 5.1057, acc: 0.5670
+Test time: 7.0641 s
+----------
+Test average loss: 4.7684, acc: 0.5605
+Test time: 7.5519 s
+----------
 ```
 linear:
 
