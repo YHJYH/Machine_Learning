@@ -8,6 +8,18 @@ ood_features1_1 (means used train_model1_x)
 Test average loss: 3.5005, acc: 0.5935
 Test time: 10.6502 s
 ----------
+Test average loss: 3.1055, acc: 0.5975
+Test time: 10.4453 s
+----------
+Test average loss: 3.3149, acc: 0.5790
+Test time: 10.4086 s
+----------
+Test average loss: 3.1248, acc: 0.5935
+Test time: 10.4351 s
+----------
+Test average loss: 3.3147, acc: 0.6000
+Test time: 10.5264 s
+----------
 ```
 linear:
 
@@ -15,8 +27,15 @@ rbf:
 
 
 - vgg12 10% 
+```
+ood_features2_x = {
+avg_time: 
+std_time: 
+avg_acc: 
+std_acc:
+}
+```
 
-ood_features2_x
 ```
 Test average loss: 5.0388, acc: 0.5690
 Test time: 7.3186 s
