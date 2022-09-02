@@ -1,7 +1,7 @@
 # CKA OOD
 acc, time, similarity plot
 
-- vgg16 0%
+- **vgg16 0%**
 ```
 ood_features1_x = {
 avg_time: 10.4931
@@ -36,7 +36,7 @@ rbf:
 
 ![vgg16_ood_rbf](vgg16_ood_rbf.png)
 
-- vgg12 10% 
+- **vgg12 10% **
 ```
 ood_features2_x = {
 avg_time: 7.2571
@@ -68,7 +68,7 @@ linear:<br>
 rbf:<br>
 ![vgg12_ood_rbf](vgg12_ood_rbf.png)<br>
 
-- vgg11 18%
+- **vgg11 18%**
 ```
 ood_features3_x = {
 avg_time: 8.1673
@@ -101,13 +101,13 @@ linear:<br>
 rbf:<br>
 ![vgg11oodrbf](vgg11oodrbf.png)<br>
 
-- vgg10 18%
+- **vgg10 18%**
 ```
 ood_features4_x = {
-avg_time: 
-std_time: 
-avg_acc: 
-std_acc: 
+avg_time: 7.4639
+std_time: 0.6864
+avg_acc: 0.5858
+std_acc: 0.0085
 }
 ```
 
@@ -118,31 +118,108 @@ Test time: 7.2148 s
 Test average loss: 4.5164, acc: 0.6015
 Test time: 8.8070 s
 ----------
+Test average loss: 4.7156, acc: 0.5870
+Test time: 7.0276 s
+----------
+Test average loss: 4.9977, acc: 0.5765
+Test time: 7.3384 s
+----------
+Test average loss: 4.5443, acc: 0.5815
+Test time: 6.9315 s
+----------
+```
+linear:<br>
+![vgg10oodlinear](vgg10oodlinear.png)<br>
+rbf:<br>
+![vgg10oodrbf](vgg10oodrbf.png)<br>
+
+- **vgg9 18%**
+```
+ood_features5_x = {
+avg_time: 6.1032
+std_time: 0.6546
+avg_acc: 0.5694
+std_acc: 0.0149
+}
+```
 
 ```
-linear:
-
+Test average loss: 4.5706, acc: 0.5910
+Test time: 5.7275 s
+----------
+Test average loss: 2.6517, acc: 0.5455
+Test time: 5.7552 s
+----------
+Test average loss: 1.9383, acc: 0.5690
+Test time: 7.4108 s
+----------
+Test average loss: 1.9475, acc: 0.5765
+Test time: 5.7978 s
+----------
+Test average loss: 1.9750, acc: 0.5650
+Test time: 5.8249 s
+----------
+```
+linear:<br>
+![vgg9oodlinear](vgg9oodlinear.png)<br>
 rbf:
+![vgg9oodrbf](vgg9oodrbf.png)<br>
 
-- vgg9 18%
+- **vgg6a 20%**
+```
+ood_features10_x = {
+avg_time: 
+std_time: 
+avg_acc: 0.5569
+std_acc: 0.0100
+}
+```
 
-linear:
+```
+Test average loss: 4.0145, acc: 0.5735
+Test time: 4.8490 s
+----------
+Test average loss: 2.2227, acc: 0.5490
+Test time: 4.7655 s
+----------
+Test average loss: 2.1833, acc: 0.5525
+Test time: 4.6741 s
+----------
+Test average loss: 2.4267, acc: 0.5465
+Test time: 4.7036 s
+----------
+Test average loss: 2.1412, acc: 0.5630
+Test time: 4.7852 s
+----------
+```
 
-rbf:
+linear:<br>
+![vgg6aoodlinear](vgg6aoodlinear.png)<br>
+rbf:<br>
+![vgg6aoodrbf](vgg6aoodrbf.png)<br>
 
-- vgg6a 20%
+- **vgg8 25%**
+```
+ood_features6_x = {
+avg_time: 
+std_time: 
+avg_acc: 
+std_acc: 
+}
+```
 
-linear:
+```
+Test average loss: 4.6201, acc: 0.5835
+Test time: 5.0377 s
+----------
 
-rbf:
+```
+linear:<br>
+![vgg8oodlinear](vgg8oodlinear.png)<br>
+rbf:<br>
+![vgg8oodrbf](vgg8oodrbf.png)<br>
 
-- vgg8 25%
-
-linear:
-
-rbf:
-
-- vgg7 32%
+- **vgg7 32%**
 
 linear:
 
