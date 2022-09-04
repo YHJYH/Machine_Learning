@@ -1,10 +1,10 @@
 # LTH on OOD test set
 **10% **
 ```
-avg acc: 
-std acc:
-avg time:
-std time:
+avg acc: 0.5797
+std acc: 0.0094
+avg time: 10.7165
+std time: 0.2872
 ```
 1_1
 ```
@@ -31,19 +31,33 @@ rbf<br>
 
 **18%**
 ```
-avg acc: 
-std acc:
-avg time:
-std time:
+avg acc: 0.5829
+std acc: 0.0119
+avg time: 10.8200 
+std time: 0.2380
 ```
 
 ```
-
+Test average loss: 2.6916, acc: 0.5875
+Test time: 10.9476 s
+----------
+Test average loss: 2.5623, acc: 0.5710
+Test time: 10.6458 s
+----------
+Test average loss: 2.2451, acc: 0.5720
+Test time: 11.2208 s
+----------
+Test average loss: 2.4468, acc: 0.6035
+Test time: 10.7242 s
+----------
+Test average loss: 2.5669, acc: 0.5805
+Test time: 10.5617 s
+----------
 ```
 linear<br>
-![]()<br>
+![lth18oodlinear](lth18oodlinear.png)<br>
 rbf<br>
-![]()<br>
+![lth18oodrbf](lth18oodrbf.png)<br>
 
 **25%**
 ```
@@ -57,9 +71,9 @@ std time:
 
 ```
 linear<br>
-![]()<br>
+![lth25oodlinear](lth25oodlinear.png)<br>
 rbf<br>
-![]()<br>
+![lth25oodrbf](lth25oodrbf.png)<br>
 
 **32%**
 ```
