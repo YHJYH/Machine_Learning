@@ -306,13 +306,23 @@ std acc:
 avg time: 
 std time: 
 ```
-_x
+12a_x
 ```
+Test average loss: 2.5409, acc: 0.5700
+Test time: 7.8361 s
+----------
+Test average loss: 2.4936, acc: 0.5655
+Test time: 7.5741 s
+----------
+Test average loss: 2.3781, acc: 0.5610
+Test time: 7.5579 s
+----------
+
 ```
 linear<br>
-![](.png)<br>
+![cl12aoodlinear](cl12aoodlinear.png)<br>
 rbf<br>
-![](.png)<br>
+![cl12aoodrbf](cl12aoodrbf.png)<br>
 
 vgg11a
 ```
@@ -338,12 +348,26 @@ std time:
 ```
 8a_x
 ```
-
+Test average loss: 2.2504, acc: 0.5610
+Test time: 5.5286 s
+----------
+Test average loss: 2.7890, acc: 0.5755
+Test time: 3.9144 s
+----------
+Test average loss: 2.2464, acc: 0.5540
+Test time: 4.2148 s
+----------
+Test average loss: 2.1591, acc: 0.5740
+Test time: 4.0028 s
+----------
+Test average loss: 2.1315, acc: 0.5490
+Test time: 4.0898 s
+----------
 ```
 linear<br>
-![](.png)<br>
+![cl8aoodlinear](cl8aoodlinear.png)<br>
 rbf<br>
-![](.png)<br>
+![cl8aoodrbf](cl8aoodrbf.png)<br>
 
 vgg6
 ```
