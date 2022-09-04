@@ -295,17 +295,48 @@ rbf<br>
 
 **89%**
 ```
-avg acc: 
-std acc: 
-avg time: 
-std time: 
+avg acc: 0.1677
+std acc: 0.0091
+avg time: 11.3916
+std time: 0.8470
 ```
 89_x
 ```
-
+Test average loss: 2.3026, acc: 0.1805
+Test time: 12.4845 s
+----------
+Test average loss: 2.3026, acc: 0.1600
+Test time: 11.2698 s
+----------
+Test average loss: 2.3026, acc: 0.1625
+Test time: 10.4205 s
+----------
 ```
 linear<br>
 ![lth89oodlinear](lth89oodlinear.png)<br>
 rbf<br>
 ![lth89oodrbf](lth89oodrbf.png)<br>
 
+**97%**
+```
+avg acc: 0.1
+std acc: 0
+avg time: 11.9575
+std time: 1.7305
+```
+97_x
+```
+Test average loss: 2.3026, acc: 0.1000
+Test time: 10.5650 s
+----------
+Test average loss: 2.3026, acc: 0.1000
+Test time: 10.9109 s
+----------
+Test average loss: 2.3026, acc: 0.1000
+Test time: 14.3966 s
+----------
+```
+linear<br>
+![lth97oodlinear](lth97oodlinear.png)<br>
+rbf<br>
+![lth97oodrbf](lth97oodrbf.png)<br>
