@@ -115,9 +115,9 @@ Test time: 10.7994 s
 ----------
 ```
 linear<br>
-![lth32oodlinear](.png)<br>
+![lth32oodlinear](lth32oodlinear.png)<br>
 rbf<br>
-![lth32oodrbf](.png)<br>
+![lth32oodrbf](lth32oodrbf.png)<br>
 
 **50% **
 ```
@@ -163,6 +163,9 @@ Test time: 14.7152 s
 ----------
 Test average loss: 2.8653, acc: 0.5915
 Test time: 14.0462 s
+----------
+Test average loss: 2.4807, acc: 0.5930
+Test time: 12.2902 s
 ----------
 
 ```
