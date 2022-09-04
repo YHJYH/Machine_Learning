@@ -91,17 +91,28 @@ rbf<br>
 
 **32%**
 ```
-avg acc: 
-std acc:
-avg time:
-std time:
+avg acc: 0.5895
+std acc: 0.0062
+avg time: 12.6512
+std time: 1.7166
 ```
 4_x
 ```
 Test average loss: 2.6281, acc: 0.5955
 Test time: 14.3166 s
 ----------
-
+Test average loss: 2.8037, acc: 0.5940
+Test time: 14.8373 s
+----------
+Test average loss: 2.8538, acc: 0.5860
+Test time: 12.5872 s
+----------
+Test average loss: 2.8453, acc: 0.5790
+Test time: 10.7154 s
+----------
+Test average loss: 2.7593, acc: 0.5930
+Test time: 10.7994 s
+----------
 ```
 linear<br>
 ![lth32oodlinear](.png)<br>
@@ -110,19 +121,33 @@ rbf<br>
 
 **50% **
 ```
-avg acc: 
-std acc:
-avg time:
-std time:
+avg acc: 0.5916
+std acc:0.0052
+avg time: 12.6694
+std time: 1.8232
 ```
 50_x
 ```
-
+Test average loss: 3.1058, acc: 0.5885
+Test time: 14.0000 s
+----------
+Test average loss: 2.8038, acc: 0.5865
+Test time: 15.3494 s
+----------
+Test average loss: 2.6568, acc: 0.5960
+Test time: 12.5708 s
+----------
+Test average loss: 2.3745, acc: 0.5875
+Test time: 10.6616 s
+----------
+Test average loss: 2.7235, acc: 0.5995
+Test time: 10.7650 s
+----------
 ```
 linear<br>
-![]()<br>
+![lth50oodlinear](lth50oodlinear.png)<br>
 rbf<br>
-![]()<br>
+![lth50oodrbf](lth50oodrbf.png)<br>
 
 **57%**
 ```
@@ -131,14 +156,20 @@ std acc:
 avg time:
 std time:
 ```
-
+57_x
 ```
+Test average loss: 2.6405, acc: 0.5880
+Test time: 14.7152 s
+----------
+Test average loss: 2.8653, acc: 0.5915
+Test time: 14.0462 s
+----------
 
 ```
 linear<br>
-![]()<br>
+![lth57oodlinear](lth57oodlinear.png)<br>
 rbf<br>
-![]()<br>
+![lth57oodrbf](lth57oodrbf.png)<br>
 
 **59%**
 ```
@@ -147,7 +178,7 @@ std acc:
 avg time:
 std time:
 ```
-
+59_x
 ```
 
 ```
