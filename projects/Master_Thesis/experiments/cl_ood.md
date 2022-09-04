@@ -221,12 +221,23 @@ std time:
 Test average loss: 2.8337, acc: 0.5630
 Test time: 10.2504 s
 ----------
-
+Test average loss: 2.7323, acc: 0.5405
+Test time: 9.7777 s
+----------
+Test average loss: 2.6090, acc: 0.5650
+Test time: 10.0996 s
+----------
+Test average loss: 2.4989, acc: 0.5505
+Test time: 9.6026 s
+----------
+Test average loss: 2.6309, acc: 0.5555
+Test time: 9.7559 s
+----------
 ```
 linear<br>
-![](.png)<br>
+![cl15oodlinear](cl15oodlinear.png)<br>
 rbf<br>
-![](.png)<br>
+![cl15oodrbf](cl15oodrbf.png)<br>
 
 vgg14
 ```
@@ -235,13 +246,28 @@ std acc:
 avg time: 
 std time: 
 ```
-_x
+14_x
 ```
+Test average loss: 2.2687, acc: 0.5995
+Test time: 11.3041 s
+----------
+Test average loss: 2.2924, acc: 0.5885
+Test time: 12.1743 s
+----------
+Test average loss: 1.8716, acc: 0.5880
+Test time: 9.1481 s
+----------
+Test average loss: 1.9670, acc: 0.5910
+Test time: 8.8382 s
+----------
+Test average loss: 1.9534, acc: 0.5935
+Test time: 8.8916 s
+----------
 ```
 linear<br>
-![](.png)<br>
+![cl14oodlinear](cl14oodlinear.png)<br>
 rbf<br>
-![](.png)<br>
+![cl14oodrbf](cl14oodrbf.png)<br>
 
 vgg13
 ```
@@ -250,13 +276,28 @@ std acc:
 avg time: 
 std time: 
 ```
-_x
+13_x
 ```
+Test average loss: 2.2266, acc: 0.5755
+Test time: 11.8866 s
+----------
+Test average loss: 2.5173, acc: 0.5570
+Test time: 10.6240 s
+----------
+Test average loss: 2.3454, acc: 0.5870
+Test time: 8.5589 s
+----------
+Test average loss: 2.3607, acc: 0.5790
+Test time: 8.3651 s
+----------
+Test average loss: 2.1651, acc: 0.5680
+Test time: 8.6083 s
+----------
 ```
 linear<br>
-![](.png)<br>
+![cl13oodlinear](cl13oodlinear.png)<br>
 rbf<br>
-![](.png)<br>
+![cl13oodrbf](cl13oodrbf.png)<br>
 
 vgg12a
 ```
@@ -295,8 +336,9 @@ std acc:
 avg time: 
 std time: 
 ```
-_x
+8a_x
 ```
+
 ```
 linear<br>
 ![](.png)<br>
