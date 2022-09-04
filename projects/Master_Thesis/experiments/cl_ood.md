@@ -317,7 +317,12 @@ Test time: 7.5741 s
 Test average loss: 2.3781, acc: 0.5610
 Test time: 7.5579 s
 ----------
-
+Test average loss: 2.0949, acc: 0.5655
+Test time: 7.6487 s
+----------
+Test average loss: 1.9523, acc: 0.5755
+Test time: 7.6997 s
+----------
 ```
 linear<br>
 ![cl12aoodlinear](cl12aoodlinear.png)<br>
@@ -331,13 +336,28 @@ std acc:
 avg time: 
 std time: 
 ```
-_x
+11a_x
 ```
+Test average loss: 3.1700, acc: 0.5475
+Test time: 9.2688 s
+----------
+Test average loss: 2.9748, acc: 0.5380
+Test time: 7.2114 s
+----------
+Test average loss: 2.3677, acc: 0.5510
+Test time: 7.3365 s
+----------
+Test average loss: 2.8494, acc: 0.5520
+Test time: 6.9600 s
+----------
+Test average loss: 2.8565, acc: 0.5395
+Test time: 7.0046 s
+----------
 ```
 linear<br>
-![](.png)<br>
+![cl11aoodlinear](cl11aoodlinear.png)<br>
 rbf<br>
-![](.png)<br>
+![cl11aoodrbf](cl11aoodrbf.png)<br>
 
 vgg8a
 ```
@@ -376,13 +396,28 @@ std acc:
 avg time: 
 std time: 
 ```
-_x
+6_x
 ```
+Test average loss: 2.5172, acc: 0.5475
+Test time: 4.0001 s
+----------
+Test average loss: 2.3513, acc: 0.5530
+Test time: 3.8803 s
+----------
+Test average loss: 2.0023, acc: 0.5615
+Test time: 4.0318 s
+----------
+Test average loss: 1.8625, acc: 0.5640
+Test time: 3.8080 s
+----------
+Test average loss: 2.3504, acc: 0.5525
+Test time: 3.8903 s
+----------
 ```
 linear<br>
-![](.png)<br>
+![cl6oodlinear](cl6oodlinear.png)<br>
 rbf<br>
-![](.png)<br>
+![cl6oodrbf](cl6oodrbf.png)<br>
 
 vgg5
 ```
@@ -391,10 +426,25 @@ std acc:
 avg time: 
 std time: 
 ```
-_x
+5_x
 ```
+Test average loss: 2.2038, acc: 0.5600
+Test time: 3.9785 s
+----------
+Test average loss: 1.9777, acc: 0.5595
+Test time: 3.8673 s
+----------
+Test average loss: 1.9479, acc: 0.5635
+Test time: 4.0918 s
+----------
+Test average loss: 1.9826, acc: 0.5605
+Test time: 3.8419 s
+----------
+Test average loss: 1.9755, acc: 0.5775
+Test time: 3.8499 s
+----------
 ```
 linear<br>
-![](.png)<br>
+![cl5oodlinear](cl5oodlinear.png)<br>
 rbf<br>
-![](.png)<br>
+![cl5oodrbf](cl5oodrbf.png)<br>
