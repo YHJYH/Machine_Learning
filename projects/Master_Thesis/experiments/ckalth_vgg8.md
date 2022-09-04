@@ -36,18 +36,23 @@ CL_features8_x
 ```
 8_1
 Test average loss: 1.3333, acc: 0.7343
+Test time: 24.5760 s
 ----------
 8_2
 Test average loss: 1.0907, acc: 0.7156
+Test time: 24.6222 s
 ----------
 8_3
 Test average loss: 1.2262, acc: 0.7208
+Test time: 24.6343 s
 ----------
 8_4
 Test average loss: 1.1252, acc: 0.7214
+Test time: 24.5170 s
 ----------
 8_5
 Test average loss: 1.0270, acc: 0.7310
+Test time: 25.0398 s
 ----------
 ```
 
