@@ -1,5 +1,8 @@
 ### reaching the limit: remove 89% or 11 layers (VGG5)
 [0.7319, 0.7204, 0.7176, 0.7198, 0.7166] mean±std = (0.7213, 0.0055)
+
+time:(19.8306, 0.7884881778864332)
+
 ```
 Total params: 3,647,168
 Trainable params: 3,647,168
@@ -117,12 +120,15 @@ features9_x.pt
 ```
 9_1
 Test average loss: 1.6781, acc: 0.7319
-
+Test time: 20.6875 s
+----------
 9_2
 Test average loss: 0.9899, acc: 0.7204
+Test time: 20.0201 s
 ----------
 9_3
 Test average loss: 0.9833, acc: 0.7176
+Test time: 18.7842 s
 ----------
 9_4
 Test average loss: 0.9790, acc: 0.7198
