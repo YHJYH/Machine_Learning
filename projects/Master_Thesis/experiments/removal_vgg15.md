@@ -1,6 +1,8 @@
 # VGG15 remove 1 fc layer (~50% params)
 acc. = [0.7474, 0.7176, 0.7286, 0.7115, 0.7267] mean:0.7264 std: 0.0122
 
+time: (53.816, 0.31460992779419067)
+
 ```
 Total params: 16,848,576
 Trainable params: 16,848,576
@@ -113,12 +115,15 @@ features11_x
 ```
 11_1
 Test average loss: 1.4277, acc: 0.7474
+Test time: 54.2399 s
 ----------
 11_2
 Test average loss: 1.1595, acc: 0.7176
+Test time: 53.7211 s
 ----------
 11_3
 Test average loss: 1.2788, acc: 0.7286
+Test time: 53.4870 s
 ----------
 11_4
 Test average loss: 1.3094, acc: 0.7115
