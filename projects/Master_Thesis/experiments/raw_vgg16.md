@@ -1,4 +1,6 @@
 ## raw VGG16
+model size = 262712kb
+
 5 experiments: [0.7581, 0.7641, 0.7548, 0.7469, 0.7515] mean±std = (0.7551,0.0058)
 ```
 Total params: 33,625,792
