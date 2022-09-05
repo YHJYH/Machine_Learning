@@ -1,6 +1,8 @@
 # vgg8a remove 1 fc and 7 convs
 acc. = [0.7218, 0.7168, 0.7101, 0.7234, 0.6991] mean:0.7142 std:0.0089
 
+time: (20.605966666666667, 0.221735117250792)
+
 remained: 8406720/33638218\*100 = 24.9915735%<br>
 removed: 75.00842642%
 ```
@@ -48,12 +50,15 @@ features15_x
 ```
 15_1
 Test average loss: 1.1293, acc: 0.7218
+Test time: 20.9063 s
 ----------
 15_2
 Test average loss: 1.2084, acc: 0.7168
+Test time: 20.5339 s
 ----------
 15_3
 Test average loss: 1.0347, acc: 0.7101
+Test time: 20.3777 s
 ----------
 15_4
 Test average loss: 0.9343, acc: 0.7234
