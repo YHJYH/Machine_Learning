@@ -2,6 +2,9 @@
 model size = 262712kb
 
 5 experiments: [0.7581, 0.7641, 0.7548, 0.7469, 0.7515] mean±std = (0.7551,0.0058)
+
+time: (56.62728, 5.539297155199385)
+
 ```
 Total params: 33,625,792
 Trainable params: 33,625,792
@@ -47,23 +50,27 @@ features1_x.pt
 ```
 1_1
 -mode=test -data_type=cifar10 -model_type=vgg16
-----------------------------------------------
 Test average loss: 1.6674, acc: 0.7581
-
+Test time: 67.6058 s
+----------
 1_2
 Test average loss: 1.4824, acc: 0.7641
+Test time: 54.8417 s
 ----------
 
 1_3
 Test average loss: 1.5527, acc: 0.7548
+Test time: 54.2062 s
 ----------
 
 1_4
 Test average loss: 1.4928, acc: 0.7469
+Test time: 53.9167 s
 ----------
 
 1_5
 Test average loss: 1.5996, acc: 0.7515
+Test time: 52.5660 s
 ----------
 ```
 CKA Linear plot (averaged over 5 exps):<br>
