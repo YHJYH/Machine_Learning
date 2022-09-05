@@ -1,5 +1,8 @@
 ### remove ~82% or 10 layers (VGG6)
 [0.7350, 0.7016, 0.7109, 0.7164, 0.7063] mean±std = (0.7140, 0.0116)
+
+time: (20.30933333333333, 0.482569002550124)
+
 ```
 Total params: 6,006,464
 Trainable params: 6,006,464
@@ -108,12 +111,15 @@ features8_x.pt
 ```
 8_1
 Test average loss: 1.8300, acc: 0.7350
-
+Test time: 19.6781 s
+----------
 8_2
 Test average loss: 0.9925, acc: 0.7016
+Test time: 20.4003 s
 ----------
 8_3
 Test average loss: 0.9710, acc: 0.7109
+Test time: 20.8496 s
 ----------
 8_4
 Test average loss: 0.9749, acc: 0.7164
