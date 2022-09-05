@@ -1,5 +1,8 @@
 ### remove ~10% params or 4 conv layers
 5 exps: [0.7314, 0.7350, 0.7105, 0.7353, 0.7189] mean±std = (0.7262,0.0099)
+
+time: (36.602819999999994, 0.6637402787235366)
+
 ```
 Total params: 29,939,392
 Trainable params: 29,939,392
@@ -109,17 +112,23 @@ features2_x.pt
 ```
 2_1
 Test average loss: 2.4430, acc: 0.7314
+Test time: 37.4056 s
+----------
 2_2
 Test average loss: 2.3425, acc: 0.7350
+Test time: 35.9279 s
 ----------
 2_3
 Test average loss: 2.0945, acc: 0.7105
+Test time: 35.7321 s
 ----------
 2_4
 Test average loss: 2.3861, acc: 0.7353
+Test time: 37.1596 s
 ----------
 2_5
 Test average loss: 2.4244, acc: 0.7189
+Test time: 36.7889 s
 ----------
 ```
 CKA Linear plot (averaged over 5 exps): <br>
