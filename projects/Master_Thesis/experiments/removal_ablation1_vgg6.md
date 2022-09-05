@@ -2,6 +2,9 @@
 The removal in this ablation study is not based on the observation of CKA similarity plot, and in fact, we remove the conv layer purely because it is a removable layer, and the architecture will not change even if we remove it. We keep the second fc layer although it is more similar to the adjacent fc layer. <br>
 5 exps: [0.7393, 0.7072, 0.7103, 0.7197, 0.7214] (mean,std) = (0.7196, 0.0112)<br>
 
+time: (24.377399999999998, 0.5336417524894387)
+
+
 Compare with similar number of params: VGG11 (18.0096%, 0.7291, 0.0066), VGG10 (18.1314%, 0.7456, 0.0060), VGG9 (18.2410%, 0.7333, 0.0144). Performance is worse.<br>
 Compare with similar number of layers: VGG6 (0.7140, 0.0116). Very similar performance but much more params.
 ```
@@ -130,12 +133,15 @@ features10_x.pt
 ```
 10_1
 Test average loss: 1.8064, acc: 0.7393
+Test time: 25.1288 s
 ----------
 10_2
 Test average loss: 1.1475, acc: 0.7072
+Test time: 23.9408 s
 ----------
 10_3
 Test average loss: 1.0790, acc: 0.7103
+Test time: 24.0626 s
 ----------
 10_4
 Test average loss: 1.1483, acc: 0.7197
