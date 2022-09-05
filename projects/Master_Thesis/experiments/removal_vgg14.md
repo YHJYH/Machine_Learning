@@ -1,6 +1,8 @@
 # vgg14 remove 1 conv 1 fc
 acc. = [0.7416, 0.7235, 0.7386, 0.7238, 0.7298] mean:0.7315 std: 0.0075
 
+time: (47.46083333333333, 1.1476008665424078)
+
 reduced: (33638218-16701120)/33638218 * 100 = 50.35076%
 remain: 49.6492%
 ```
@@ -48,12 +50,15 @@ features12_x.pt:
 ```
 12_1
 Test average loss: 1.0942, acc: 0.7416
+Test time: 48.6592 s
 ----------
 12_2
 Test average loss: 1.1265, acc: 0.7235
+Test time: 47.8095 s
 ----------
 12_3
 Test average loss: 0.9765, acc: 0.7386
+Test time: 45.9138 s
 ----------
 12_4
 Test average loss: 0.9601, acc: 0.7238
