@@ -1,5 +1,8 @@
 ### remove ~18% or 5 conv layers (VGG11)
 5 exps: [0.7353, 0.7321, 0.7228, 0.7197, 0.7357] mean±std = (0.7291, 0.0066)
+
+time: (35.20666666666667, 1.1727560739083347)
+
 ```
 Total params: 27,580,096
 Trainable params: 27,580,096
@@ -110,13 +113,16 @@ features3_x.pt
 ```
 3_1
 Test average loss: 2.2414, acc: 0.7353
-
+Test time: 36.8614 s
+----------
 3_2
 Test average loss: 2.4621, acc: 0.7321
+Test time: 34.4764 s
 ----------
 
 3_3
 Test average loss: 2.1219, acc: 0.7228
+Test time: 34.2822 s
 ----------
 
 3_4
