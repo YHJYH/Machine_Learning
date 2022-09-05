@@ -1,5 +1,8 @@
 ### remove ~25% or 8 layers (VGG8)
 5 exps: [0.7421, 0.7161, 0.7034, 0.7281, 0.7191] mean±std = (0.7218, 0.0129)
+
+time: (24.90233333333333, 0.10912941349099532)
+
 ```
 Total params: 25,142,976
 Trainable params: 25,142,976
@@ -108,12 +111,15 @@ features6_x.py
 ```
 6_1
 Test average loss: 2.1356, acc: 0.7421
-
+Test time: 24.8896 s
+----------
 6_2
 Test average loss: 1.0195, acc: 0.7161
+Test time: 25.0419 s
 ----------
 6_3
 Test average loss: 1.0824, acc: 0.7034
+Test time: 24.7755 s
 ----------
 6_4
 Test average loss: 0.9548, acc: 0.7281
