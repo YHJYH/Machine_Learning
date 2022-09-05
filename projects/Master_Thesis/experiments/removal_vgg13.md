@@ -1,6 +1,9 @@
 # VGG13 remove 1 fc and 2 convs
 acc. = [0.7225, 0.7011, 0.7207, 0.7197, 0.7382] mean:0.7204 std:0.0118 
 
+time: (44.24436666666667, 0.6793731931387623)
+
+
 removed: 57.36449534% <br>
 remained: 14341824/33638218\*100 = 42.635504651%
 ```
@@ -48,12 +51,15 @@ features13_x
 ```
 13_1
 Test average loss: 0.9961, acc: 0.7225
+Test time: 43.3745 s
 ----------
 13_2
 Test average loss: 1.1228, acc: 0.7011
+Test time: 45.0326 s
 ----------
 13_3
 Test average loss: 0.9760, acc: 0.7207
+Test time: 44.3260 s
 ----------
 13_4
 Test average loss: 1.1620, acc: 0.7197
