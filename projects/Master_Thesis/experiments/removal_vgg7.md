@@ -1,5 +1,8 @@
 ### remove ~32% or 9 layers (VGG7)
 [0.7422, 0.7183, 0.7112, 0.7285, 0.7141] mean±std = (0.7229, 0.0113)
+
+time: (23.53986666666667, 0.24279514456064044)
+
 ```
 Total params: 22,783,680
 Trainable params: 22,783,680
@@ -108,12 +111,15 @@ features7_x.pt
 ```
 7_1
 Test average loss: 1.8591, acc: 0.7422
-
+Test time: 23.8435 s
+----------
 7_2
 Test average loss: 1.0358, acc: 0.7183
+Test time: 23.5269 s
 ----------
 7_3
 Test average loss: 1.0422, acc: 0.7112
+Test time: 23.2492 s
 ----------
 7_4
 Test average loss: 1.0087, acc: 0.7285
