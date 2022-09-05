@@ -1,5 +1,8 @@
 ### remove ~18% params or 6 layers (VGG10)
 5 exps: [0.7454, 0.7561, 0.7445, 0.7444, 0.7374] mean±std = (0.7456, 0.0060)
+
+time: (35.609166666666674, 0.2613986015434843)
+
 ```
 Total params: 27,539,136
 Trainable params: 27,539,136
@@ -110,12 +113,15 @@ features4_x.pt
 ```
 4_1
 Test average loss: 2.2320, acc: 0.7454
-
+Test time: 35.6739 s
+----------
 4_2
 Test average loss: 2.1772, acc: 0.7561
+Test time: 35.8920 s
 ----------
 4_3
 Test average loss: 2.2484, acc: 0.7445
+Test time: 35.2616 s
 ----------
 4_4
 Test average loss: 2.2425, acc: 0.7444
