@@ -1,6 +1,8 @@
 # vgg12a remove 1fc and 3 convs
 acc. = [0.7173, 0.7243, 0.7038, 0.7219, 0.7024] mean:0.7139 std: 0.0091
 
+time: (39.651266666666665, 0.35282001391959394)
+
 remained: 13752000/33638218\*100 = 40.8820705% <br>
 reduced: 59.1179295%
 ```
@@ -48,12 +50,15 @@ features14_x
 ```
 14_1
 Test average loss: 1.0495, acc: 0.7173
+Test time: 39.2262 s
 ----------
 14_2
 Test average loss: 1.0757, acc: 0.7243
+Test time: 40.0901 s
 ----------
 14_3
 Test average loss: 1.0432, acc: 0.7038
+Test time: 39.6375 s
 ----------
 14_4
 Test average loss: 1.0400, acc: 0.7219
