@@ -1,10 +1,10 @@
 # CL OOD
 vgg12
 ```
-avg acc: 
-std acc: 
-avg time: 
-std time: 
+avg acc: 0.562
+std acc: 0.0091
+avg time: 7.3319
+std time: 0.0758
 ```
 12_x
 ```
@@ -31,10 +31,10 @@ rbf<br>
 
 vgg11
 ```
-avg acc: 
-std acc: 
-avg time: 
-std time: 
+avg acc: 0.5623
+std acc: 0.0071
+avg time: 7.4040
+std time: 0.6069
 ```
 11_x
 ```
@@ -61,10 +61,10 @@ rbf<br>
 
 vgg10
 ```
-avg acc: 
-std acc: 
-avg time: 
-std time: 
+avg acc: 0.5766
+std acc: 0.0060
+avg time: 7.8254
+std time: 1.1875
 ```
 10_x
 ```
@@ -91,10 +91,10 @@ rbf<br>
 
 vgg9
 ```
-avg acc: 
-std acc: 
-avg time: 
-std time: 
+avg acc: 0.5775
+std acc: 0.0056
+avg time: 6.2773
+std time: 0.7318
 ```
 9_x
 ```
@@ -121,10 +121,10 @@ rbf<br>
 
 vgg6a
 ```
-avg acc: 
-std acc: 
-avg time: 
-std time: 
+avg acc: 0.5647
+std acc: 0.0045
+avg time: 4.8117
+std time: 0.0503
 ```
 6a_x
 ```
@@ -151,10 +151,10 @@ rbf<br>
 
 vgg8
 ```
-avg acc: 
-std acc: 
-avg time: 
-std time: 
+avg acc: 0.5687
+std acc: 0.0085
+avg time: 5.3320
+std time: 0.1278
 ```
 8_x
 ```
@@ -181,10 +181,10 @@ rbf<br>
 
 vgg7
 ```
-avg acc: 
-std acc: 
-avg time: 
-std time: 
+avg acc: 0.5629
+std acc: 0.0053
+avg time: 4.9639
+std time: 0.1259
 ```
 7_x
 ```
@@ -211,10 +211,10 @@ rbf<br>
 
 vgg15
 ```
-avg acc: 
-std acc: 
-avg time: 
-std time: 
+avg acc: 0.5549
+std acc: 0.0089
+avg time: 9.8972
+std time: 0.2395
 ```
 15_x
 ```
@@ -241,10 +241,10 @@ rbf<br>
 
 vgg14
 ```
-avg acc: 
-std acc: 
-avg time: 
-std time: 
+avg acc: 0.5921
+std acc: 0.0042
+avg time: 10.0713
+std time: 1.3933
 ```
 14_x
 ```
@@ -271,10 +271,10 @@ rbf<br>
 
 vgg13
 ```
-avg acc: 
-std acc: 
-avg time: 
-std time: 
+avg acc: 0.5733
+std acc: 0.0102
+avg time: 9.6086
+std time: 1.4049
 ```
 13_x
 ```
@@ -301,10 +301,10 @@ rbf<br>
 
 vgg12a
 ```
-avg acc: 
-std acc: 
-avg time: 
-std time: 
+avg acc: 0.5675
+std acc: 0.0049
+avg time: 7.6633
+std time: 0.1005
 ```
 12a_x
 ```
@@ -331,10 +331,10 @@ rbf<br>
 
 vgg11a
 ```
-avg acc: 
-std acc: 
-avg time: 
-std time: 
+avg acc: 0.5456
+std acc: 0.0058
+avg time: 7.5563
+std time: 0.8672
 ```
 11a_x
 ```
@@ -361,10 +361,10 @@ rbf<br>
 
 vgg8a
 ```
-avg acc: 
-std acc: 
-avg time: 
-std time: 
+avg acc: 0.5627
+std acc: 0.0106
+avg time: 4.3501
+std time: 0.5976
 ```
 8a_x
 ```
@@ -391,10 +391,10 @@ rbf<br>
 
 vgg6
 ```
-avg acc: 
-std acc: 
-avg time: 
-std time: 
+avg acc: 0.5557
+std acc: 0.0061
+avg time: 3.9221
+std time: 0.0823
 ```
 6_x
 ```
@@ -421,10 +421,10 @@ rbf<br>
 
 vgg5
 ```
-avg acc: 
-std acc: 
-avg time: 
-std time: 
+avg acc: 0.5642
+std acc: 0.0068
+avg time: 3.9259
+std time: 0.0965
 ```
 5_x
 ```
