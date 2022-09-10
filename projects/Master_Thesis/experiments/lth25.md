@@ -1,6 +1,8 @@
 # LTH remove 25% params on VGG16
 acc. = [0.7576, 0.7550, 0.7503, 0.7461, 0.7498] mean: 0.7518 std: 0.0041
 
+time: 55.8299 /pm 0.5687
+
 remain params: 25219344<br>
 percentage: <br>
 
@@ -34,21 +36,28 @@ Early stopping at: 10
 ```
 
 LTH_features3_x.pt
+
+[55.7876,56.1057,56.7237,55.4955,55.0370]
 ```
 3_1
 Test average loss: 1.4295, acc: 0.7396
+Test time: 55.7876 s
 ----------
 3_2
 Test average loss: 1.1993, acc: 0.7550
+Test time: 56.1057 s
 ----------
 3_3
 Test average loss: 1.2688, acc: 0.7503
+Test time: 56.7237 s
 ----------
 3_4
 Test average loss: 1.2248, acc: 0.7461
+Test time: 55.4955 s
 ----------
 3_5
 Test average loss: 1.2561, acc: 0.7498
+Test time: 55.0370 s
 ----------
 ```
 
