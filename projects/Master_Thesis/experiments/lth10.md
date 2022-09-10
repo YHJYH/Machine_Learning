@@ -38,18 +38,23 @@ LTH_features1_x.pt
 ```
 1_1
 Test average loss: 1.3225, acc: 0.7355
+Test time: 72.5225 s
 ----------
 1_2
 Test average loss: 1.5377, acc: 0.7638
+Test time: 58.4362 s
 ----------
 1_3
 Test average loss: 1.1445, acc: 0.7366
+Test time: 56.4066 s
 ----------
 1_4
 Test average loss: 1.3590, acc: 0.7403
+Test time: 55.7327 s
 ----------
 1_5
 Test average loss: 1.3289, acc: 0.7245
+Test time: 55.3124 s
 ----------
 ```
 
